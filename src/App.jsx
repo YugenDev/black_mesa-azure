@@ -1,8 +1,13 @@
+import Header from "./view/sections/Header"
+import ConsultarSaldo from "./view/sections/ConsultarSaldo";
+
+var isLogged = true;
 
 function App() {
   return (
     <>
-      <h1>Black Mesa</h1>
+      <Header isLogged={isLogged}></Header>
+      <ConsultarSaldo></ConsultarSaldo>
     </>
   )
 }
