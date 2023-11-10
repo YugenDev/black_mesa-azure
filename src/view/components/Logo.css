@@ -1,0 +1,20 @@
+.logo-container{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    width: 33%;
+}
+
+.logo-img{
+    height: 10vh;
+}
+
+.logo-nombre{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.logo-nombre h6{
+    font-size: auto;
+}
