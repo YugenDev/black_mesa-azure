@@ -1,5 +1,5 @@
 import "./Logo.css";
-import logoImg from "../../assets/images/logo-bmb.png"
+import logoImg from "../../../assets/images/logo-bmb.png"
 
 function Logo() {
   return (

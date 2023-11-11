@@ -1,4 +1,4 @@
-import Logo from "../components/Logo";
+import Logo from "../components/headerComponentes/Logo";
 import "./Header.css";
 
 var nombre = "Andrés";

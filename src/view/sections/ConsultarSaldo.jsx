@@ -45,7 +45,7 @@ function ConsultarSaldo() {
       </div>
       {isShowed ? (
         <div className="option-show-container">
-          <span onClick={closeHandler}>X</span>
+          <span onClick={closeHandler} className="cerrar">X</span>
           {option[optionSelected]}
         </div>
       ) : (
