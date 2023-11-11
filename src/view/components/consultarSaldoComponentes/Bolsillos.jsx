@@ -50,7 +50,7 @@ var bolsillosPrueba2 =[
         nombre: "Carro",
         meta: 25000000,
         deposito: 10000000,
-        logo: educacionImg
+        logo: carroImg
     },
 ]
 

@@ -12,6 +12,16 @@
 }
 .bolsillo-logo{
     width: 50px;
+    position: relative;
+    filter: invert(1);
+}
+.marco-logo{
+    content: "";
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
 
 .porcentaje-contenedor{
@@ -31,12 +41,5 @@
     justify-content: center;
 
 }
-/* .bolsillo-logo::before{
-    content: "";
-    width: 80px;
-    height: 80px;
-    display: flex;
-    position: absolute;
-    background-color: green;
-} */
+
 
