@@ -1,0 +1,67 @@
+.consultar-saldo-section{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cuenta-card{
+    border: 1px solid blue;
+    width: 40%;
+    aspect-ratio: 16/9;
+    position: relative;
+    margin: 1rem
+}
+.cuenta-card p{
+    position: absolute;
+}
+.cuenta-card p:nth-child(1){
+    left: 1rem;
+    bottom: 4rem;
+}
+.cuenta-card p:nth-child(2){
+    left: 1rem;
+    bottom: 1rem;
+}
+.cuenta-card p:nth-child(3){
+    right: 1rem;
+    top: 40%;
+}
+.cuenta-card p:nth-child(4){
+    right: 1rem;
+    top: 50%;
+}
+.cuenta-card p:nth-child(5){
+    left: 1rem;
+    top: 1rem;
+}
+.cuenta-card p:nth-child(6){
+    right: 1rem;
+    bottom: 1rem;
+}
+
+
+.consultar-saldo-options{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15%;
+}
+.consultar-saldo-options h5{
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.option-show-container{
+    border: 1px solid blue;
+    position: relative;
+    width: 100%;
+    padding: 0 15%;
+}
+.cerrar{
+    position: relative;
+    left: 105%;
+}
+
+

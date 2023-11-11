@@ -1,37 +1,56 @@
-import Historial from "../components/historial";
-import Bolsillos from "../components/Bolsillos";
-import Gastos from "../components/Gastos";
+import Historial from "../components/consultarSaldoComponentes/Historial";
+import Bolsillos from "../components/consultarSaldoComponentes/Bolsillos";
+import Gastos from "../components/consultarSaldoComponentes/Gastos";
+import "./ConsultarSaldo.css";
+import { useState } from "react";
 
 var numeroCuenta = 12345678;
 var saldoLibre = 1000;
-var isShowed = true;
-var optionSelected = "Gastos";
+var saldoTotal = 15000;
 
 let option = {
-  historial: <Historial />,
-  bolsillos: <Bolsillos />,
+  Historial: <Historial />,
+  Bolsillos: <Bolsillos />,
   Gastos: <Gastos />,
 };
 
 function ConsultarSaldo() {
+  const [optionSelected, setOptionSelected] = useState();
+  const [isShowed, setIsShowed] = useState(false);
+
+  const optionHandler = (e) => {
+    // e.preventDefault();
+    setOptionSelected(e.target.textContent);
+    setIsShowed(true);
+  };
+
+  const closeHandler = () =>{
+    setIsShowed(false);
+  }
+
   return (
     <section className="consultar-saldo-section">
       <div className="cuenta-card">
         <p>Cuenta de ahorro</p>
         <p>{`N° ${numeroCuenta}`}</p>
-        <p>saldo libre</p>
+        <p>Saldo libre</p>
         <p>{`$ ${saldoLibre}`}</p>
+        <p>Tu cuenta</p>
+        <p>Total: ${saldoTotal}</p>
       </div>
       <div className="consultar-saldo-options">
-        <h5>Bolsillos</h5>
-        <h5>Historial</h5>
-        <h5>Gastos</h5>
+        <h5 onClick={optionHandler}>Bolsillos</h5>
+        <h5 onClick={optionHandler}>Historial</h5>
+        <h5 onClick={optionHandler}>Gastos</h5>
       </div>
-      {isShowed ? <div className="option-show-container">
-        {
-            option[optionSelected]
-        }
-      </div> : <></>}
+      {isShowed ? (
+        <div className="option-show-container">
+          <span onClick={closeHandler} className="cerrar">X</span>
+          {option[optionSelected]}
+        </div>
+      ) : (
+        <></>
+      )}
     </section>
   );
 }

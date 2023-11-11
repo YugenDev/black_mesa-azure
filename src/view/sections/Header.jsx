@@ -1,4 +1,4 @@
-import Logo from "../components/Logo";
+import Logo from "../components/headerComponentes/Logo";
 import "./Header.css";
 
 var nombre = "Andrés";
@@ -8,7 +8,7 @@ function Header({ isLogged }) {
     <>
       {isLogged ? (
         <header className="header-logged-div">
-          <Logo></Logo>
+          <Logo />
           <div className="welcome-container">
             <h5>Bienvenido, </h5>
             <h5>{nombre}</h5>
