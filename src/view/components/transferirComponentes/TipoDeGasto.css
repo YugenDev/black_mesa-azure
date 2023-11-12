@@ -1,0 +1,56 @@
+.contenedor-tipo-gasto{
+    border: 1px solid red;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tipo-gasto button{
+    width: 20%;
+    height: 8%;
+}
+
+.contenedor-cards{
+    width: 90%;
+    border: 1px solid green;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tipo-gasto{
+    width: 30%;
+    height: 45%;
+    border: 1px solid gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+
+
+
+.tipo-gasto h3{
+    font-size: 25px;
+}
+
+.marco{
+    content: "";
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.gasto-logo{
+    width: 60px;
+    position: relative; 
+    filter: invert(1);
+}
