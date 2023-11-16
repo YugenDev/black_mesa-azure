@@ -4,6 +4,8 @@ import Transferir from "./view/sections/Transferir";
 import Modal from "./view/sections/Modal";
 import { useState } from "react";
 import VistaVisitante from "./view/sections/VistaVisitante";
+import { FormFirebase } from "./view/sections/FormFirebase";
+import { AuthProvider } from "./context/authContext";
 
 var isLogged = true;
 
@@ -23,6 +25,7 @@ function App() {
       <ConsultarSaldo></ConsultarSaldo>
       <Transferir></Transferir>
       <VistaVisitante />
+      
       {/* <button onClick={openModal}>Abrir Modal</button> */}
 
       {/* <Modal isOpen={modalOpen} onClose={closeModal}>
@@ -32,7 +35,14 @@ function App() {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, facere.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, pariatur?</p>
         <button onClick={closeModal}>Cerrar Modal</button>
-      </Modal> */}
+      </Modal> */
+      }
+
+      <AuthProvider>
+        <h1>FORMULARIO</h1>
+       <FormFirebase/>
+      </AuthProvider>
+
     </>
   )
 }
