@@ -3,28 +3,37 @@ import "./BolsilloCard.css";
 // import Modal from "../UI/Modal";
 import NuevoBolsillo from "./nuevoBolsillo";
 
-function BolsilloCard({ nombre, meta, deposito, logo }) {
-  const [showModal, setShowModal] = useState(false);
+// import beneficiosImg from "./imgsBolsillos/beneficios.png"
+// import regaloImg from "./imgsBolsillos/caja-de-regalo.png"
+// import carroImg from "./imgsBolsillos/carro.png"
+// import casaImg from "./imgsBolsillos/casa.png"
+// import arreglosImg from "./imgsBolsillos/configuraciones.png"
+// import educacionImg from "./imgsBolsillos/educacion.png"
+// import hospitalImg from "./imgsBolsillos/hospital.png"
+// import saludImg from "./imgsBolsillos/salud.png"
+// import tecnologiaImg from "./imgsBolsillos/tecnologia.png"
+// import vueloImg from "./imgsBolsillos/vuelo.png"
+// import agregarImg from "./imgsBolsillos/boton-agregar.png"
 
-  const clickHandlerCloseModal = () => {
-    setShowModal(false);
-    console.log(showModal);
-    console.log("aaaaa");
-  };
-  const clickHandlerShowModal = () => {
-    if(nombre==="Nuevo bolsillo"){
-      setShowModal(true);
-    }
-  };
+
+
+
+function BolsilloCard({ nombre, meta, deposito, logo }) {
+  // const importImage = async () => {
+  //   return await import(`./imgsBolsillos/${nombreArchivo}`);
+  // }
+  let rutaImg = "/src/view/components/consultarSaldoComponentes/imgsBolsillos/"+logo+".png"
+
+  // let logoImg = importImage();
   return (
-    <article className="card-container" onClick={clickHandlerShowModal} >
+    <article className="card-container" >
       {/* {showModal &&
         <Modal clickHandler={clickHandlerCloseModal} setter={setShowModal}>
           <NuevoBolsillo></NuevoBolsillo>
         </Modal>       
       } */}
       <div className="marco-logo">
-        <img src={logo} alt={"bolsiloImg"} className="bolsillo-logo" />
+        <img src={rutaImg} alt={"bolsiloImg"} className="bolsillo-logo" />
       </div>
       <h4 className="bolsillo-nombre">{nombre}</h4>
       <p className="bolsillo-saldo">

@@ -8047,6 +8047,13 @@
       "numeroCuenta": 43248881,
       "bolsillos": [
         {
+          "id": 0,
+          "nombre": "Libre",
+          "meta": 0,
+          "imagen": "",
+          "deposito": 1000000
+        },
+        {
           "id": 1,
           "nombre": "Eventos Especiales",
           "meta": 64600000,

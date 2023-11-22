@@ -1,7 +1,8 @@
-import { useAuth } from "../../context/authContext"
+import { useAuth } from "../../../context/authContext"
 import React, { useState } from "react";
+import axios from 'axios';
 
-function FormFirebase(){
+function FormFirebase({setIsLogged, onClose, setCurrentUser}){
     const auth = useAuth()
     const {displayName} = auth.user
     console.log(displayName)
@@ -16,9 +17,17 @@ function FormFirebase(){
         e.preventDefault();
         auth.register(emailRegister, passwordRegister)
     };
-    const handleLogin =(e)=> {
+    const handleLogin = async (e)=> {
         e.preventDefault();
-        auth.login(email, password)
+
+        let response = await axios.get(`http://localhost:3000/usuarios?correo=${email}`)
+        console.log(response.data[0]);
+        if (response.data[0]&&!response.data[0].password){
+            setCurrentUser(response.data[0]);
+            setIsLogged(true);
+            onClose();
+        }
+        // auth.login(email, password) // habilitar esto después
     };
     const handleGoogle = (e)=>{
         e.preventDefault();

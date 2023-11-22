@@ -2,24 +2,25 @@ import Historial from "../components/consultarSaldoComponentes/Historial";
 import Bolsillos from "../components/consultarSaldoComponentes/Bolsillos";
 import Gastos from "../components/consultarSaldoComponentes/Gastos";
 import "./ConsultarSaldo.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from 'axios';
 
-var numeroCuenta = 12345678;
-var saldoLibre = 1000;
-var saldoTotal = 15000;
-
-let option = {
-  Historial: <Historial />,
-  Bolsillos: <Bolsillos />,
-  Gastos: <Gastos />,
-};
-
-function ConsultarSaldo() {
+function ConsultarSaldo({currentUser}) {
   const [optionSelected, setOptionSelected] = useState();
   const [isShowed, setIsShowed] = useState(false);
+  const [cuentaActual, setCuentaActual] = useState(null);
+
+  useEffect(()=>{
+    const traerCuenta = async () => {
+    let response = await axios.get(`http://localhost:3000/cuentas?idUsuario=${currentUser.id}`)
+    setCuentaActual(response?.data[0])
+  }
+    traerCuenta()
+  },[])
+    
+  
 
   const optionHandler = (e) => {
-    // e.preventDefault();
     setOptionSelected(e.target.textContent);
     setIsShowed(true);
   };
@@ -28,15 +29,23 @@ function ConsultarSaldo() {
     setIsShowed(false);
   }
 
+  
+
+  let option = {
+    Historial: <Historial cuentaActual={cuentaActual}/>,
+    Bolsillos: <Bolsillos cuentaActual={cuentaActual}/>,
+    Gastos: <Gastos cuentaActual={cuentaActual}/>,
+  };
+
   return (
     <section className="consultar-saldo-section">
       <div className="cuenta-card">
         <p>Cuenta de ahorro</p>
-        <p>{`N° ${numeroCuenta}`}</p>
+        <p>{`N° ${cuentaActual?.numeroCuenta}`}</p>
         <p>Saldo libre</p>
-        <p>{`$ ${saldoLibre}`}</p>
+        <p>{`$ ${cuentaActual?.bolsillos.find((b)=> b.id==0 )?.deposito.toLocaleString('es-CO')||0}`}</p>
         <p>Tu cuenta</p>
-        <p>Total: ${saldoTotal}</p>
+        <p>Total: ${cuentaActual?.bolsillos.reduce((sum, i)=> sum + i.deposito,0).toLocaleString('es-CO')}</p>
       </div>
       <div className="consultar-saldo-options">
         <h5 onClick={optionHandler}>Bolsillos</h5>
