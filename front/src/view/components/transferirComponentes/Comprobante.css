@@ -1,0 +1,24 @@
+.contenedor-comprobante{
+    border: 1px solid red;
+    width: 35%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.dato-comprobante{
+    height: 15%;
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dato-comprobante h3{
+    font-size: 30px;
+}

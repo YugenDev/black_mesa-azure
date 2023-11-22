@@ -1,0 +1,47 @@
+.transferir-saldo-section{
+    border: 1px solid black;
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    height: 10%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.transferir-opciones{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    padding: 0 10%;
+}
+
+.transferir-opciones h4{
+    border-bottom: 1px solid black;
+}
+
+.option-show-container-transferir{
+    border: 1px solid blue;
+    width: 100%;
+    height:100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerrar{
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
