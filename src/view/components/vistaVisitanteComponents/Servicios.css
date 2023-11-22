@@ -14,7 +14,7 @@
 }
 
 .contenedor-titulo h2{
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .contenedor-servicios{
@@ -38,4 +38,15 @@
 
 .servicio img{
     height: 25%;
+}
+
+.servicio button{
+    width: 40%;
+    height: 10%;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.servicio h3{
+    font-size: 25px;
 }

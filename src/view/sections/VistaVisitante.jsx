@@ -1,4 +1,5 @@
 import Logo from "../components/headerComponentes/Logo"
+import Footer from "../components/vistaVisitanteComponents/Footer"
 import Portada from "../components/vistaVisitanteComponents/Portada"
 import Servicios from "../components/vistaVisitanteComponents/Servicios"
 import Header from "./Header"
@@ -9,6 +10,7 @@ function VistaVisitante(){
             <Header />
             <Portada />
             <Servicios />
+            <Footer />
         </section>
     )
 }
