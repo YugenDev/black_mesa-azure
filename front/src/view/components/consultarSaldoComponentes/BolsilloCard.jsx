@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./BolsilloCard.css";
-import Modal from "../UI/Modal";
+// import Modal from "../UI/Modal";
 import NuevoBolsillo from "./nuevoBolsillo";
 
 function BolsilloCard({ nombre, meta, deposito, logo }) {
