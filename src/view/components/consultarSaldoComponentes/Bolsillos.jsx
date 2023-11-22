@@ -58,7 +58,7 @@ function Bolsillos(){
     return(
         <section className="container">
             {
-                bolsillosPrueba2?.map(b => {
+                bolsillosPrueba1?.map(b => {
                     return(<BolsilloCard nombre={b.nombre} meta={b.meta} deposito={b.deposito} logo={b.logo} key={b.nombre}/>)
                 })
             }
