@@ -15,7 +15,6 @@ function NuevoBolsillo() {
                 <label htmlFor=""> Depósito inicial 
                     <input type="number" />
                 </label>
-            </form>
             <h4>Escoje un logo</h4>
             {
                 nombresImg.map((e)=>{
@@ -26,6 +25,9 @@ function NuevoBolsillo() {
                     )
                 })
             }
+            <input type="submit" value={"Crear"}/>
+            </form>
+
         </div>
     )
 }

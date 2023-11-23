@@ -10,7 +10,7 @@ function FormFirebase({setIsLogged, onClose, setCurrentUser}){
     const [passwordRegister, setPasswordRegister] = useState("")
     // console.log(emailRegister, passwordRegister, "Estado de los formularios")
 
-    const [email, setEmail] = useState("ltrusler2@eepurl.com")
+    const [email, setEmail] = useState("dgouldthorpe6@fastcompany.com")
     const [password, setPassword] = useState("")
 
     const handleRegister = (e) => {

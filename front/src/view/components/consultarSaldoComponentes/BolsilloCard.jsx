@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./BolsilloCard.css";
 import NuevoBolsillo from "./nuevoBolsillo";
 import Modal from "../../sections/Modal";
+import EditarBolsillo from "./EditarBolsillo";
 
 function BolsilloCard({ nombre, meta, deposito, logo }) {  
   const [modalOpen, setModalOpen] = useState(false);
@@ -50,7 +51,7 @@ function BolsilloCard({ nombre, meta, deposito, logo }) {
           <button onClick={closeModal}>cerrar</button>
         </Modal>:
         <Modal isOpen={modalOpen} onClose={closeModal} >
-          <p>Editar bolsillo</p>
+          <EditarBolsillo></EditarBolsillo>
           <button onClick={closeModal}>cerrar</button>
         </Modal>
         
