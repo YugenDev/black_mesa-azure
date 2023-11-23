@@ -5,12 +5,12 @@ import axios from 'axios';
 function FormFirebase({setIsLogged, onClose, setCurrentUser}){
     const auth = useAuth()
     const {displayName} = auth.user
-    console.log(displayName)
+    // console.log(displayName)
     const [emailRegister, setEmailRegister] = useState("")
     const [passwordRegister, setPasswordRegister] = useState("")
-    console.log(emailRegister, passwordRegister, "Estado de los formularios")
+    // console.log(emailRegister, passwordRegister, "Estado de los formularios")
 
-    const [email, setEmail] = useState("")
+    const [email, setEmail] = useState("ltrusler2@eepurl.com")
     const [password, setPassword] = useState("")
 
     const handleRegister = (e) => {
@@ -21,7 +21,7 @@ function FormFirebase({setIsLogged, onClose, setCurrentUser}){
         e.preventDefault();
 
         let response = await axios.get(`http://localhost:3000/usuarios?correo=${email}`)
-        console.log(response.data[0]);
+        // console.log(response.data[0]);
         if (response.data[0]&&!response.data[0].password){
             setCurrentUser(response.data[0]);
             setIsLogged(true);
@@ -36,7 +36,7 @@ function FormFirebase({setIsLogged, onClose, setCurrentUser}){
     const handleLogout = ()=>{
         auth.logout
     }
-    console.log(email, password, "estado de login")
+    // console.log(email, password, "estado de login")
   return(
     <div className="form-container">
         <form action="" className="form">

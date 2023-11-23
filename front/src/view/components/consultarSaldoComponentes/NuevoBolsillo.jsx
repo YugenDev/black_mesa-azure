@@ -1,8 +1,31 @@
+import "./NuevoBolsillo.css"
+
 function NuevoBolsillo() {
-    return(
+  let nombresImg = ["beneficiosImg","regaloImg","carroImg","casaImg","arreglosImg","educacionImg","hospitalImg","saludImg","tecnologiaImg","vueloImg"]
+  return(
         <div className="nuevo-bolsillo-container">
-            <h2>sddsdsdds</h2>
-        nujevooo
+            <h2>Nuevo bolsillo</h2>
+            <form>
+                <label htmlFor=""> Nombre
+                    <input type="text" />
+                </label>
+                <label htmlFor=""> Meta
+                    <input type="number" />
+                </label>
+                <label htmlFor=""> Depósito inicial 
+                    <input type="number" />
+                </label>
+            </form>
+            <h4>Escoje un logo</h4>
+            {
+                nombresImg.map((e)=>{
+                    let rutaImg = "/src/view/components/consultarSaldoComponentes/imgsBolsillos/"+e+".png"
+
+                    return (
+                        <img src={rutaImg} alt={e} key={e}/>
+                    )
+                })
+            }
         </div>
     )
 }
