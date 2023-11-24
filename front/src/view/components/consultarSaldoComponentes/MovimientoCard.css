@@ -1,0 +1,12 @@
+.card-movimiento-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.entra{
+    color: green;
+}
+.sale{
+    color: red;
+}
