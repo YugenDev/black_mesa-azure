@@ -13,29 +13,8 @@ function MovimientoCard({ gastoId, numeroCuentaActual }) {
     const traerGasto = async () => {
       let response = await axios.get(
         `http://localhost:3000/gastos?id=${gastoId}`
-      );
+      )
       setGasto(response?.data[0]);
-
-    //   if (gasto?.cuentaOrigen == numeroCuentaActual) {
-    //     if (gasto?.cuentaDestino == numeroCuentaActual) {
-    //       setTipoMovimiento("Deposito");
-    //       setEntraDinero(true);
-    //     } else {
-    //       //   let responseCuenta = await axios.get(
-    //       //     `http://localhost:3000/cuentas?id=${gasto?.cuentaDestino}`
-    //       //   );
-    //       //   setCuentaTransferencia(responseCuenta?.data[0]?.numeroCuenta);
-    //       setTipoMovimiento("Transferencia");
-    //       setEntraDinero(false);
-    //     }
-    //   } else {
-    //     // let responseCuenta = await axios.get(
-    //     //   `http://localhost:3000/cuentas?id=${gasto?.cuentaOrigen}`
-    //     // );
-    //     // setCuentaTransferencia(responseCuenta?.data[0]?.numeroCuenta);
-    //     setTipoMovimiento("Transferencia");
-    //     setEntraDinero(true);
-    //   }
     };
     traerGasto();
   }, []);
