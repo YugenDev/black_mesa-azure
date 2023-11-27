@@ -1,5 +1,18 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import "./Gastos.css";
+
+const ruta =
+  "/src/view/components/transferirComponentes/imgsTransferir/";
+
+const rutasImgs = {
+  comida: ruta+"comida.png",
+  entretenimiento: ruta+"entretenimiento.png",
+  hogar: ruta+"hogar.png",
+  otro: ruta+"otro.png",
+  regalos: ruta+"regalo.png",
+  transporte: ruta+"transporte.png"
+};
 
 function Gastos({ cuentaActual }) {
   const [gastoSalida, setGastoSalida] = useState([]);
@@ -76,56 +89,62 @@ function Gastos({ cuentaActual }) {
     obtenerDatos();
   }, [cuentaActual, categorias]);
 
+  // organizar para filtrar por mes
 
-// organizar para filtrar por mes
+  //   useEffect(() => {
+  //     if (mes) {
+  //       const gastosFiltrados = gastoEntrada.map((categoria) => {
+  //         // Filtrar gastos de entrada y salida
+  //         const entradas = categoria.entradas.filter((gasto) => {
+  //           const fecha = new Date(gasto.fecha);
 
-//   useEffect(() => {
-//     if (mes) {
-//       const gastosFiltrados = gastoEntrada.map((categoria) => {
-//         // Filtrar gastos de entrada y salida
-//         const entradas = categoria.entradas.filter((gasto) => {
-//           const fecha = new Date(gasto.fecha);
+  //           return fecha.getFullYear() == anio && fecha.getMonth() + 1 == mes;
+  //         });
 
-//           return fecha.getFullYear() == anio && fecha.getMonth() + 1 == mes;
-//         });
+  //         const salidas = categoria.salidas.filter((gasto) => {
+  //           const fecha = new Date(gasto.fecha);
+  //           return fecha.getFullYear() == anio && fecha.getMonth() + 1 == mes;
+  //         });
 
-//         const salidas = categoria.salidas.filter((gasto) => {
-//           const fecha = new Date(gasto.fecha);
-//           return fecha.getFullYear() == anio && fecha.getMonth() + 1 == mes;
-//         });
+  //         // Devolvemos la categoria con gastos filtrados
+  //         return {
+  //           categoria: categoria.categoria,
+  //           entradas,
+  //           salidas,
+  //         };
+  //       });
 
-//         // Devolvemos la categoria con gastos filtrados
-//         return {
-//           categoria: categoria.categoria,
-//           entradas,
-//           salidas,
-//         };
-//       });
-
-//       setGastoPorCategoria(gastosFiltrados);
-//     } else {
-//       setGastoPorCategoria(gastosPorCategoria);
-//     }
-//   }, [mes]);
+  //       setGastoPorCategoria(gastosFiltrados);
+  //     } else {
+  //       setGastoPorCategoria(gastosPorCategoria);
+  //     }
+  //   }, [mes]);
 
   return (
-    <>
-      <input
-        type="month"
-        value={mes}
-        onChange={(e) => setMes(e.target.value)}
-      />
-      {gastosPorCategoria?.map((c) => {
-        return (
-          <div>
-            <p>{"Categoría: $" + c.categoria.toLocaleString("es-CO")}</p>
-            <p>{"Entradas : $" + c.sumEntradas.toLocaleString("es-CO")}</p>
-            <p>{"Salidas : $" + c.sumSalidas.toLocaleString("es-CO")}</p>
-            {/* <p>{c}</p> */}
-          </div>
-        );
-      })}
-    </>
+    <section className="gastos-container">
+      <label>
+        Selecciona un mes:
+        <input
+          type="month"
+          value={mes}
+          onChange={(e) => setMes(e.target.value)}
+        />
+      </label>
+      <div className="show-gastos">
+        {gastosPorCategoria?.map((c) => {
+          return (
+            <div className="gasto-card">
+              <h4>{c.categoria.toUpperCase()}</h4>
+              <div>
+                <p>{"Entradas : $" + c.sumEntradas.toLocaleString("es-CO")}</p>
+                <p>{"Salidas : $" + c.sumSalidas.toLocaleString("es-CO")}</p>
+              </div>
+              <img src={rutasImgs[c.categoria]} alt="cat" />
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 
