@@ -3,10 +3,41 @@
     justify-content: space-between;
     width: 100%;
     height: 50px;
+    color: white;
+    padding: 0 5%;
 }
+
+.card-movimiento-container:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.169);
+}
+
+.tipo-mov-div{
+    width: 20%;
+}
+.fecha-mov, .tipo-mov-div p{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.valor-div{
+    width: 15%;
+}
+
+
 .entra{
     color: green;
 }
+.entra::before{
+    content: "→ ";
+    display: inline-block;
+    transform: rotate(-45deg);
+}
+
+
 .sale{
     color: red;
+}
+.sale::before{
+    content: "← ";
+    display: inline-block;
+    transform: rotate(-45deg);
 }
