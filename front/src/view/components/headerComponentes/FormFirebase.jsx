@@ -21,7 +21,6 @@ function FormFirebase({setIsLogged, onClose, setCurrentUser}){
         e.preventDefault();
 
         let response = await axios.get(`http://localhost:3000/usuarios?correo=${email}`)
-        // console.log(response.data[0]);
         if (response.data[0]&&!response.data[0].password){
             setCurrentUser(response.data[0]);
             setIsLogged(true);

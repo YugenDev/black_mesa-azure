@@ -1,4 +1,4 @@
-import logotipo from "../../../assets/images/logo-bmb.png";
+import logotipo from "../../../assets/images/mesias-body.png";
 import coin from "../../../assets/images/coin.png";
 // import model from "../../../assets/3d-model/mesh.obj"
 import "./Portada.css";

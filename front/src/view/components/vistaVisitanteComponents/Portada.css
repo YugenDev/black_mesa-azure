@@ -81,34 +81,30 @@
     width: auto;
     height: 100%;
     z-index: 10;
+    animation: float 5s ease-in-out infinite;
 }
 
 .coin{
     position: absolute;
     transform: rotate(0deg);
     height: 15%;
-    animation: float 5s ease-in-out infinite;
 }
 
-.contenedor-logo .coin:first-child{
-    bottom: 1%;
-    right: 20%;
-}
 .contenedor-logo .coin:nth-child(2){
     left: 1%;
     bottom:25%;
 }
 .contenedor-logo .coin:nth-child(3){
     left: 15%;
-    bottom:1%;
+    bottom:60%;
 }
 .contenedor-logo .coin:nth-child(4){
     right: 5%;
     bottom:10%;
 }
 .contenedor-logo .coin:nth-child(5){
-    right: 15%;
-    bottom:35%;
+    right: 10%;
+    bottom:45%;
 }
 
 

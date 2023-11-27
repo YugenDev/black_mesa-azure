@@ -2,6 +2,7 @@ import "./Servicios.css";
 import billetera from "./imgsVistaVisitante/billetera.png";
 import tarjetas from "./imgsVistaVisitante/tarjetas-de-credito.png";
 import estadisticas from "./imgsVistaVisitante/estadisticas.png";
+import chatbot from "./imgsVistaVisitante/chat-bot-logo.png";
 function Servicios() {
   return (
     <section className="contenedor-general-servicios">
@@ -31,8 +32,8 @@ function Servicios() {
         </div>
 
         <div className="servicio">
-          <img src={estadisticas} alt="billetera" />
-          <h3>Estadisticas de movimientos</h3>
+          <img src={chatbot} alt="billetera" />
+          <h3>Chatbot</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum suscipit temporibus.</p>
           <button>Ir</button>
         </div>
