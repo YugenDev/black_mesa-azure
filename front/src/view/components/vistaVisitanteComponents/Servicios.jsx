@@ -19,14 +19,14 @@ function Servicios() {
 
         <div className="servicio">
           <img src={tarjetas} alt="billetera" />
-          <h3>Tarjetas de credito</h3>
+          <h3>Tarjetas de crédito</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum suscipit temporibus.</p>
           <button>Ir</button>
         </div>
 
         <div className="servicio">
           <img src={estadisticas} alt="billetera" />
-          <h3>Estadisticas de movimientos</h3>
+          <h3>Estadísticas de movimientos</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem illum suscipit temporibus.</p>
           <button>Ir</button>
         </div>

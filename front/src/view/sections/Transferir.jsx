@@ -16,26 +16,40 @@ let opciones = {
 
 function Transferir() {
   const [optionSelected, setOptionSelected] = useState("Cuenta");
-  const [isShowed, setIsShowed] = useState(false);
 
   const optionHandler = (e) => {
     setOptionSelected(e.target.textContent);
-    setIsShowed(true);
-  };
-
-  const closeHandler = () => {
-    setIsShowed(false);
   };
 
   return (
     <section className="transferir-saldo-section">
-      <h2 className="titulo">Transferencias</h2>
+      <h2 className="titulo">Transferencia</h2>
       <div className="transferir-opciones">
-        <h4 onClick={optionHandler}>Cuenta</h4>
-        <h4 onClick={optionHandler}>valor</h4>
-        <h4 onClick={optionHandler}>tipoGasto</h4>
-        <h4 onClick={optionHandler}>Confirmacion</h4>
-        <h4 onClick={optionHandler}>Comprobante</h4>
+        <div className="flecha">
+          <span></span>
+          <h4 onClick={optionHandler}>Cuenta</h4>
+          <span></span>
+        </div>
+        <div className="flecha">
+          <span></span>
+          <h4 onClick={optionHandler}>valor</h4>
+          <span></span>
+        </div>
+        <div className="flecha">
+          <span></span>
+          <h4 onClick={optionHandler}>tipoGasto</h4>
+          <span></span>
+        </div>
+        <div className="flecha">
+          <span></span>
+          <h4 onClick={optionHandler}>Confirmacion</h4>
+          <span></span>
+        </div>
+        <div className="flecha">
+          <span></span>
+          <h4 onClick={optionHandler}>Comprobante</h4>
+          <span></span>
+        </div>
       </div>
 
       <div className="option-show-container-transferir">

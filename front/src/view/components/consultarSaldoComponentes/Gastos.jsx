@@ -133,7 +133,7 @@ function Gastos({ cuentaActual }) {
       <div className="show-gastos">
         {gastosPorCategoria?.map((c) => {
           return (
-            <div className="gasto-card">
+            <div className="gasto-card" key={c.entradas}>
               <h4>{c.categoria.toUpperCase()}</h4>
               <div>
                 <p>{"Entradas : $" + c.sumEntradas.toLocaleString("es-CO")}</p>

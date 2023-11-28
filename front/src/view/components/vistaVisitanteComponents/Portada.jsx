@@ -9,7 +9,7 @@ function Portada() {
       <div className="contenedor-titulos">
         <div>
           <h1>
-            LA TECNOLOG<strong>IA</strong>
+            LA TECNOLOG<strong>íA</strong>
           </h1>
           <h1>DEL FUTURO A TU SERVICIO</h1>
         </div>
@@ -20,7 +20,7 @@ function Portada() {
           </h3>
           <h3>Siempre disponible, siempre listo para ayudarte.</h3>
         </div>
-        <button>Registrarse</button>
+        <button>Regístrate</button>
       </div>
 
       <div className="contenedor-logo">
