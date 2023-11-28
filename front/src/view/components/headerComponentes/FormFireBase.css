@@ -82,6 +82,7 @@
 }
 .img-div img {
   position: absolute;
+  height: 65vh;
   left: -20%;
 }
 .toSignup-span {
