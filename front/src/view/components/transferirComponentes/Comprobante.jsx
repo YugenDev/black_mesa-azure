@@ -1,5 +1,10 @@
 import "./Comprobante.css"
-function Comprobante(){
+function Comprobante({setStep,setOptionSelected}){
+    const finalizar = ()=>{
+        setOptionSelected("Cuenta")
+        setStep(1)
+    }
+
     return(
         <article className="contenedor-comprobante">
             <div className="dato-comprobante">
@@ -29,6 +34,7 @@ function Comprobante(){
                 <h4>Fecha</h4>
                 <p>11/11/2023</p>
             </div>
+            <button onClick={finalizar}>Finalizar</button>
         </article>
     )
 }

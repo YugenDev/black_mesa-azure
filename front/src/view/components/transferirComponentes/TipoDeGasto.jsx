@@ -5,10 +5,25 @@ import hogar from "./imgsTransferir/hogar.png"
 import regalos from "./imgsTransferir/regalo.png"
 import entretenimiento from "./imgsTransferir/entretenimiento.png"
 import otros from "./imgsTransferir/otro.png"
-function TipoDeGasto(){
+import { useState } from "react"
+
+
+
+function TipoDeGasto({setStep,setOptionSelected}){
+    const [isCorrect,setIsCorrect] = useState(false)
+
+    const handleSelection = ()=>{
+        setIsCorrect(true)
+    }
+
+    const handleClick = ()=>{
+        setOptionSelected("Confirmacion")
+        setStep(4)
+      }
+
     return(
         <article className="contenedor-tipo-gasto">
-            <div className="contenedor-cards">
+            <div className="contenedor-cards" onClick={handleSelection}>
                 <div className="tipo-gasto">
                     <div className="marco">
                         <img src={comida} alt="comida" className="gasto-logo"/>
@@ -46,7 +61,7 @@ function TipoDeGasto(){
                     <h3>Otro</h3>
                 </div>
             </div>
-            <button>Siguiente</button>
+            <button onClick={handleClick} disabled={!isCorrect}>Siguiente</button>
         </article>
     )
 }

@@ -1,6 +1,46 @@
+import { useEffect, useState } from "react";
+import CuentaMiniCard from "./CuentaMiniCard";
 import "./NumeroCuenta.css";
-import avatar from "./imgsTransferir/icono-card.png";
-function NumeroCuenta() {
+import axios from "axios";
+function NumeroCuenta({setStep,setOptionSelected}) {
+  let cuentas = [1, 2, 3, 4];
+
+  const [numeroCuenta, setNumeroCuenta] = useState();
+  const [nombre, setNombre] = useState("Nombre");
+  const [isCorrect,setIsCorrect] = useState(false);
+
+  const handleInput = (e) => {
+    setNumeroCuenta(e.target.value);
+  };
+
+  const handleClick = ()=>{
+    setOptionSelected("Valor")
+    setStep(2)
+  }
+
+  useEffect(() => {
+    const traerCuenta = async () => {
+      let responseCuenta = await axios.get(
+        `http://localhost:3000/cuentas?numeroCuenta=${numeroCuenta}`
+        );
+        console.log(responseCuenta);
+      if (responseCuenta.data.length>0) {
+        let responseUsuario = await axios.get(
+          `http://localhost:3000/usuarios?id=${responseCuenta.data[0].idUsuario}`
+          );
+        
+
+        setNombre(responseUsuario?.data[0].nombre);
+        setIsCorrect(true)
+      } else {
+        setNombre("La cuenta ingresada no pertenece a nadie");
+        setIsCorrect(false)
+      }
+    };
+    traerCuenta();
+  }, [numeroCuenta]);
+
+
   return (
     <article className="contenedor-general">
       <div className="contenedor-numero-cuenta">
@@ -9,42 +49,26 @@ function NumeroCuenta() {
           name="numero-cuenta-transferir"
           id="numero-cuenta-transferir"
           placeholder="N° cuenta"
+          value={numeroCuenta}
+          onChange={handleInput}
         />
-        <p>Nombre</p>
-        <button>Siguiente</button>
+        <p>{nombre}</p>
+        <button disabled={!isCorrect} className="boton-transferencia" onClick={handleClick}>Siguiente</button>
+      </div>
+      <div className="contenedor-cuentas-registradas">
+        <h5>Cuentas recientes</h5>
+        <div className="contenedor-frecuentes">
+          {cuentas.map((e) => {
+            return <CuentaMiniCard idCuenta={e * 3} setNumeroCuenta={setNumeroCuenta}  key={e} />;
+          })}
+        </div>
       </div>
       <div className="contenedor-cuentas-registradas">
         <h5>Cuentas frecuentes</h5>
         <div className="contenedor-frecuentes">
-          <div className="perfil">
-            <img src={avatar} alt="logo" />
-            <div>
-              <h3>Juan Pablo</h3>
-              <p>3225108713</p>
-            </div>
-          </div>
-          <div className="perfil">
-            <img src={avatar} alt="logo" />
-            <div>
-              <h3>Andres Felipe</h3>
-              <p>3225108713</p>
-            </div>
-          </div>
-          <div className="perfil">
-            <img src={avatar} alt="logo" />
-
-            <div>
-              <h3>Juan Esteban</h3>
-              <p>3225108713</p>
-            </div>
-          </div>
-          <div className="perfil">
-            <img src={avatar} alt="logo" />
-            <div>
-              <h3>otro man</h3>
-              <p>3225108713</p>
-            </div>
-          </div>
+          {cuentas.map((e) => {
+            return <CuentaMiniCard idCuenta={e} setNumeroCuenta={setNumeroCuenta} key={e} />;
+          })}
         </div>
       </div>
     </article>
