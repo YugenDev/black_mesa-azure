@@ -23,8 +23,8 @@
 }
 
 .name-black{
-    -webkit-text-stroke: 0.2px white;
-    font-weight: 600;
+    -webkit-text-stroke: 0.6px white;
+    font-weight: 700;
     color: transparent;
 }
 .name-mesa{
