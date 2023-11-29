@@ -35,12 +35,14 @@
     border-radius: 2rem;
     background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 25%, rgba(255,249,166,1) 100%);
     width: 350%;
-    /* height: 50px; */
     position: absolute;
     bottom:110%;
     right: 50%;
     padding: 1vh;
     transition:1s; 
+
+    display: flex;
+    justify-content: center;
 
  }
 .scrolled-div:hover::before{
