@@ -1,16 +1,17 @@
-import React from 'react'
-import { AuthProvider } from '../../../context/authContext'
-import { FormFirebase } from './FormFirebase'
+import React from "react";
+import { AuthProvider } from "../../../context/authContext";
+import { FormFirebase } from "./FormFirebase";
 
-const LogInForm = ({setIsLogged, onClose, setCurrentUser}) => {
+const LogInForm = ({ setIsLogged, onClose, setCurrentUser }) => {
   return (
-    <div>LogInForm
     <AuthProvider>
-        <h1>FORMULARIO</h1>
-        <FormFirebase setIsLogged={setIsLogged}  onClose={onClose} setCurrentUser={setCurrentUser} />
-      </AuthProvider>
-    </div>
-  )
-}
+      <FormFirebase
+        setIsLogged={setIsLogged}
+        onClose={onClose}
+        setCurrentUser={setCurrentUser}
+      />
+    </AuthProvider>
+  );
+};
 
-export default LogInForm
+export default LogInForm;

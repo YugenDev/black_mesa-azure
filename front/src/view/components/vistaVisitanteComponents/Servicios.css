@@ -11,10 +11,11 @@
   justify-content: center;
   align-items: center;
   color: white;
+
 }
 
 .contenedor-titulo h2 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .contenedor-servicios {

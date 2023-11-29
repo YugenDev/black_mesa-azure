@@ -4,8 +4,6 @@ import "./Header.css";
 import Modal from "./Modal";
 import LogInForm from "../components/headerComponentes/LogInForm";
 
-// var nombre = "Andrés";
-
 function Header({ isLogged, setIsLogged, currentUser, setCurrentUser }) {
   const [modalOpen, setModalOpen] = useState(false);
 
