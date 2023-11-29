@@ -1,0 +1,59 @@
+.Mesias-bubble{
+    color:white;
+    background: rgb(66,36,26);
+    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 50%, rgba(255,249,166,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    aspect-ratio: 3;
+    height: 12%;
+    position: fixed;
+    right: 2%;
+    top:12%;
+    border: 2px solid white;
+    border-radius: 4rem;
+    padding: 0 1%;
+    z-index: 50;
+
+
+    transition-property: aspect ratio;
+    transition-duration: 2s; 
+}
+
+.Mesias-bubble img{
+    height: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    transform: scale(1.1);
+    position:relative;
+    transition: ease-in-out right 1.2s;
+}
+.show-h2{
+    font-size: 1.2rem;
+    transition: ease-in-out color 1s, font-size 3s;
+}
+
+.not-show-h2{
+    transition: ease-in-out color 0.2s, font-size 2s;
+    color: transparent;
+    font-size: 0;
+}
+
+.scrolled-div{
+    padding: 0;
+    aspect-ratio: 1;
+    animation: pulse-animation 2s infinite;
+}
+
+.scrolled-img{
+    right: 12%;
+}
+
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.45);
+    }
+    100% {
+      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+  }

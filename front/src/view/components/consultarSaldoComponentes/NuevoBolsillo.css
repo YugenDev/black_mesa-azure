@@ -1,0 +1,8 @@
+.nuevo-bolsillo-container{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+.nuevo-bolsillo-container img{
+    width: 50px;
+}

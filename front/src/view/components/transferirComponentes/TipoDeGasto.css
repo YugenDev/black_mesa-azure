@@ -1,0 +1,61 @@
+.contenedor-tipo-gasto{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 2px 10px gray;
+}
+
+.contenedor-tipo-gasto button{
+    width: 20%;
+    height: 8%;
+}
+
+.contenedor-cards{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+
+.tipo-gasto{
+    width: 30%;
+    height: 45%;
+    box-shadow: 1px 2px 5px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+}
+
+.tipo-gasto:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 2px ;
+}
+
+
+.tipo-gasto h3{
+    font-size: 1.3rem;
+}
+
+.marco{
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.gasto-logo{
+    width: 60px;
+    position: relative; 
+    filter: invert(1);
+}

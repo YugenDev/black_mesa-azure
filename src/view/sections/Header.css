@@ -1,8 +1,0 @@
-.header-logged-div, .header-not-logged-div{
-    border:1px solid red;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
-    align-items: center;
-}

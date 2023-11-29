@@ -1,0 +1,66 @@
+
+.header-logged-div, .header-not-logged-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    background-color: black;
+}
+.welcome-container{
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+.log-out{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-not-logged-div button{
+    width: 100px;
+    height: 7vh;
+    border: 2px solid transparent; 
+    border-image: linear-gradient(142deg, rgb(103, 77, 41) 0%, rgba(255,215,0,1) 50%, rgb(187, 181, 104) 100%);
+    border-image-slice: 1; 
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header-not-logged-div button:hover{
+    transform: scale(1.1);
+}
+
+
+.log-out{
+    color: rgb(102, 102, 102);
+    text-decoration: underline;
+}
+.log-out p{
+    cursor: pointer;   
+}
+
+.welcome-container{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.welcome-container img{
+    height: 8vh;
+    filter: grayscale(1);
+    border-radius: 50%;
+}
+
+.welcome__name h5{
+    font-size: 15px;
+}
+.welcome__name h5:nth-child(1){
+    font-weight: 200;
+}
+.welcome__name h5:nth-child(2){
+    font-weight: 800;
+}

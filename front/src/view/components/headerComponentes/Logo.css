@@ -1,0 +1,42 @@
+.logo-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 33%;
+}
+
+.logo-img{
+    height: 10vh;
+}
+
+.logo-nombre{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+}
+
+.logo-nombre h6{
+    font-size: auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 4vh;
+    letter-spacing: 1px;
+}
+
+.name-black{
+    -webkit-text-stroke: 0.2px white;
+    font-weight: 600;
+    color: transparent;
+}
+.name-mesa{
+    color: white;
+    font-weight: 800;
+}
+.name-bank{
+    background: rgb(66,36,26);
+    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 50%, rgba(255,249,166,1) 100%);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+}
+

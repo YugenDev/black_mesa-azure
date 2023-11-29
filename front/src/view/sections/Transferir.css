@@ -1,0 +1,138 @@
+.transferir-saldo-section{
+    background-image: url(../../assets/images/white-wave-background.avif);
+    background-size: cover;
+    width: 80%;
+    margin: 5% 10%;
+    padding: 2vh;
+    display: flex;
+    gap: 4vh;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.titulo{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.transferir-opciones{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7.8vh;
+    overflow: hidden;
+    padding: 0 5%;
+}
+
+.option-show-container-transferir{
+    width: 100%;
+    height: 70vh;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cerrar{
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
+
+.flecha{
+    --altura-flecha: 4vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.flecha h4{
+    width: 8VW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7.9vh;
+    background-color: rgb(170, 170, 170);
+}
+.flecha span{
+    width: 0;
+    height: 0;    
+}
+.flecha span:last-child{    
+    border-top: var(--altura-flecha) solid transparent;
+    border-bottom: var(--altura-flecha) solid transparent;
+    border-left: var(--altura-flecha) solid rgb(170, 170, 170);
+}
+.flecha span:first-child{    
+    border-top: var(--altura-flecha) solid rgb(170, 170, 170);
+    border-bottom: var(--altura-flecha) solid rgb(170, 170, 170);
+    border-left: var(--altura-flecha) solid transparent;
+}
+.flecha::after{
+    content: "";
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    right: -115%;
+    bottom: 47%;
+    z-index: 1;
+    border-bottom: 0.5vh dashed rgb(170, 170, 170);
+}
+.flecha:last-child::after{
+    content: none;
+}
+
+.listo h4{
+    background-color: gold;
+    color: black;
+}
+.listo span:last-child{    
+    border-top: var(--altura-flecha) solid transparent;
+    border-bottom: var(--altura-flecha) solid transparent;
+    border-left: var(--altura-flecha) solid gold;
+}
+.listo span:first-child{    
+    border-top: var(--altura-flecha) solid gold;
+    border-bottom: var(--altura-flecha) solid gold;
+    border-left: var(--altura-flecha) solid transparent;
+}
+
+
+.listo::after{
+    border-color: gold;
+}
+
+
+
+.option-show-container-transferir button{
+    width: 100px;
+    padding: 1% 2%;
+    outline: none;
+    border: 0;
+    background: linear-gradient(142deg, rgb(103, 77, 41) 0%, rgba(255,215,0,1) 50%, rgb(187, 181, 104) 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.option-show-container-transferir button:disabled{
+    background: transparent;
+    color: grey;
+    border: 1px solid grey;
+}
+
+
+.option-show-container-transferir input{
+    width: 70%;
+    height: 25%;
+    padding: 0 5%;
+    border-radius: 1rem;
+    border: none;
+}
