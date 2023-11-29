@@ -11,7 +11,7 @@ const Tarjetas = () => {
         <p>Obtén ahora tu tarjeta de crédito, de forma rápida y segura</p>
         <img
           src="https://i.ibb.co/hgJ7z3J/6375aad33dbabc9c424b5713-card-mockup-01.png"
-          alt=""
+          alt="tarjetas"
         />
         <span>Solicitar nueva tarjeta ahora</span>
       </div>

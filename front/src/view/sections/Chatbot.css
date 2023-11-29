@@ -20,6 +20,36 @@
     transition-duration: 2s; 
 }
 
+.Mesias-bubble:hover .scrolled-img{
+    transform-origin: center bottom;
+    transform: scale(1.4);
+    transition: transform 1s;
+}
+
+.scrolled-div::before {
+    opacity: 0;
+    content: "Dame click para iniciar un chat";
+    color: black;
+    background: rgb(66,36,26);
+    border: 2px solid white;
+    border-radius: 2rem;
+    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 25%, rgba(255,249,166,1) 100%);
+    width: 350%;
+    /* height: 50px; */
+    position: absolute;
+    bottom:110%;
+    right: 50%;
+    padding: 1vh;
+    transition:1s; 
+
+ }
+.scrolled-div:hover::before{
+    
+    opacity: 1;
+    transition:1s; 
+}
+
+
 .Mesias-bubble img{
     height: 100%;
     border-radius: 50%;
@@ -56,4 +86,32 @@
     100% {
       box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
     }
+  }
+
+
+  .chat-container{
+    /* color:white; */
+    /* background: rgb(66,36,26); */
+    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 50%, rgba(255,249,166,1) 100%);
+    
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    aspect-ratio: 1;
+    height: 12%;
+    position: fixed;
+    right: 2%;
+    top:12%;
+    border: 2px solid white;
+    border-radius: 4rem;
+    padding: 0 1%;
+    z-index: 50;
+  }
+  
+  .outer-img-selected {
+    transform: scale(1.1);
+    position: absolute;
+    height: 100%;
+    right: 12%;
+    border-radius: 50%;
   }
