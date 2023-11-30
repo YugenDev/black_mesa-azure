@@ -47,7 +47,7 @@ function MovimientoCard({ gastoId, numeroCuentaActual }) {
 
   return (
     <article className="card-movimiento-container">
-      <div>
+      <div className="tipo-mov-div">
         <h4>{tipoMovimiento}</h4>
         {tipoMovimiento == "Transferencia" ? (
           !entraDinero ? (
@@ -59,8 +59,8 @@ function MovimientoCard({ gastoId, numeroCuentaActual }) {
           <></>
         )}
       </div>
-      <p>{gasto?.fecha}</p>
-      <div>
+      <p className="fecha-mov">{gasto?.fecha}</p>
+      <div className="valor-div">
         <p className={entraDinero ? "entra" : "sale"}>{"$" + gasto?.valor.toLocaleString('es-CO')}</p>
         <p>{gasto?.categoria}</p>
       </div>

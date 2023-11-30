@@ -1,6 +1,6 @@
 .movimientos-container{
-    height: 300px;
+    margin: 20% 0;
+    height: 100%;
     width: 100%;
-    border: 1px solid green;
     overflow-y: scroll;
 }

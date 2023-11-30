@@ -6,9 +6,9 @@ function Logo() {
     <div className="logo-container">
       <img src={logoImg} alt="logo" className="logo-img" />
       <div className="logo-nombre">
-        <h6>BLACK</h6>
-        <h6>MESA</h6>
-        <h6>BANK</h6>
+        <h6 className="name-black" >BLACK</h6>
+        <h6 className="name-mesa" >MESA</h6>
+        <h6 className="name-bank" >BANK</h6>
       </div>
     </div>
   );

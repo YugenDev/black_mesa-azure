@@ -1,74 +1,52 @@
 .contenedor-general{
     width: 70%;
     height: 100%;
-    border: 1px solid red;
+    padding: 2%;
+    box-shadow: 1px 2px 10px gray;
+
     align-self: center;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     align-items: center;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
 }
 
 .contenedor-numero-cuenta{
     width: 70%;
     height: 40%;
-    border: 1px solid red;
     display: flex;
+    gap: 2vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 5px gray;
+
 }
 
-.contenedor-numero-cuenta input{
+/* .contenedor-numero-cuenta input{
     width: 70%;
-    height: 15%;
-}
-
-.contenedor-numero-cuenta button{
-    width: 20%;
-    height: 15%;
-}
+    height: 25%;
+    padding: 0 5%;
+    border-radius: 1rem;
+    border: none;
+} */
 
 .contenedor-cuentas-registradas{
     width: 100%;
-    height: 60%;
-    border: 1px solid green;
     display: flex;
-    justify-content: space-between;
+    gap: 1vh;
     flex-direction: column;
-    align-items: center;
-}
-
-.contenedor-cuentas-registradas h3{
-    font-size: 30px;
 }
 
 .contenedor-frecuentes{
-    height: 85%;
+    padding: 1% 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    border: 1px solid red;
     align-items: center;
 }
 
 
-
-.perfil{
-    border: 1px solid rebeccapurple;
-    width: 20%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.perfil img{
-    height: 40%;
-    width: 50%;
-}
-
-.perfil h3{
-    font-size: 25px;
-}
