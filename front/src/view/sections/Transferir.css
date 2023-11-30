@@ -25,19 +25,9 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-<<<<<<< HEAD
-    height: 15%;
-    padding: 0 10%;
-}
-
-.transferir-opciones h4{
-    border-bottom: 1px solid black;
-    font-size: 20px;
-=======
     height: 7.8vh;
     overflow: hidden;
     padding: 0 5%;
->>>>>>> 25c25b8d771f0ef44336a2fee9f53109a29c79da
 }
 
 
