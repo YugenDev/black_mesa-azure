@@ -1,53 +1,87 @@
 import { useAuth } from "../../../context/authContext";
 import React, { useState } from "react";
-import axios from "axios";
+import axios from "axios";  // Mantengo axios para la simulación con JSON Server
 import "./FormFireBase.css";
 import usuarioImg from "../../../assets/images/user.png";
 import keyImg from "../../../assets/images/door-key.png";
 import bot2 from "../../../assets/images/bot2.png";
 
-function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
-  const auth = useAuth();
-  const { displayName } = auth.user;
-  // console.log(displayName)
+function FormFirebase({ setIsLogged, onClose, setCurrentUser, handleLoginSuccess }) {
+  const authContext = useAuth();
   const [emailRegister, setEmailRegister] = useState("");
   const [passwordRegister, setPasswordRegister] = useState("");
-  // console.log(emailRegister, passwordRegister, "Estado de los formularios")
-
   const [email, setEmail] = useState("dgouldthorpe6@fastcompany.com");
   const [password, setPassword] = useState("");
-
   const [showLogin, setShowLogin] = useState(true);
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
-    auth.register(emailRegister, passwordRegister);
+
+    const response = await axios.post("http://localhost:3000/usuarios", {
+      correo: emailRegister,
+      password: passwordRegister,
+    });
+
+    setCurrentUser(response.data);
+    setIsLogged(true);
+    onClose();
   };
+
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    let response = await axios.get(
-      `http://localhost:3000/usuarios?correo=${email}`
-    );
-    if (response.data[0] && !response.data[0].password) {
-      setCurrentUser(response.data[0]);
+    try {
+      const response = await axios.get(
+        `http://localhost:3000/usuarios?correo=${email}&password=${password}`
+      );
+
+      if (response.data[0] && !response.data[0].password) {
+        setCurrentUser(response.data[0]);
+        setIsLogged(true);
+        onClose();
+      }
+
+      handleLoginSuccess(response.data[0]); 
+    } catch (error) {
+      console.error("Error during login: ", error);
+    }
+  };
+
+  const handleGoogle = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Autenticación con Google
+      const user = await authContext.loginWithGoogle();
+
+      // Crear un nuevo usuario para almacenar en Firestore
+      const newUser = {
+        userId: user.uid,
+        nombre: user.displayName || "",
+        correo: user.email || "",
+        saldo: 0, // Ajusta según tus necesidades
+        bolsillos: [],
+        historial: [],
+      };
+
+      // Almacenar información adicional en Firestore
+      const response = await axios.post("http://localhost:3000/usuarios", newUser);
+
+      setCurrentUser(response.data);
       setIsLogged(true);
       onClose();
+
+      // Llama a la función handleLoginSuccess después del inicio de sesión con Google
+      handleLoginSuccess(response.data);
+    } catch (error) {
+      console.error("Error during Google sign-in: ", error);
     }
-    // auth.login(email, password) // habilitar esto después
-  };
-  const handleGoogle = (e) => {
-    e.preventDefault();
-    auth.loginWithGoogle();
-  };
-  const handleLogout = () => {
-    auth.logout;
   };
 
   const handleSwitchForm = () => {
     setShowLogin((prevShowLogin) => !prevShowLogin);
   };
-  // console.log(email, password, "estado de login")
+
   return (
     <div className="form-container">
       {showLogin ? (
@@ -92,7 +126,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
             <button
               onClick={(e) => handleGoogle(e)}
               type="button"
-              class="login-with-google-btn"
+              className="login-with-google-btn"
             >
               Ingresar con Google
             </button>
@@ -119,8 +153,6 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
           <span onClick={handleSwitchForm}>Ya tengo cuenta</span>
         </div>
       )}
-
-      {/* <button onClick={()=>handleLogout()} className="button">Logout</button> */}
     </div>
   );
 }
