@@ -1,119 +1,184 @@
-.Mesias-bubble{
-    color:white;
-    background: rgb(66,36,26);
-    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 50%, rgba(255,249,166,1) 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    aspect-ratio: 3;
-    height: 12%;
-    position: fixed;
-    right: 2%;
-    top:12%;
-    border: 2px solid white;
-    border-radius: 4rem;
-    padding: 0 1%;
-    z-index: 50;
+.Mesias-bubble {
+  color: white;
+  background: rgb(66, 36, 26);
+  background: linear-gradient(
+    142deg,
+    rgba(66, 36, 26, 1) 0%,
+    rgba(255, 215, 0, 1) 50%,
+    rgba(255, 249, 166, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  aspect-ratio: 3;
+  height: 12%;
+  position: fixed;
+  right: 2%;
+  top: 12%;
+  border: 2px solid white;
+  border-radius: 4rem;
+  padding: 0 1%;
+  z-index: 50;
 
-
-    transition-property: aspect ratio;
-    transition-duration: 2s; 
+  transition-property: aspect ratio;
+  transition-duration: 2s;
 }
 
-.Mesias-bubble:hover .scrolled-img{
-    transform-origin: center bottom;
-    transform: scale(1.4);
-    transition: transform 1s;
+.Mesias-bubble:hover .scrolled-img {
+  transform-origin: center bottom;
+  transform: scale(1.4);
+  transition: transform 1s;
 }
 
 .scrolled-div::before {
-    opacity: 0;
-    content: "Dame click para iniciar un chat";
-    color: black;
-    background: rgb(66,36,26);
-    border: 2px solid white;
-    border-radius: 2rem;
-    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 25%, rgba(255,249,166,1) 100%);
-    width: 350%;
-    position: absolute;
-    bottom:110%;
-    right: 50%;
-    padding: 1vh;
-    transition:1s; 
+  opacity: 0;
+  content: "Dame click para iniciar un chat";
+  color: black;
+  background: rgb(66, 36, 26);
+  border: 2px solid white;
+  border-radius: 2rem;
+  background: linear-gradient(
+    142deg,
+    rgba(66, 36, 26, 1) 0%,
+    rgba(255, 215, 0, 1) 25%,
+    rgba(255, 249, 166, 1) 100%
+  );
+  width: 350%;
+  position: absolute;
+  bottom: 110%;
+  right: 50%;
+  padding: 1vh;
+  transition: 1s;
 
-    display: flex;
-    justify-content: center;
-
- }
-.scrolled-div:hover::before{
-    
-    opacity: 1;
-    transition:1s; 
+  display: flex;
+  justify-content: center;
+}
+.scrolled-div:hover::before {
+  opacity: 1;
+  transition: 1s;
 }
 
-
-.Mesias-bubble img{
-    height: 100%;
-    border-radius: 50%;
-    aspect-ratio: 1;
-    transform: scale(1.1);
-    position:relative;
-    transition: ease-in-out right 1.2s;
+.Mesias-bubble img {
+  height: 100%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  transform: scale(1.1);
+  position: relative;
+  transition: ease-in-out right 1.2s;
 }
-.show-h2{
-    font-size: 1.2rem;
-    transition: ease-in-out color 1s, font-size 3s;
-}
-
-.not-show-h2{
-    transition: ease-in-out color 0.2s, font-size 2s;
-    color: transparent;
-    font-size: 0;
+.show-h2 {
+  font-size: 1.2rem;
+  transition: ease-in-out color 1s, font-size 3s;
 }
 
-.scrolled-div{
-    padding: 0;
-    aspect-ratio: 1;
-    animation: pulse-animation 2s infinite;
+.not-show-h2 {
+  transition: ease-in-out color 0.2s, font-size 2s;
+  color: transparent;
+  font-size: 0;
 }
 
-.scrolled-img{
-    right: 12%;
+.scrolled-div {
+  padding: 0;
+  aspect-ratio: 1;
+  animation: pulse-animation 2s infinite;
+}
+
+.scrolled-img {
+  right: 12%;
 }
 
 @keyframes pulse-animation {
-    0% {
-      box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.45);
-    }
-    100% {
-      box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-    }
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.45);
   }
-
-
-  .chat-container{
-    /* color:white; */
-    /* background: rgb(66,36,26); */
-    background: linear-gradient(142deg, rgba(66,36,26,1) 0%, rgba(255,215,0,1) 50%, rgba(255,249,166,1) 100%);
-    
-    display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-    aspect-ratio: 1;
-    height: 12%;
-    position: fixed;
-    right: 2%;
-    top:12%;
-    border: 2px solid white;
-    border-radius: 4rem;
-    padding: 0 1%;
-    z-index: 50;
+  100% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
   }
-  
-  .outer-img-selected {
-    transform: scale(1.1);
+}
+
+.dont-show{
+    display: none;
     position: absolute;
+}
+.hide {
+  opacity: 0;
+  transition: all 0.5s;
+}
+.show{
+    opacity: 1;
+    width: 100%;
     height: 100%;
-    right: 12%;
-    border-radius: 50%;
-  }
+    transition: all 0.5s;
+}
+
+.chat-closed {
+  background: linear-gradient(
+    142deg,
+    rgba(66, 36, 26, 1) 0%,
+    rgba(255, 215, 0, 1) 50%,
+    rgba(255, 249, 166, 1) 100%
+  );
+  display: flex;
+  aspect-ratio: 1;
+  height: 12%;
+  position: fixed;
+  right: 2%;
+  top: 12%;
+  border: 2px solid white;
+  border-radius: 4rem;
+  padding: 0 1%;
+  z-index: 49;
+  /* transition: all 2s ease-in-out; */
+}
+
+.outer-img-selected {
+  transform: scale(1.1);
+  position: absolute;
+  height: 100%;
+  right: 12%;
+  border-radius: 50%;
+  transform-origin: center bottom;
+  transform: scale(1.4);
+}
+
+.chat-opened {
+  background: linear-gradient(
+    142deg,
+    rgba(237, 237, 237, 0.4) 0%,
+    rgba(46, 46, 46, 0.537) 100%
+  );
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  aspect-ratio: 0.7;
+  height: 85%;
+  width: 50%;
+  padding: 2% 2% 1% 2%;
+
+  position: fixed;
+  right: 2%;
+  top: 12%;
+  z-index: 49;
+
+  border: 2px solid white;
+  border-radius: 2rem 0rem 2rem 2rem;
+  
+  transition: all 2s ease-in-out;
+}
+
+.close-span-closed{
+    opacity: 0;
+    transition: opacity 1.5s;
+    font-size: 0;
+}
+
+.close-span-opened{
+    opacity: 1;
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    font-size: 1.2rem;
+    color: white;
+    transition: opacity 3s,font-size 3s;
+
+}

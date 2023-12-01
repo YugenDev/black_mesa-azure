@@ -1,0 +1,87 @@
+[
+  {
+    "id": 7,
+    "nombre": "Dare Gouldthorpe",
+    "tipoDoc": "Cedula extranjería",
+    "documento": 4051655040,
+    "fechaNacimiento": "1976-09-15",
+    "correo": "dgouldthorpe6@fastcompany.com",
+    "idCuenta": 7,
+    "cuenta": {
+      "id": 7,
+      "numeroCuenta": 76789948,
+      "bolsillos": [
+        {
+          "id": 0,
+          "nombre": "Libre",
+          "meta": 0,
+          "imagen": "",
+          "deposito": 27230000
+        },
+        {
+          "id": 1,
+          "nombre": "Inversiones",
+          "meta": 2781000,
+          "imagen": "saludImg",
+          "deposito": 1220400
+        },
+        {
+          "id": 2,
+          "nombre": "Proyecto Hogar",
+          "meta": 8080000,
+          "imagen": "beneficiosImg",
+          "deposito": 7582400
+        },
+        {
+          "id": 3,
+          "nombre": "Ahorro Viajes",
+          "meta": 6163000,
+          "imagen": "carroImg",
+          "deposito": 6150400
+        },
+        {
+          "id": 4,
+          "nombre": "Deudas",
+          "meta": 2024000,
+          "imagen": "casaImg",
+          "deposito": 1840500
+        }
+      ],
+      "gastos": [
+        {
+          "id": 53,
+          "categoria": "transporte",
+          "valor": 422100,
+          "fecha": "2022-04-23",
+          "cuentaDestino": 7,
+          "cuentaOrigen": 1
+        },
+        {
+          "id": 77,
+          "categoria": "entretenimiento",
+          "valor": 788900,
+          "fecha": "2022-07-10",
+          "cuentaDestino": 7,
+          "cuentaOrigen": 49
+        },
+        {
+          "id": 954,
+          "categoria": "otro",
+          "valor": 373700,
+          "fecha": "2023-06-16",
+          "cuentaDestino": 30,
+          "cuentaOrigen": 7
+        },
+        {
+          "id": 973,
+          "categoria": "otro",
+          "valor": 388100,
+          "fecha": "2023-06-14",
+          "cuentaDestino": 26,
+          "cuentaOrigen": 7
+        }
+      ],
+      "idUsuario": 7
+    }
+  }
+]
