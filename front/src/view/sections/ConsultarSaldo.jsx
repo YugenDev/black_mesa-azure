@@ -5,7 +5,7 @@ import "./ConsultarSaldo.css";
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
-function ConsultarSaldo({currentUser}) {
+function ConsultarSaldo({currentUser,actualizar,setActualizar}) {
   const [optionSelected, setOptionSelected] = useState();
   const [isShowed, setIsShowed] = useState(false);
   const [cuentaActual, setCuentaActual] = useState(null);
@@ -16,7 +16,7 @@ function ConsultarSaldo({currentUser}) {
     setCuentaActual(response?.data[0])
   }
     traerCuenta()
-  },[])
+  },[actualizar])
     
   
 
@@ -33,7 +33,7 @@ function ConsultarSaldo({currentUser}) {
 
   let option = {
     Historial: <Historial cuentaActual={cuentaActual}/>,
-    Bolsillos: <Bolsillos cuentaActual={cuentaActual}/>,
+    Bolsillos: <Bolsillos cuentaActual={cuentaActual} setActualizar={setActualizar}/>,
     Gastos: <Gastos cuentaActual={cuentaActual}/>,
   };
 
