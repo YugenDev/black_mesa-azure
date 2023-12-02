@@ -2,7 +2,20 @@ import React, { useState } from 'react';
 import "./Registro.css"
 import imagenRegistro from "../../../assets/images/robot-registro.png"
 
-const RegistroBancoFormulario = () => {
+const generarNumeroCuentaAleatorio = () => {
+  const longitudCuenta = 10;
+  const numerosPermitidos = "0123456789";
+  let numeroCuenta = "";
+
+  for (let i = 0; i < longitudCuenta; i++) {
+    const indice = Math.floor(Math.random() * numerosPermitidos.length);
+    numeroCuenta += numerosPermitidos.charAt(indice);
+  }
+
+  return numeroCuenta;
+};
+
+const Registro = () => {
   // Estados para almacenar los datos del formulario
   const [nombre, setNombre] = useState('');
   const [apellido, setApellido] = useState('');
@@ -11,17 +24,78 @@ const RegistroBancoFormulario = () => {
   const [contrasena, setContrasena] = useState('');
 
   // Manejar el envío del formulario
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Aquí puedes realizar acciones adicionales, como enviar los datos al servidor
+    const nuevoNumeroCuenta = generarNumeroCuentaAleatorio();
 
-    // Limpia los campos después del envío
-    setNombre('');
-    setApellido('');
-    setCorreo('');
-    setContrasena('');
-    setSaldo(0);
+    try {
+      // Registrar usuario con Firebase Authentication
+      const userCredential = await createUserWithEmailAndPassword(
+        auth,
+        correo,
+        contrasena
+      );
+
+      // Obtener el ID del usuario recién registrado
+      const userId = userCredential.user.uid;
+
+      // Crear un nuevo usuario para almacenar en Firestore
+      const newUser = {
+        userId,
+        nombre,
+        apellido,
+        correo,
+        saldo,
+        numeroCuenta: nuevoNumeroCuenta,
+        bolsillos: [],
+        historial: [],
+      };
+
+      // Almacenar información adicional en Firestore
+      const docRef = await addDoc(collection(db, "users"), newUser);
+
+      console.log("Document written with ID: ", docRef.id);
+
+      // Limpia los campos después del envío
+      setNombre("");
+      setApellido("");
+      setCorreo("");
+      setContrasena("");
+      setSaldo(0);
+    } catch (error) {
+      console.error("Error during registration: ", error);
+    }
+  };
+
+  // Manejar el inicio de sesión con Google
+  const handleGoogleSignIn = async () => {
+    const provider = new GoogleAuthProvider();
+
+    try {
+      const userCredential = await signInWithPopup(auth, provider);
+      const user = userCredential.user;
+
+      // Crear un nuevo usuario para almacenar en Firestore
+      const newUser = {
+        userId: user.uid,
+        nombre: user.displayName || "", // Puedes acceder al nombre si está disponible
+        correo: user.email || "", // Puedes acceder al correo electrónico si está disponible
+        saldo,
+        bolsillos: [],
+        historial: [],
+      };
+
+      // Almacenar información adicional en Firestore
+      const docRef = await addDoc(collection(db, "users"), newUser);
+
+      console.log("Document written with ID: ", docRef.id);
+
+      // Puedes realizar acciones adicionales después del inicio de sesión con Google si es necesario
+      console.log("Google sign-in successful:", user);
+    } catch (error) {
+      console.error("Error during Google sign-in: ", error);
+    }
   };
 
   return (
@@ -49,7 +123,4 @@ const RegistroBancoFormulario = () => {
   );
 };
 
-export default RegistroBancoFormulario;
-
-
-
+export default Registro;

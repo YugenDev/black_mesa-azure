@@ -1,6 +1,7 @@
 import Header from "./view/sections/Header";
 import VistaVisitante from "./view/VistaVisitante";
-import VistaUsuario  from "./view/VistaUsuario";
+import VistaUsuario from "./view/VistaUsuario";
+import { FormFirebase } from "./view/components/headerComponentes/FormFirebase"; 
 
 
 import { useState } from "react";
@@ -28,3 +29,4 @@ function App() {
 }
 
 export default App;
+
