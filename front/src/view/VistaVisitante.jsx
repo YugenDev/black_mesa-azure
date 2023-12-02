@@ -8,7 +8,6 @@ function VistaVisitante(){
         <section className="contenedor-vista-visitante">
             <Portada />
             <Servicios />
-            <Registro/>
         </section>
     )
 }
