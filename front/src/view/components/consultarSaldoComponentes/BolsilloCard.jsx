@@ -46,13 +46,13 @@ function BolsilloCard({ nombre, meta, deposito, logo }) {
       </div>
       {
         meta==="meta"?
-        <Modal isOpen={modalOpen} onClose={closeModal} >
+        <Modal isOpen={modalOpen} onClose={closeModal}>
           <NuevoBolsillo></NuevoBolsillo>
-          <button onClick={closeModal}>cerrar</button>
+          <button onClick={closeModal} className="cerrar-crear">X</button>
         </Modal>:
         <Modal isOpen={modalOpen} onClose={closeModal} >
           <EditarBolsillo></EditarBolsillo>
-          <button onClick={closeModal}>cerrar</button>
+          <button onClick={closeModal} className="cerrar-editar">cerrar</button>
         </Modal>
         
       }
