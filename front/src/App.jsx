@@ -3,7 +3,8 @@ import VistaVisitante from "./view/VistaVisitante";
 import VistaUsuario  from "./view/VistaUsuario";
 
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function App() {
   const [isLogged, setIsLogged] = useState(false);
@@ -11,7 +12,21 @@ function App() {
   const [currentUser, setCurrentUser] = useState({});
   const [sesionOpenAI, setSesionOpenAI] = useState({});
 
-
+  useEffect(()=>{
+    const crearSesionOIA = async () =>{ 
+    if(isLogged){
+      const response = await axios.get(
+        "http://localhost:3001/hilo"
+      )
+      console.log(response.data);
+      setSesionOpenAI({
+        ...sesionOpenAI,
+        thread : response.data
+      })
+    }
+  }
+  crearSesionOIA();
+  },[isLogged])
 
   
   return (

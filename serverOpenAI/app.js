@@ -1,10 +1,12 @@
 const express = require("express");
+const cors = require("cors");
 const {crearNuevoHilo, añadirAlHilo,enviarAlAsistente,estadoRespuesta,mensajes} = require("./methods")
 
 const app = express();
 app.use(express.json());
+app.use(cors());
 
-app.get("/hilo",async (res)=>{
+app.get("/hilo", async (req,res)=>{
     const hilo = await crearNuevoHilo();
     res.send(hilo)
 })
@@ -14,7 +16,6 @@ app.get("/hilo/:id",async (req,res)=>{
     res.send(hilo)
 })
 app.post("/hilo",async (req,res)=>{
-    // console.log(req.body);
     const {thread, mensaje} =req.body;
     const message = await añadirAlHilo(thread, mensaje);
     res.send(message)
@@ -31,12 +32,6 @@ app.post("/asistente", async (req,res)=>{
     const run = await enviarAlAsistente(thread)
     res.send(run)
 })
-
-
-
-// app.get("/",(req,res)=>{
-//     res.send("wenas")
-// })
 
 
 app.listen(3001,()=>{

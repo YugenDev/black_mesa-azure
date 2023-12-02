@@ -4,7 +4,7 @@ import "./Header.css";
 import Modal from "./Modal";
 import LogInForm from "../components/headerComponentes/LogInForm";
 
-function Header({ isLogged, setIsLogged, currentUser, setCurrentUser,actualizar }) {
+function Header({ isLogged, setIsLogged, currentUser, setCurrentUser,actualizar,setSesionOpenAI }) {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
