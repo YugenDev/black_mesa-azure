@@ -1,12 +1,14 @@
 import { useAuth } from "../../../context/authContext";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./FormFireBase.css";
 import usuarioImg from "../../../assets/images/user.png";
 import keyImg from "../../../assets/images/door-key.png";
 import bot2 from "../../../assets/images/bot2.png";
 
-function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
+
+
+function FormFirebase({ setIsLogged, onClose, setCurrentUser,actualizar }) {
   const auth = useAuth();
   const { displayName } = auth.user;
   // console.log(displayName)
@@ -19,13 +21,13 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
 
   const [showLogin, setShowLogin] = useState(true);
 
-  const handleRegister = (e) => {
-    e.preventDefault();
-    auth.register(emailRegister, passwordRegister);
-  };
-  const handleLogin = async (e) => {
-    e.preventDefault();
+  useEffect(()=>{
+    if(actualizar>1){
+      traerInfoUsuarioActual();
+    }
+  },[actualizar])
 
+  const traerInfoUsuarioActual= async()=>{
     let response = await axios.get(
       `http://localhost:3000/usuarios?correo=${email}`
     );
@@ -34,6 +36,15 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
       setIsLogged(true);
       onClose();
     }
+  }
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+    auth.register(emailRegister, passwordRegister);
+  };
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    traerInfoUsuarioActual();
     // auth.login(email, password) // habilitar esto después
   };
   const handleGoogle = (e) => {

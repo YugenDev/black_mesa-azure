@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import CuentaMiniCard from "./CuentaMiniCard";
 import "./NumeroCuenta.css";
 import axios from "axios";
-function NumeroCuenta({setStep,setOptionSelected}) {
+
+function NumeroCuenta({setStep,setOptionSelected,setNumeroCuentaTransferencia, setNombreCuentaTransferencia}) {
   let cuentas = [1, 2, 3, 4];
 
   const [numeroCuenta, setNumeroCuenta] = useState();
@@ -14,6 +15,8 @@ function NumeroCuenta({setStep,setOptionSelected}) {
   };
 
   const handleClick = ()=>{
+    setNumeroCuentaTransferencia(numeroCuenta);
+    setNombreCuentaTransferencia(nombre);
     setOptionSelected("Valor")
     setStep(2)
   }
@@ -23,7 +26,7 @@ function NumeroCuenta({setStep,setOptionSelected}) {
       let responseCuenta = await axios.get(
         `http://localhost:3000/cuentas?numeroCuenta=${numeroCuenta}`
         );
-        console.log(responseCuenta);
+        // console.log(responseCuenta);
       if (responseCuenta.data.length>0) {
         let responseUsuario = await axios.get(
           `http://localhost:3000/usuarios?id=${responseCuenta.data[0].idUsuario}`
@@ -35,6 +38,8 @@ function NumeroCuenta({setStep,setOptionSelected}) {
       } else {
         setNombre("La cuenta ingresada no pertenece a nadie");
         setIsCorrect(false)
+        setNombreCuentaTransferencia(null);
+        setNumeroCuentaTransferencia(null);
       }
     };
     traerCuenta();
