@@ -14,6 +14,7 @@
 }
 .card-container:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 .bolsillo-logo{
     width: 50px;
@@ -44,7 +45,37 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+}
 
+.cerrar-crear{
+    width: 10%;
+    height: 35px;
+    border: 2px solid transparent;
+    /* border-image: linear-gradient( 142deg, rgb(103, 77, 41) 0%, rgba(255, 215, 0, 1) 50%, rgb(187, 181, 104) 100% ); */
+    /* border-image-slice: 1; */
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    /* background-color: black; */
+}
+
+.cerrar-editar{
+    width: 15%;
+    height: 10%;
+    border: 2px solid transparent;
+    border-image: linear-gradient(142deg, rgb(103, 77, 41) 0%, rgba(255,215,0,1) 50%, rgb(187, 181, 104) 100%);
+    border-image-slice: 1;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 85%;
 }
 
 

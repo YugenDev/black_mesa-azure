@@ -5,7 +5,7 @@ import "./ConsultarSaldo.css";
 import { useEffect, useState } from "react";
 import axios from 'axios';
 
-function ConsultarSaldo({currentUser}) {
+function ConsultarSaldo({currentUser,actualizar,setActualizar, sesionOpenAI,setSesionOpenAI, mensajes, setMensajes}) {
   const [optionSelected, setOptionSelected] = useState();
   const [isShowed, setIsShowed] = useState(false);
   const [cuentaActual, setCuentaActual] = useState(null);
@@ -16,9 +16,31 @@ function ConsultarSaldo({currentUser}) {
     setCuentaActual(response?.data[0])
   }
     traerCuenta()
-  },[])
+  },[actualizar])
     
-  
+  useEffect(()=>{
+    if(mensajes){
+      const empezarConversacion = async()=>{
+      let bodyReq ={thread:sesionOpenAI.thread, mensaje:
+        `Esta es la información financiera del cliente:${JSON.stringify({...cuentaActual,...currentUser})}. Saluda y pregunta en qué puedes ayudar hoy`
+      }
+      let responseHilo = await axios.post("http://localhost:3001/hilo",bodyReq);
+      // console.log(responseHilo.data);
+      let newHiloResponse = await axios.get(
+        `http://localhost:3001/hilo/${sesionOpenAI.thread.id}`
+      )
+      // console.log(newHiloResponse.data.body.data[0]);
+      let newHilo = newHiloResponse.data.body.data[0]
+      let primeraRespuesta = await axios.post(
+        `http://localhost:3001/asistente`, {thread:{...newHilo}}
+      )
+      // console.log(primeraRespuesta.data);
+      setSesionOpenAI({...sesionOpenAI, run: primeraRespuesta.data})
+    }
+    empezarConversacion();
+  }
+
+    },[mensajes])
 
   const optionHandler = (e) => {
     setOptionSelected(e.target.textContent);
@@ -33,7 +55,7 @@ function ConsultarSaldo({currentUser}) {
 
   let option = {
     Historial: <Historial cuentaActual={cuentaActual}/>,
-    Bolsillos: <Bolsillos cuentaActual={cuentaActual}/>,
+    Bolsillos: <Bolsillos cuentaActual={cuentaActual} setActualizar={setActualizar}/>,
     Gastos: <Gastos cuentaActual={cuentaActual}/>,
   };
 

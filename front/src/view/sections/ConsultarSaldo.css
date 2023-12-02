@@ -95,7 +95,6 @@
   padding: 4vh 15%;
   display: flex;
   align-items: center;
-  /* filter: grayscale(1); */
   background-image: radial-gradient(
     rgba(0,0,0,0) 0%,
     rgba(0, 0, 0, 0.185) 55%,  

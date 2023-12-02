@@ -12,11 +12,8 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
   // console.log(displayName)
   const [emailRegister, setEmailRegister] = useState("");
   const [passwordRegister, setPasswordRegister] = useState("");
-  // console.log(emailRegister, passwordRegister, "Estado de los formularios")
-
   const [email, setEmail] = useState("dgouldthorpe6@fastcompany.com");
   const [password, setPassword] = useState("");
-
   const [showLogin, setShowLogin] = useState(true);
 
   const handleRegister = (e) => {
@@ -36,18 +33,41 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
     }
     // auth.login(email, password) // habilitar esto después
   };
-  const handleGoogle = (e) => {
+  const handleGoogle = async (e) => {
     e.preventDefault();
-    auth.loginWithGoogle();
-  };
-  const handleLogout = () => {
-    auth.logout;
+
+    try {
+      // Autenticación con Google
+      const user = await authContext.loginWithGoogle();
+
+      // Crear un nuevo usuario para almacenar en Firestore
+      const newUser = {
+        userId: user.uid,
+        nombre: user.displayName || "",
+        correo: user.email || "",
+        saldo: 0, // Ajusta según tus necesidades
+        bolsillos: [],
+        historial: [],
+      };
+
+      // Almacenar información adicional en Firestore
+      const response = await axios.post("http://localhost:3000/usuarios", newUser);
+
+      setCurrentUser(response.data);
+      setIsLogged(true);
+      onClose();
+
+      // Llama a la función handleLoginSuccess después del inicio de sesión con Google
+      handleLoginSuccess(response.data);
+    } catch (error) {
+      console.error("Error during Google sign-in: ", error);
+    }
   };
 
   const handleSwitchForm = () => {
     setShowLogin((prevShowLogin) => !prevShowLogin);
   };
-  // console.log(email, password, "estado de login")
+
   return (
     <div className="form-container">
       {showLogin ? (
@@ -92,7 +112,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
             <button
               onClick={(e) => handleGoogle(e)}
               type="button"
-              class="login-with-google-btn"
+              className="login-with-google-btn"
             >
               Ingresar con Google
             </button>
@@ -119,8 +139,6 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
           <span onClick={handleSwitchForm}>Ya tengo cuenta</span>
         </div>
       )}
-
-      {/* <button onClick={()=>handleLogout()} className="button">Logout</button> */}
     </div>
   );
 }

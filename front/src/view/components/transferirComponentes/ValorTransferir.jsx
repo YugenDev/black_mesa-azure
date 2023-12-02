@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./ValorTransferir.css";
 
 
-function ValorTransferir({setStep,setOptionSelected}) {
+function ValorTransferir({setValorTransferencia,setStep,setOptionSelected}) {
   const [valor, setValor] = useState(0);
   const [isCorrect, setIsCorrect] = useState(false);
 
@@ -11,12 +11,13 @@ function ValorTransferir({setStep,setOptionSelected}) {
   };
 
   const handleClick = ()=>{
+    setValorTransferencia(valor)
     setOptionSelected("Gasto")
     setStep(3)
   }
 
   useEffect(() => {
-    valor >= 1000 ? setIsCorrect(true) : setIsCorrect(false);
+    valor >= 1000 ? setIsCorrect(true) : setIsCorrect(false); setValorTransferencia(null);
   }, [valor]);
 
   return (
