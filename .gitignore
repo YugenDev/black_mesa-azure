@@ -1,2 +1,2 @@
-/node_modules/
-.env
+/serverOpenAI/.env
+/serverOpenAI/node_modules/
