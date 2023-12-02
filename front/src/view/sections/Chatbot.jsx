@@ -3,7 +3,7 @@ import "./Chatbot.css";
 import Mesias from "../../assets/images/MesIAs-chat.png";
 import Chat from "../components/chatbotComponents/Chat";
 
-const Chatbot = ({ currentUser }) => {
+const Chatbot = ({ currentUser,sesionOpenAI, setSesionOpenAI }) => {
   const [scrolled, setScrolled] = useState(false);
   const [openChat, setOpenChat] = useState(false);
   const [showChat, setShowChat] = useState(false);
@@ -62,7 +62,7 @@ const Chatbot = ({ currentUser }) => {
           X
         </span>
         <div className={showChat?"show":"hide"}>
-          <Chat showChat={showChat} />
+          <Chat showChat={showChat} sesionOpenAI={sesionOpenAI} setSesionOpenAI={setSesionOpenAI}/>
         </div>
       </div>
     </section>

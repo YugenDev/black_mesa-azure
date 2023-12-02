@@ -29,7 +29,7 @@
 
 .servicio {
   width: 20%;
-  height: 80%;
+  height: 90%;
   border: 3px solid rgb(255, 255, 255);
   background-color: white;
   display: flex;
@@ -75,7 +75,8 @@
   text-align: center;
 }
 .servicio p {
-    text-align: justify;
+    text-align: center;
+    font-size: 0.9rem;
 }
 
 .servicio button{

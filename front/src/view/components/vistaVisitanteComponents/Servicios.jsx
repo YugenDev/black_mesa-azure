@@ -35,14 +35,6 @@ function Servicios({ isLogged, setIsLogged, currentUser, setCurrentUser }) {
           <button onClick={openModal}>Ir</button>
         </div>
 
-        {modalOpen&&(
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <LoginRegistro 
-          setIsLogged={setIsLogged}
-          onClose={closeModal}/>
-        </Modal>
-      )}
-
         <div className="servicio">
           <img src={tarjetas} alt="billetera" />
           <h3>Tarjetas de crédito</h3>
@@ -50,28 +42,12 @@ function Servicios({ isLogged, setIsLogged, currentUser, setCurrentUser }) {
           <button onClick={openModal}>Ir</button>
         </div>
         
-        {modalOpen&&(
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <LoginRegistro 
-          setIsLogged={setIsLogged}
-          onClose={closeModal}/>
-        </Modal>
-      )}
-
         <div className="servicio">
           <img src={estadisticas} alt="billetera" />
           <h3>Estadísticas de movimientos</h3>
           <p>Conoce tu progreso financiero con nuestras estadísticas de movimientos. Toma el control, toma decisiones informadas y haz que cada movimiento cuente.</p>
           <button onClick={openModal}>Ir</button>
         </div>
-
-        {modalOpen&&(
-        <Modal isOpen={modalOpen} onClose={closeModal}>
-          <LoginRegistro 
-          setIsLogged={setIsLogged}
-          onClose={closeModal}/>
-        </Modal>
-      )}
 
         <div className="servicio">
           <img src={chatbot} alt="billetera" />

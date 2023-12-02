@@ -1,8 +1,5 @@
-// import OpenAI from "openai";
-// import dotenv from 'dotenv';
-
 const OpenAI = require('openai');
-const dotenv = require('dotenv')
+const dotenv = require('dotenv');
 
 dotenv.config();
 
@@ -33,6 +30,7 @@ exports.enviarAlAsistente = async (thread)=>{
         { 
           assistant_id: assistantId,
         //   instructions: ""
+        
         }
       );
       return run
