@@ -16,6 +16,7 @@ function Header({ isLogged, setIsLogged, currentUser, setCurrentUser,actualizar 
   };
 
   const logOut = () => {
+    setSesionOpenAI({});
     setCurrentUser({});
     setIsLogged(false);
   };
