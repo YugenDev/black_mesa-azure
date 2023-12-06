@@ -13,7 +13,6 @@ function App() {
   const [sesionOpenAI, setSesionOpenAI] = useState({});
   const [mensajes,setMensajes] = useState(false)
 
-  console.log(currentUser);
 
   // useEffect(() => {
   //   setMensajes(false)

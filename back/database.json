@@ -8545,7 +8545,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 27000000
+          "deposito": 28500000
         },
         {
           "id": 1,
@@ -11696,7 +11696,6 @@
       ],
       "idUsuario": 50
     }
-    
   ],
   "usuarios": [
     {

@@ -74,8 +74,14 @@ h4{
     background: linear-gradient(142deg, rgb(103, 77, 41) 0%, rgba(255,215,0,1) 50%, rgb(187, 181, 104) 100%);
     outline: none;
     color: black;
-    color: black;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
+    border: none;
+}
+
+.boton-crear-bolsillo input:disabled{
+    background: transparent;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.7);
 }
