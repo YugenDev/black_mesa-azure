@@ -51,7 +51,7 @@ function BolsilloCard({ cuentaActual, setActualizar, id, nombre, meta, deposito,
           <button onClick={closeModal} className="cerrar-crear">X</button>
         </Modal>:
         <Modal isOpen={modalOpen} onClose={closeModal} >
-          <EditarBolsillo id={id} deposito={deposito} closeModal={closeModal} setActualizar={setActualizar} cuentaActual={cuentaActual} ></EditarBolsillo>
+          <EditarBolsillo id={id} nombre={nombre} deposito={deposito} closeModal={closeModal} setActualizar={setActualizar} cuentaActual={cuentaActual} ></EditarBolsillo>
           <button onClick={closeModal} className="cerrar-editar">cerrar</button>
         </Modal>
         

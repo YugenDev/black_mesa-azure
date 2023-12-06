@@ -50,6 +50,7 @@ function NuevoBolsillo({ closeModal,cuentaActual,setActualizar }) {
       nuevoBolsillo.nombre &&
       nuevoBolsillo.meta >10000 &&
       nuevoBolsillo.deposito < cuentaActual.bolsillos[0].deposito&&
+      nuevoBolsillo.deposito >= 0&&
       nuevoBolsillo.imagen
     ) {
       setIsCorrect(true)

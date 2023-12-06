@@ -8545,7 +8545,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 28500000
+          "deposito": 29650400
         },
         {
           "id": 1,
@@ -8566,7 +8566,7 @@
           "nombre": "Ahorro Viajes",
           "meta": 6163000,
           "imagen": "carroImg",
-          "deposito": 6150400
+          "deposito": 5000000
         },
         {
           "id": 4,
