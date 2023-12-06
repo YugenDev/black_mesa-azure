@@ -8,5 +8,8 @@
     "json": "json-server --watch database.json"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
 }

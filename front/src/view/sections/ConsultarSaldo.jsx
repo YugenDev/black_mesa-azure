@@ -13,11 +13,14 @@ function ConsultarSaldo({currentUser,actualizar,setActualizar, sesionOpenAI,setS
   useEffect(()=>{
     const traerCuenta = async () => {
     let response = await axios.get(`http://localhost:3000/cuentas?idUsuario=${currentUser.id}`)
+    console.log(response.data);
     setCuentaActual(response?.data[0])
   }
     traerCuenta()
   },[actualizar])
     
+  console.log(cuentaActual);
+
   useEffect(()=>{
     if(mensajes){
       const empezarConversacion = async()=>{

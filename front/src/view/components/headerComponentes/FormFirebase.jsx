@@ -26,10 +26,21 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
     let response = await axios.get(
       `http://localhost:3000/usuarios?correo=${email}`
     );
-    if (response.data[0] && !response.data[0].password) {
+    if (response.data[0] && !response.data[0].contrasena) {
       setCurrentUser(response.data[0]);
       setIsLogged(true);
       onClose();
+    }
+    else if(response.data[0] && response.data[0].contrasena){
+      if(response.data[0].contrasena===password){
+        setCurrentUser(response.data[0]);
+        setIsLogged(true);
+        onClose();
+      }else{
+        alert("contraseña incorrecta")
+      }
+    }else{
+      alert("usuario no encontrado")
     }
     // auth.login(email, password) // habilitar esto después
   };
