@@ -8039,6 +8039,38 @@
       "fecha": "2023-12-02",
       "cuentaDestino": 12,
       "cuentaOrigen": 7
+    },
+    {
+      "id": 10051,
+      "categoria": "entretenimiento",
+      "valor": 50000,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": 10061,
+      "categoria": "regalos",
+      "valor": 46000,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": 10071,
+      "categoria": "otro",
+      "valor": 775000,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": 10081,
+      "categoria": "entretenimiento",
+      "valor": 10000,
+      "fecha": "2023-12-06",
+      "cuentaDestino": 9,
+      "cuentaOrigen": "c4d48cab-d2aa-4d39-926c-2fc6d9cd35c5"
     }
   ],
   "cuentas": [
@@ -8051,7 +8083,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 54775000
+          "deposito": 54000000
         },
         {
           "id": 1,
@@ -8122,7 +8154,8 @@
         929,
         932,
         969,
-        970
+        970,
+        10071
       ],
       "idUsuario": 1
     },
@@ -8135,7 +8168,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 67257000
+          "deposito": 67211000
         },
         {
           "id": 1,
@@ -8205,7 +8238,8 @@
         887,
         930,
         944,
-        998
+        998,
+        10061
       ],
       "idUsuario": 2
     },
@@ -8426,7 +8460,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 73350000
+          "deposito": 72575000
         },
         {
           "id": 1,
@@ -8497,7 +8531,8 @@
         853,
         914,
         953,
-        956
+        956,
+        10071
       ],
       "idUsuario": 6
     },
@@ -8510,7 +8545,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 27096000
+          "deposito": 29650400
         },
         {
           "id": 1,
@@ -8531,7 +8566,7 @@
           "nombre": "Ahorro Viajes",
           "meta": 6163000,
           "imagen": "carroImg",
-          "deposito": 6150400
+          "deposito": 5000000
         },
         {
           "id": 4,
@@ -8576,7 +8611,9 @@
         954,
         973,
         10031,
-        10041
+        10041,
+        10051,
+        10061
       ],
       "idUsuario": 7
     },
@@ -8661,7 +8698,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 39658000
+          "deposito": 39648000
         },
         {
           "id": 1,
@@ -8714,7 +8751,8 @@
         878,
         887,
         963,
-        972
+        972,
+        10081
       ],
       "idUsuario": 9
     },
@@ -8876,7 +8914,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 16070000
+          "deposito": 16020000
         },
         {
           "id": 1,
@@ -8928,7 +8966,8 @@
         863,
         864,
         914,
-        10041
+        10041,
+        10051
       ],
       "idUsuario": 12
     },
@@ -12158,22 +12197,6 @@
       "correo": "bchessell1d@mozilla.com",
       "idCuenta": 50,
       "tarjetas": []
-    },
-    {
-      "nombre": "",
-      "correo": "",
-      "saldo": 0,
-      "bolsillos": [],
-      "historial": [],
-      "id": 51
-    },
-    {
-      "nombre": "",
-      "correo": "",
-      "saldo": 0,
-      "bolsillos": [],
-      "historial": [],
-      "id": 52
     }
   ],
   "tarjeta": []

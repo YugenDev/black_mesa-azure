@@ -4,7 +4,7 @@ import NuevoBolsillo from "./nuevoBolsillo";
 import Modal from "../../sections/Modal";
 import EditarBolsillo from "./EditarBolsillo";
 
-function BolsilloCard({ nombre, meta, deposito, logo }) {  
+function BolsilloCard({ cuentaActual, setActualizar, id, nombre, meta, deposito, logo }) {  
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -47,11 +47,11 @@ function BolsilloCard({ nombre, meta, deposito, logo }) {
       {
         meta==="meta"?
         <Modal isOpen={modalOpen} onClose={closeModal}>
-          <NuevoBolsillo></NuevoBolsillo>
+          <NuevoBolsillo closeModal={closeModal} setActualizar={setActualizar} cuentaActual={cuentaActual}></NuevoBolsillo>
           <button onClick={closeModal} className="cerrar-crear">X</button>
         </Modal>:
         <Modal isOpen={modalOpen} onClose={closeModal} >
-          <EditarBolsillo></EditarBolsillo>
+          <EditarBolsillo id={id} nombre={nombre} deposito={deposito} closeModal={closeModal} setActualizar={setActualizar} cuentaActual={cuentaActual} ></EditarBolsillo>
           <button onClick={closeModal} className="cerrar-editar">cerrar</button>
         </Modal>
         

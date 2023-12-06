@@ -3,6 +3,7 @@ import "./Historial.css"
 
 function Historial({cuentaActual}){
 
+
     return(<section className="movimientos-container">
         
             {

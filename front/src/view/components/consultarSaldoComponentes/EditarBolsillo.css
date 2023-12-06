@@ -1,6 +1,6 @@
 .contenedor-editar{
    
-    width: 50vw;
+    width: 75vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -80,4 +80,10 @@
 
 .boton-eliminar-bolsillo strong{
     color: red;
+}
+
+input[type="submit"]:disabled{
+    background: transparent;
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.7);
 }

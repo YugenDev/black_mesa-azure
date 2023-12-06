@@ -18,6 +18,7 @@ function ConsultarSaldo({currentUser,actualizar,setActualizar, sesionOpenAI,setS
     traerCuenta()
   },[actualizar])
     
+
   useEffect(()=>{
     if(mensajes){
       const empezarConversacion = async()=>{
