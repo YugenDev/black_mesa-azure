@@ -3,6 +3,8 @@ import "./Registro.css";
 import imagenRegistro from "../../../assets/images/robot-registro.png";
 import { v4 } from "uuid";
 import axios from "axios";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const generarNumeroCuentaAleatorio = () => {
   const longitudCuenta = 10;
@@ -24,6 +26,7 @@ const Registro = () => {
   const [correo, setCorreo] = useState("");
   const [contrasena, setContrasena] = useState("");
   const [saldo, setSaldo] = useState("");
+  const [confirmacion, setConfirmacion] = useState(false)
 
   async function crearUsuario() {
     let idNuevo = v4();
@@ -57,17 +60,47 @@ const Registro = () => {
     await axios.post("http://localhost:3000/usuarios", usuarioNuevo);
   }
 
+  var llenarCampos = () => {
+    toast.warn('Completa todos los campos!', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+    });
+  }
+
+  var creacionExitosa = () => {
+    toast.success('Cuenta creada exitosamente, Ahora puedes iniciar sesion!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
+
   const agregarUsuario = () => {
     if (nombre && apellido && correo && contrasena && saldo) {
-      var respuesta = window.confirm("desea agregar el usuario");
-      if (respuesta) {
-        crearUsuario();
-        alert("usuario creado");
-      }
+      crearUsuario();
+      creacionExitosa()
+      setNombre("");
+      setApellido("");
+      setCorreo("");
+      setContrasena("");
+      setSaldo(0);
     } else {
-      alert("Llena todos los campos");
+      llenarCampos()
     }
   };
+
+
 
   // Manejar el envío del formulario
   // const handleSubmit = async (e) => {
@@ -152,26 +185,31 @@ const Registro = () => {
           type="text"
           onChange={(e) => setNombre(e.target.value)}
           placeholder="Nombres"
+          value={nombre}
         />
         <input
           type="text"
           onChange={(e) => setApellido(e.target.value)}
           placeholder="Apellidos"
+          value={apellido}
         />
         <input
           type="email"
           onChange={(e) => setCorreo(e.target.value)}
           placeholder="Email"
+          value={correo}
         />
         <input
           type="password"
           onChange={(e) => setContrasena(e.target.value)}
           placeholder="Contraseña"
+          value={contrasena}
         />
         <input
           type="number"
           onChange={(e) => setSaldo(e.target.value)}
           placeholder="Saldo Inicial"
+          value={saldo}
         />
         <div className="botones">
           <button
@@ -190,6 +228,7 @@ const Registro = () => {
       <div className="contenedor-img">
         <img src={imagenRegistro} alt="robot-con-celular" />
       </div>
+      <ToastContainer />
     </section>
   );
 };

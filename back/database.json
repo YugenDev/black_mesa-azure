@@ -11695,8 +11695,22 @@
         1000
       ],
       "idUsuario": 50
+    },
+    {
+      "id": "98cd2137-7428-41b9-99e9-254f2ba50a23",
+      "numeroCuenta": 7763047717,
+      "bolsillos": [
+        {
+          "id": 0,
+          "nombre": "Libre",
+          "meta": 0,
+          "imagen": "",
+          "deposito": 15000000000
+        }
+      ],
+      "gastos": [],
+      "idUsuario": "98cd2137-7428-41b9-99e9-254f2ba50a23"
     }
-    
   ],
   "usuarios": [
     {
@@ -12198,6 +12212,13 @@
       "correo": "bchessell1d@mozilla.com",
       "idCuenta": 50,
       "tarjetas": []
+    },
+    {
+      "id": "98cd2137-7428-41b9-99e9-254f2ba50a23",
+      "nombre": "juan pablo berrio",
+      "correo": "juanpabe@gmail.com",
+      "contrasena": "1234",
+      "idCuenta": "98cd2137-7428-41b9-99e9-254f2ba50a23"
     }
   ],
   "tarjeta": []
