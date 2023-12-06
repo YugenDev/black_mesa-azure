@@ -33,7 +33,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
 
   const alertaUsuario=()=>{
     toast.error('Usuario no encontrado', {
-      position: "top-right",
+      position: "top-center",
       autoClose: 3000,
       hideProgressBar: false,
       closeOnClick: true,

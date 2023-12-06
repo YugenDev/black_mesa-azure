@@ -14,23 +14,23 @@ function App() {
   const [mensajes,setMensajes] = useState(false)
 
 
-  // useEffect(() => {
-  //   setMensajes(false)
-  //   const crearSesionOIA = async () => {
-  //     if (isLogged) {
-  //       const response = await axios.get("http://localhost:3001/hilo");
-  //       setSesionOpenAI({
-  //         ...sesionOpenAI,
-  //         thread: response.data,
-  //       });
-  //       setMensajes(true)
-  //     }
+  useEffect(() => {
+    setMensajes(false)
+    const crearSesionOIA = async () => {
+      if (isLogged) {
+        const response = await axios.get("http://localhost:3001/hilo");
+        setSesionOpenAI({
+          ...sesionOpenAI,
+          thread: response.data,
+        });
+        setMensajes(true)
+      }
 
-  //   };
+    };
     
 
-  //   crearSesionOIA();
-  // }, [isLogged]);
+    crearSesionOIA();
+  }, [isLogged]);
 
   return (
     <>
