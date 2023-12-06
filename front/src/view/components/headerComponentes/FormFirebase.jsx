@@ -20,6 +20,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
     e.preventDefault();
     auth.register(emailRegister, passwordRegister);
   };
+  
   const handleLogin = async (e) => {
     e.preventDefault();
 
@@ -33,6 +34,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
     }
     // auth.login(email, password) // habilitar esto después
   };
+
   const handleGoogle = async (e) => {
     e.preventDefault();
 
