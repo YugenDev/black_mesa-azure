@@ -4,7 +4,7 @@ import bot3 from "../../assets/images/bot3.png";
 import SolicitarTarjeta from "./SolicitarTarjeta";
 import Modal from "../sections/Modal"
 import {useState} from "react"
-const Tarjetas = () => {
+const Tarjetas = ({setCurrentUser, currentUser}) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -29,8 +29,9 @@ const Tarjetas = () => {
       </div>
       {(
         <Modal isOpen={modalOpen} onClose={closeModal}>
-          <SolicitarTarjeta></SolicitarTarjeta>
-          <button onClick={closeModal}>cerrar</button>
+          <SolicitarTarjeta setCurrentUser={setCurrentUser}>
+
+          </SolicitarTarjeta>
         </Modal>
       )}
 
