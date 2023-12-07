@@ -1,9 +1,10 @@
 import React from "react";
+import "./VistaUsuario.css";
 import ConsultarSaldo from "./sections/ConsultarSaldo";
 import Transferir from "./sections/Transferir";
 import Chatbot from "./sections/Chatbot";
-import "./VistaUsuario.css";
 import Tarjetas from "./sections/Tarjetas";
+import Estadisticas from "./sections/Estadisticas";
 
 function VistaUsuario({
   currentUser,
@@ -16,6 +17,10 @@ function VistaUsuario({
 }) {
   return (
     <main>
+      <Estadisticas 
+        actualizar={actualizar}
+        currentUser={currentUser}
+      />
       <Chatbot
         sesionOpenAI={sesionOpenAI}
         setSesionOpenAI={setSesionOpenAI}
