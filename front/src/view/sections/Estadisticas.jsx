@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Estadisticas.css";
 import InOutChart from "../components/estadisticasComponentes/inOutChart";
 import axios from "axios";
+import SaldoTotal from "../components/estadisticasComponentes/saldoTotal";
 
 const Estadisticas = ({ actualizar, currentUser }) => {
   const [gastosEntrada, setGastosEntrada] = useState(null);
@@ -36,6 +37,7 @@ const Estadisticas = ({ actualizar, currentUser }) => {
   return (
     <section className="estadisticas-container">
       <InOutChart gastosEntrada={gastosEntrada} gastosSalida={gastosSalida} />
+      <SaldoTotal gastosEntrada={gastosEntrada} gastosSalida={gastosSalida} cuenta={cuenta} />
     </section>
   );
 };

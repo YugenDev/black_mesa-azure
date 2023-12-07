@@ -36,7 +36,7 @@ function VistaUsuario({
         setActualizar={setActualizar}
       />
       <Transferir currentUser={currentUser} setActualizar={setActualizar} />
-      <Tarjetas />
+      <Tarjetas currentUser={currentUser}  />
     </main>
   );
 }
