@@ -1,7 +1,7 @@
 .estadisticas-container{
     width: 100%;
     height: 100vh;
-    border: 1px solid green;
+    border: 1px solid rgba(255, 217, 0, 0.89);
     color: white;
     padding: 4vh 6%;
 }
