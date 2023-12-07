@@ -145,7 +145,7 @@ const inOutChart = ({ gastosEntrada, gastosSalida }) => {
           },
           plugins: {
             title: {
-              text: "Resumen entradas y salidas en el 2023",
+              text: "Entradas y salidas en el 2023",
             },
           },
         }}

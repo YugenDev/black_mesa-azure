@@ -4,4 +4,17 @@
     border: 1px solid rgba(255, 217, 0, 0.89);
     color: white;
     padding: 4vh 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.saldo-graficas{
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
 }

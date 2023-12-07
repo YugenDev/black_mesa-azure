@@ -36,8 +36,16 @@ const Estadisticas = ({ actualizar, currentUser }) => {
 
   return (
     <section className="estadisticas-container">
-      <InOutChart gastosEntrada={gastosEntrada} gastosSalida={gastosSalida} />
-      <SaldoTotal gastosEntrada={gastosEntrada} gastosSalida={gastosSalida} cuenta={cuenta} />
+      <h2>Estadísticas</h2>
+      <div className="saldo-graficas">
+        <InOutChart gastosEntrada={gastosEntrada} gastosSalida={gastosSalida} />
+        <SaldoTotal
+          gastosEntrada={gastosEntrada}
+          gastosSalida={gastosSalida}
+          cuenta={cuenta}
+        />
+      </div>
+      <div className="saldo-graficas"></div>
     </section>
   );
 };
