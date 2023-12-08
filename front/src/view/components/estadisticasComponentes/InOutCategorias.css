@@ -1,7 +1,4 @@
-.GastosCategorias-container{
-    /* border: 1px solid firebrick; */
-    width: 24%;
-    padding: 1vh;
+.InOutCategorias-container{
     border-radius: 1rem;
     background-color: rgba(255, 255, 255, 0.258);
     backdrop-filter: blur(10);

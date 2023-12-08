@@ -4,6 +4,7 @@ import InOutChart from "../components/estadisticasComponentes/inOutChart";
 import axios from "axios";
 import SaldoTotal from "../components/estadisticasComponentes/saldoTotal";
 import GastosCategorias from "../components/estadisticasComponentes/GastosCategorias";
+import InOutCategorias from "../components/estadisticasComponentes/InOutCategorias";
 
 const Estadisticas = ({ actualizar, currentUser }) => {
   const [gastosEntrada, setGastosEntrada] = useState(null);
@@ -48,6 +49,18 @@ const Estadisticas = ({ actualizar, currentUser }) => {
       </div>
       <div className="saldo-graficas">
 
+        <GastosCategorias 
+        gastosEntrada={gastosEntrada}
+        gastosSalida={gastosSalida}
+        />
+        <InOutCategorias
+        gastosEntrada={gastosEntrada}
+        gastosSalida={gastosSalida}
+        />
+        <GastosCategorias 
+        gastosEntrada={gastosEntrada}
+        gastosSalida={gastosSalida}
+        />
         <GastosCategorias 
         gastosEntrada={gastosEntrada}
         gastosSalida={gastosSalida}

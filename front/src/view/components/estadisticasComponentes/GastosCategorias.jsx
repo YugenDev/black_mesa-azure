@@ -49,7 +49,7 @@ const GastosCategorias = ({ gastosEntrada, gastosSalida }) => {
           labels: gastosPorCategoria?.map(item=>item.categoria),
           datasets: [
             {
-              label: "Saldo total",
+              label: "Porcentaje",
               data: gastosPorCategoria?.map(item=>item.porcentaje),
               borderColor: "gold",
               fill: true,
@@ -104,6 +104,12 @@ const GastosCategorias = ({ gastosEntrada, gastosSalida }) => {
             title: {
               text: "Porcentaje movimientos",
             },
+            legend:{
+                // labels:{
+                //     boxWidth: 6
+                // },
+                display: false
+            }
           },
         }}
       />
