@@ -3,6 +3,7 @@ import "./Estadisticas.css";
 import InOutChart from "../components/estadisticasComponentes/inOutChart";
 import axios from "axios";
 import SaldoTotal from "../components/estadisticasComponentes/saldoTotal";
+import GastosCategorias from "../components/estadisticasComponentes/GastosCategorias";
 
 const Estadisticas = ({ actualizar, currentUser }) => {
   const [gastosEntrada, setGastosEntrada] = useState(null);
@@ -45,7 +46,13 @@ const Estadisticas = ({ actualizar, currentUser }) => {
           cuenta={cuenta}
         />
       </div>
-      <div className="saldo-graficas"></div>
+      <div className="saldo-graficas">
+
+        <GastosCategorias 
+        gastosEntrada={gastosEntrada}
+        gastosSalida={gastosSalida}
+        />
+      </div>
     </section>
   );
 };
