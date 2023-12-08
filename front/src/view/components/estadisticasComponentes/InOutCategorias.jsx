@@ -36,14 +36,13 @@ const InOutCategorias = ({ gastosEntrada, gastosSalida }) => {
       gastosSalida &&setSalidaBar(calcularTotalPorCategoria(gastosSalida));
   }, [gastosEntrada, gastosSalida]);
 
-//   console.log(Object.keys(entradaBar));
-//   console.log(Object.values(entradaBar));
+  console.log(Object.keys(salidaBar));
+  console.log(Object.values(salidaBar));
   return (
     <article className="InOutCategorias-container">
         <Bar
         data={{
           labels: Object.keys(entradaBar),
-        //   xLabels:,
           datasets: [
             {
               label: "Entradas",

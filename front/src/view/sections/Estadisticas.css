@@ -1,7 +1,8 @@
 .estadisticas-container{
+    margin-top: 4vh;
     width: 100%;
     /* height: 100vh; */
-    border: 1px solid rgba(255, 217, 0, 0.89);
+    /* border: 1px solid rgba(255, 217, 0, 0.89); */
     color: white;
     padding: 4vh 6%;
     text-align: center;
@@ -19,4 +20,5 @@
     display: flex;
     justify-content: space-between;
     gap: 2vh;
+    color: #ffd700;
 }

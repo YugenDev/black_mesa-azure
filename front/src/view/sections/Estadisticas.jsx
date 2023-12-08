@@ -5,6 +5,8 @@ import axios from "axios";
 import SaldoTotal from "../components/estadisticasComponentes/saldoTotal";
 import GastosCategorias from "../components/estadisticasComponentes/GastosCategorias";
 import InOutCategorias from "../components/estadisticasComponentes/InOutCategorias";
+import BolsillosChart from "../components/estadisticasComponentes/BolsillosChart";
+import BalanceMensual from "./BalanceMensual";
 
 const Estadisticas = ({ actualizar, currentUser }) => {
   const [gastosEntrada, setGastosEntrada] = useState(null);
@@ -57,11 +59,10 @@ const Estadisticas = ({ actualizar, currentUser }) => {
         gastosEntrada={gastosEntrada}
         gastosSalida={gastosSalida}
         />
-        <GastosCategorias 
-        gastosEntrada={gastosEntrada}
-        gastosSalida={gastosSalida}
+        <BolsillosChart 
+          cuenta={cuenta}
         />
-        <GastosCategorias 
+        <BalanceMensual 
         gastosEntrada={gastosEntrada}
         gastosSalida={gastosSalida}
         />

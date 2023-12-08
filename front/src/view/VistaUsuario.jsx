@@ -17,10 +17,7 @@ function VistaUsuario({
 }) {
   return (
     <main>
-      <Estadisticas 
-        actualizar={actualizar}
-        currentUser={currentUser}
-      />
+      
       <Chatbot
         sesionOpenAI={sesionOpenAI}
         setSesionOpenAI={setSesionOpenAI}
@@ -37,6 +34,10 @@ function VistaUsuario({
       />
       <Transferir currentUser={currentUser} setActualizar={setActualizar} />
       <Tarjetas currentUser={currentUser}  />
+      <Estadisticas 
+        actualizar={actualizar}
+        currentUser={currentUser}
+      />      
     </main>
   );
 }

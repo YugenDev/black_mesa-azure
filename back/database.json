@@ -12079,6 +12079,14 @@
       "fecha": "2023-12-08",
       "cuentaDestino": 7,
       "cuentaOrigen": 3
+    },
+    {
+      "id": 15101,
+      "categoria": "hogar",
+      "valor": 10000,
+      "fecha": "2023-12-08",
+      "cuentaDestino": 1,
+      "cuentaOrigen": "cc2cc029-409a-4149-93df-5339dc7e7238"
     }
   ],
   "cuentas": [
@@ -12091,7 +12099,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 54000000
+          "deposito": 53990000
         },
         {
           "id": 1,
@@ -12163,7 +12171,8 @@
         932,
         969,
         970,
-        10071
+        10071,
+        15101
       ],
       "idUsuario": 1
     },
@@ -15731,7 +15740,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 30000
+          "deposito": 20000
         },
         {
           "id": 1,
@@ -15741,7 +15750,9 @@
           "deposito": 20000
         }
       ],
-      "gastos": [],
+      "gastos": [
+        15101
+      ],
       "idUsuario": "cc2cc029-409a-4149-93df-5339dc7e7238"
     },
     {
