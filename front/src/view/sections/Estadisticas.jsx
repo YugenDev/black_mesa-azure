@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Estadisticas.css";
+import videoBG from "../../assets/images/videoBg.mp4"
 import InOutChart from "../components/estadisticasComponentes/inOutChart";
 import axios from "axios";
 import SaldoTotal from "../components/estadisticasComponentes/saldoTotal";
@@ -67,6 +68,7 @@ const Estadisticas = ({ actualizar, currentUser }) => {
         gastosSalida={gastosSalida}
         />
       </div>
+      <video src={videoBG} autoPlay loop muted />
     </section>
   );
 };
