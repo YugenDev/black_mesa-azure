@@ -12269,7 +12269,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 20230000
+          "deposito": 18230000
         },
         {
           "id": 1,
@@ -12277,6 +12277,13 @@
           "meta": 9055000,
           "imagen": "educacionImg",
           "deposito": 2302500
+        },
+        {
+          "id": 2,
+          "nombre": "Inversiones",
+          "meta": 20000000,
+          "deposito": 2000000,
+          "imagen": "beneficiosImg"
         }
       ],
       "gastos": [

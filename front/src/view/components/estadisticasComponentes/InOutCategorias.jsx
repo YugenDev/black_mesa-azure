@@ -2,17 +2,21 @@ import React, { useEffect, useState } from "react";
 import "./InOutCategorias.css";
 import { Bar } from "react-chartjs-2";
 
-const InOutCategorias = ({ gastosEntrada, gastosSalida }) => {
+const InOutCategorias = ({ gastosEntrada, gastosSalida,año }) => {
   const [entradaBar, setEntradaBar] = useState([]);
   const [salidaBar, setSalidaBar] = useState([]);
 
   useEffect(() => {
-    function calcularTotalPorCategoria(gastos) {
+    function calcularTotalPorCategoria(gastos,año) {
+
+      const gastosAnio = gastos.filter(
+        (item) => new Date(item.fecha).getFullYear() === año
+      );
         // Inicializar un objeto para almacenar los totales por categoría
         const totalesPorCategoria = {};
       
         // Calcular los totales por categoría
-        gastos.forEach((gasto) => {
+        gastosAnio.forEach((gasto) => {
           const categoria = gasto.categoria;
           totalesPorCategoria[categoria] = (totalesPorCategoria[categoria] || 0) + gasto.valor;
         });
@@ -30,14 +34,15 @@ const InOutCategorias = ({ gastosEntrada, gastosSalida }) => {
 
     gastosEntrada &&
       gastosSalida &&
-      setEntradaBar(calcularTotalPorCategoria(gastosEntrada))
+      año&&
+      setEntradaBar(calcularTotalPorCategoria(gastosEntrada,año))
 
       gastosEntrada &&
-      gastosSalida &&setSalidaBar(calcularTotalPorCategoria(gastosSalida));
-  }, [gastosEntrada, gastosSalida]);
+      gastosSalida &&
+      año&&
+      setSalidaBar(calcularTotalPorCategoria(gastosSalida,año));
+  }, [gastosEntrada, gastosSalida,año]);
 
-  console.log(Object.keys(salidaBar));
-  console.log(Object.values(salidaBar));
   return (
     <article className="InOutCategorias-container">
         <Bar
@@ -109,7 +114,7 @@ const InOutCategorias = ({ gastosEntrada, gastosSalida }) => {
           },
           plugins: {
             title: {
-              text: "Categorias en el 2023",
+              text: `Categorias en el ${año}`,
             },
           },
         }}

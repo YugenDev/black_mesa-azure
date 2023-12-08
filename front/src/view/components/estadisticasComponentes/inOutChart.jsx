@@ -3,7 +3,7 @@ import "./inOutChart.css";
 import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 
-const inOutChart = ({ gastosEntrada, gastosSalida }) => {
+const inOutChart = ({ gastosEntrada, gastosSalida,año }) => {
   const [labels, setLabels] = useState([]);
   const [lineEntrada, setLineEntrada] = useState([]);
   const [lineSalida, setLineSalida] = useState([]);
@@ -18,10 +18,10 @@ const inOutChart = ({ gastosEntrada, gastosSalida }) => {
   defaults.plugins.title.align = "center";
 
   useEffect(() => {
-    function sumarValoresPorMes(datos) {
+    function sumarValoresPorMes(datos,año) {
       // Filtrar solo los elementos del año 2023
       const datos2023 = datos.filter(
-        (item) => new Date(item.fecha).getFullYear() === 2023
+        (item) => new Date(item.fecha).getFullYear() === año
       );
 
       // Inicializar un objeto para almacenar las sumas por mes
@@ -57,9 +57,9 @@ const inOutChart = ({ gastosEntrada, gastosSalida }) => {
       return resultado;
     }
 
-    gastosEntrada && setLineEntrada(sumarValoresPorMes(gastosEntrada));
-    gastosSalida && setLineSalida(sumarValoresPorMes(gastosSalida));
-  }, [gastosEntrada, gastosSalida]);
+    gastosEntrada && año&& setLineEntrada(sumarValoresPorMes(gastosEntrada,año));
+    gastosSalida && año&& setLineSalida(sumarValoresPorMes(gastosSalida,año));
+  }, [gastosEntrada, gastosSalida,año]);
 
   return (
     <article className="inOutChart-container">
@@ -145,7 +145,7 @@ const inOutChart = ({ gastosEntrada, gastosSalida }) => {
           },
           plugins: {
             title: {
-              text: "Entradas y salidas en el 2023",
+              text: `Entradas y salidas en el ${año}`,
             },
           },
         }}

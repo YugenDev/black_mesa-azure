@@ -3,10 +3,10 @@ import { Line } from "react-chartjs-2";
 
 import "./SaldoTotal.css";
 
-function sumarValoresPorMes(datos) {
+function sumarValoresPorMes(datos,año) {
   // Filtrar solo los elementos del año 2023
   const datos2023 = datos.filter(
-    (item) => new Date(item.fecha).getFullYear() === 2023
+    (item) => new Date(item.fecha).getFullYear() === año
   );
 
   // Inicializar un objeto para almacenar las sumas por mes
@@ -42,7 +42,7 @@ function sumarValoresPorMes(datos) {
   return resultado;
 }
 
-const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta }) => {
+const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta,año }) => {
   const [saldoTotalPorMes, setSaldoTotalPorMes] = useState([]);
 
   useEffect(() => {
@@ -65,15 +65,15 @@ const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta }) => {
 
       // Filtrar gastos de este año
       const gastosEntrada2023 = gastosEntrada.filter(
-        (item) => new Date(item.fecha).getFullYear() === 2023
+        (item) => new Date(item.fecha).getFullYear() === año
       );
       const gastosSalida2023 = gastosSalida.filter(
-        (item) => new Date(item.fecha).getFullYear() === 2023
+        (item) => new Date(item.fecha).getFullYear() === año
       );
 
       // Totales de entrada y salida por mes
-      const entradasPorMes = sumarValoresPorMes(gastosEntrada2023);
-      const salidasPorMes = sumarValoresPorMes(gastosSalida2023);
+      const entradasPorMes = sumarValoresPorMes(gastosEntrada2023,año);
+      const salidasPorMes = sumarValoresPorMes(gastosSalida2023,año);
 
       // Balance total por mes
       for (let i = saldoPorMes.length - 2; i >= 0; i--) {
@@ -88,6 +88,7 @@ const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta }) => {
     cuenta &&
       gastosSalida &&
       gastosEntrada &&
+      año&&
       setSaldoTotalPorMes(
         calcularSaldoPorMes(
           gastosEntrada,
@@ -95,7 +96,7 @@ const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta }) => {
           cuenta.bolsillos[0].deposito
         )
       );
-  }, [gastosEntrada, gastosSalida, cuenta]);
+  }, [gastosEntrada, gastosSalida, cuenta,año]);
 
   return (
     <article className="saldoTotal-container">
@@ -154,7 +155,7 @@ const SaldoTotal = ({ gastosEntrada, gastosSalida, cuenta }) => {
           },
           plugins: {
             title: {
-              text: "Salario por mes en el 2023",
+              text: `Salario por mes en el ${año}`,
             },
           },
         }}
