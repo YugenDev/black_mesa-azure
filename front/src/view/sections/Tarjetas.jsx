@@ -29,7 +29,7 @@ const Tarjetas = ({setCurrentUser, currentUser}) => {
       </div>
       {(
         <Modal isOpen={modalOpen} onClose={closeModal}>
-          <SolicitarTarjeta setCurrentUser={setCurrentUser}>
+          <SolicitarTarjeta setCurrentUser={setCurrentUser} currentUser={currentUser}>
 
           </SolicitarTarjeta>
         </Modal>

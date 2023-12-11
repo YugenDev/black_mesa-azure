@@ -8,13 +8,13 @@ import axios from 'axios'
 const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar }) => {
     const [cuentaActual, setCuentaActual] = useState(null)
 
-    // useEffect(() => {
-    //     const buscarCuenta = async () => {
-    //         let respuesta = await axios.get(`http://localhost:3000/cuentas?idUsuario=${currentUser.id}`)
-    //         setCuentaActual(respuesta.data[0])
-    //     }
-    //     // buscarCuenta()
-    // }, [actualizar])
+    useEffect(() => {
+        const buscarCuenta = async () => {
+            let respuesta = await axios.get(`http://localhost:3000/cuentas?idUsuario=${currentUser.id}`)
+            setCuentaActual(respuesta.data[0])
+        }
+        buscarCuenta()
+    }, [])
     
     console.log(cuentaActual);
 
@@ -30,7 +30,7 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar }) => {
                             <div className='contenedor-fecha-nombre'>
                                 <div>
                                     <p><span>12/24</span></p>
-                                    <h2 id="nombre-usuario">Nombre de usuario</h2>
+                                    <h2 id="nombre-usuario">{currentUser?.nombre}</h2>
                                 </div>
                                 <img src={visa} alt="visa" className='visa' />
                             </div>
