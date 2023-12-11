@@ -8071,6 +8071,4022 @@
       "fecha": "2023-12-06",
       "cuentaDestino": 9,
       "cuentaOrigen": "c4d48cab-d2aa-4d39-926c-2fc6d9cd35c5"
+    },
+    {
+      "id": "d03d824e-12f7-4f39-81e1-dc7db59b3d4b",
+      "categoria": "hogar",
+      "valor": 63943,
+      "fecha": "2023-05-21",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "b8440257-f0be-4c14-93ef-68897c1f6a16",
+      "categoria": "hogar",
+      "valor": 770723,
+      "fecha": "2023-03-06",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "e6752660-86c9-4357-9776-e3fc69281b7d",
+      "categoria": "entretenimiento",
+      "valor": 377382,
+      "fecha": "2023-02-11",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "3e5d1ff9-7535-4dee-a4a9-8e754690761b",
+      "categoria": "hogar",
+      "valor": 285114,
+      "fecha": "2023-03-07",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "c2733f29-2a20-4608-ac63-910c60af530a",
+      "categoria": "transporte",
+      "valor": 552732,
+      "fecha": "2023-08-18",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "4821ee5f-1f2d-478b-bcfa-575bb0f4a931",
+      "categoria": "otro",
+      "valor": 202491,
+      "fecha": "2023-09-12",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "206044a5-b656-45ab-9e09-cfe0a1eb00a5",
+      "categoria": "transporte",
+      "valor": 427621,
+      "fecha": "2023-03-27",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "53aa6329-626c-4a10-9df6-d66aef6dd8e9",
+      "categoria": "comida",
+      "valor": 25138,
+      "fecha": "2023-04-07",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "8ee034f4-5692-4f83-8c7c-0fe370148d78",
+      "categoria": "hogar",
+      "valor": 938830,
+      "fecha": "2023-04-11",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "47cf98e7-d672-431c-9620-1161446b08ec",
+      "categoria": "otro",
+      "valor": 313322,
+      "fecha": "2023-11-08",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "02066bee-f0b1-4424-bc4a-94b8fe780f95",
+      "categoria": "otro",
+      "valor": 662209,
+      "fecha": "2023-04-15",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "92b9c118-d5d9-46bf-ac70-3f484f9f1ef5",
+      "categoria": "hogar",
+      "valor": 932293,
+      "fecha": "2023-01-29",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "6b7e886b-5412-4d1d-9d43-eb21c411b76e",
+      "categoria": "otro",
+      "valor": 158887,
+      "fecha": "2023-08-30",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "93a19cff-08b4-4c62-93a4-0964a30a075a",
+      "categoria": "otro",
+      "valor": 815913,
+      "fecha": "2023-11-07",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "9318ca24-7f72-421e-9ab9-9aeaf6f3c7f6",
+      "categoria": "comida",
+      "valor": 993415,
+      "fecha": "2023-06-18",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "02b07ca5-97f5-4cd6-a26d-5cd7fe1feb7a",
+      "categoria": "otro",
+      "valor": 673380,
+      "fecha": "2023-10-04",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "853c49d0-5f78-4c83-a459-04de685a3617",
+      "categoria": "otro",
+      "valor": 340417,
+      "fecha": "2023-01-22",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "90a0ca68-c983-4dfd-96f8-c2688e3dd6ae",
+      "categoria": "hogar",
+      "valor": 504802,
+      "fecha": "2023-05-21",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "32db4f6e-5e0f-4686-acc7-1f2b8d387f14",
+      "categoria": "comida",
+      "valor": 965672,
+      "fecha": "2023-11-17",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "179da937-3cbf-4b5c-b695-298d4ccb5af7",
+      "categoria": "otro",
+      "valor": 587593,
+      "fecha": "2023-09-29",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "93ba983e-9e77-415a-80f3-edfb62a51550",
+      "categoria": "otro",
+      "valor": 551869,
+      "fecha": "2023-06-03",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "fd1d4fdc-a071-48b2-8e9c-3c830e5f675f",
+      "categoria": "hogar",
+      "valor": 489626,
+      "fecha": "2023-07-18",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "441af773-958d-4c4a-a04c-44367c40f638",
+      "categoria": "entretenimiento",
+      "valor": 300230,
+      "fecha": "2023-09-29",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "c0e3b93e-84e6-454b-a706-c0326fe8c670",
+      "categoria": "hogar",
+      "valor": 171687,
+      "fecha": "2023-11-17",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "1fdf0b71-4925-422b-a9c2-2bc30249762a",
+      "categoria": "transporte",
+      "valor": 384984,
+      "fecha": "2023-09-02",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "043f47c6-b509-4f7f-a7cf-7e08c2470fab",
+      "categoria": "otro",
+      "valor": 733544,
+      "fecha": "2023-12-01",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "a6d5fadf-6925-41b5-9939-78604d77b5b1",
+      "categoria": "otro",
+      "valor": 964488,
+      "fecha": "2023-09-22",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "cee88813-84fe-45c6-978b-8bb5abbd3216",
+      "categoria": "hogar",
+      "valor": 801695,
+      "fecha": "2023-03-29",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "d3d55a4f-b9ab-43cc-b64e-aea2e24919b4",
+      "categoria": "hogar",
+      "valor": 836717,
+      "fecha": "2023-08-14",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "976b1382-cb32-4fe5-aa32-a4f36610bc3c",
+      "categoria": "comida",
+      "valor": 518718,
+      "fecha": "2023-06-25",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "46e25324-7795-40e9-9809-fdaad0df325f",
+      "categoria": "comida",
+      "valor": 676192,
+      "fecha": "2023-08-17",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "915b4c3f-6663-4649-8cdd-20a6b25d77c2",
+      "categoria": "comida",
+      "valor": 745903,
+      "fecha": "2023-07-12",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "f6804d3d-c8ff-4896-ab9b-3ea86458eb37",
+      "categoria": "hogar",
+      "valor": 165609,
+      "fecha": "2023-10-26",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "fedc4486-6b1e-4383-9398-6e04fbec9b93",
+      "categoria": "otro",
+      "valor": 451808,
+      "fecha": "2023-04-02",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "cb22e314-5cf5-46a4-9acf-04bc493ef71f",
+      "categoria": "otro",
+      "valor": 367030,
+      "fecha": "2023-09-01",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "77f12a43-1197-495c-a070-79ad1cbbb0b5",
+      "categoria": "entretenimiento",
+      "valor": 905124,
+      "fecha": "2023-05-28",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "3b48a98a-4d04-4582-ba0a-9e93ba182841",
+      "categoria": "transporte",
+      "valor": 878411,
+      "fecha": "2023-11-30",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "c36574f3-0ace-442b-bf82-5fe232f02386",
+      "categoria": "regalos",
+      "valor": 35759,
+      "fecha": "2023-07-11",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "27677444-69fe-4f10-a954-a2b508b512a0",
+      "categoria": "otro",
+      "valor": 324811,
+      "fecha": "2023-12-01",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "c26f1bf4-bfd0-4abc-8f4e-ad78bfb7b88d",
+      "categoria": "transporte",
+      "valor": 299434,
+      "fecha": "2023-10-08",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "cca50d85-70ea-4f02-84d0-760f08d3d1c6",
+      "categoria": "otro",
+      "valor": 845216,
+      "fecha": "2023-07-20",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "5690ac6c-8c6a-4d60-8600-827d53c47015",
+      "categoria": "otro",
+      "valor": 714519,
+      "fecha": "2023-04-30",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "41e2dd4d-9e9e-4e35-9f1c-42df362ddcba",
+      "categoria": "otro",
+      "valor": 735792,
+      "fecha": "2023-11-14",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "0732b78a-b775-4309-a31e-00dc35055428",
+      "categoria": "transporte",
+      "valor": 675423,
+      "fecha": "2023-09-17",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "3e09b74a-1914-4039-9fd9-7f2253f9cdc4",
+      "categoria": "regalos",
+      "valor": 28172,
+      "fecha": "2023-04-26",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "fe5dcf0a-1c16-4c0b-981d-cee1ac41daf9",
+      "categoria": "entretenimiento",
+      "valor": 61577,
+      "fecha": "2023-06-02",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "30f8bda2-00ef-43e4-820a-74b04aef28cb",
+      "categoria": "otro",
+      "valor": 524631,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "30ef253a-415d-440d-ac30-cca07de21e60",
+      "categoria": "transporte",
+      "valor": 301202,
+      "fecha": "2023-05-07",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "9846c4f8-2ecb-40d0-bcd0-346638523230",
+      "categoria": "comida",
+      "valor": 543806,
+      "fecha": "2023-08-16",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "7b9aa746-bc89-4ec2-9178-749628e1ff98",
+      "categoria": "entretenimiento",
+      "valor": 17069,
+      "fecha": "2023-09-13",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "931d6606-71ce-4593-a3ac-62c33093ef1d",
+      "categoria": "otro",
+      "valor": 28976,
+      "fecha": "2023-11-16",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "caff3048-ee3d-4e9d-9f7a-a3202f25abc5",
+      "categoria": "otro",
+      "valor": 73769,
+      "fecha": "2023-01-30",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "5aa4dd3f-b25b-4106-b22e-510c44c9ce8d",
+      "categoria": "transporte",
+      "valor": 913671,
+      "fecha": "2023-02-15",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "c9d48d95-27a2-41cc-bdd4-6ddc247fdf9a",
+      "categoria": "otro",
+      "valor": 953817,
+      "fecha": "2023-07-25",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "d4f53ea2-bd1b-4854-8807-4fc4f73e242c",
+      "categoria": "transporte",
+      "valor": 47475,
+      "fecha": "2023-04-25",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "dfcf09ab-c9ee-477c-8444-686b8d5976b4",
+      "categoria": "regalos",
+      "valor": 425307,
+      "fecha": "2023-09-07",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "32112227-74c0-4cdf-9dcc-4f628217a75e",
+      "categoria": "comida",
+      "valor": 201338,
+      "fecha": "2023-01-29",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "45103373-3104-4b69-aad2-5f36057e8005",
+      "categoria": "entretenimiento",
+      "valor": 87092,
+      "fecha": "2023-09-10",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "6b38b4af-50f0-4e8c-92e4-3d4738cb9b52",
+      "categoria": "otro",
+      "valor": 99785,
+      "fecha": "2023-03-10",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "b05b0eaf-d674-43fd-8cee-9d53664adc5a",
+      "categoria": "transporte",
+      "valor": 850147,
+      "fecha": "2023-07-05",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "69eed4a4-eeef-487e-8aca-6a48746bcd01",
+      "categoria": "hogar",
+      "valor": 109678,
+      "fecha": "2023-06-12",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "91801cfc-0c6a-4859-9282-1860e051366d",
+      "categoria": "hogar",
+      "valor": 281970,
+      "fecha": "2023-02-02",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "f88c2e4a-9d64-40fb-92d9-2b8e5e0bf977",
+      "categoria": "transporte",
+      "valor": 576353,
+      "fecha": "2023-05-05",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "ca5b2ba6-8b17-439f-b9a9-671f05d7a997",
+      "categoria": "otro",
+      "valor": 134002,
+      "fecha": "2023-04-18",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "4cef0171-ec23-49d4-b239-701078002f4d",
+      "categoria": "comida",
+      "valor": 202786,
+      "fecha": "2023-02-19",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "fadd8419-dce4-45ad-a225-9986e61dca5b",
+      "categoria": "comida",
+      "valor": 275718,
+      "fecha": "2023-11-13",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "732f5725-d448-43ed-98cd-d4d88e299110",
+      "categoria": "comida",
+      "valor": 426492,
+      "fecha": "2023-01-14",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "ddd8461e-f25a-40ae-a080-fa02efc17538",
+      "categoria": "hogar",
+      "valor": 397971,
+      "fecha": "2023-05-24",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "3d36b2e1-0fc7-424e-a140-df2275bf878c",
+      "categoria": "transporte",
+      "valor": 396151,
+      "fecha": "2023-07-23",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "18989e2e-ba09-4b76-9e65-87cd80e53675",
+      "categoria": "transporte",
+      "valor": 766576,
+      "fecha": "2023-11-04",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "33203d03-f0b5-461d-87f7-3d1a31ee3ea8",
+      "categoria": "hogar",
+      "valor": 965396,
+      "fecha": "2023-09-12",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "06d2e6b6-cb05-4d23-8c00-a99621e186f7",
+      "categoria": "transporte",
+      "valor": 163026,
+      "fecha": "2023-10-05",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "16a17168-4c09-49f0-aee0-4f52a4aeb888",
+      "categoria": "transporte",
+      "valor": 956609,
+      "fecha": "2023-08-26",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "8a98d411-db63-4fbf-a5d1-94d80dc60a1a",
+      "categoria": "transporte",
+      "valor": 68197,
+      "fecha": "2023-07-01",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "189fcd2a-5068-45a3-8994-0887c297acde",
+      "categoria": "otro",
+      "valor": 629156,
+      "fecha": "2023-04-10",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "511ec292-b21a-43e0-9097-8fabc07b488e",
+      "categoria": "comida",
+      "valor": 330833,
+      "fecha": "2023-09-27",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "1de87dc5-7a3d-44fa-b008-e9f4bab66a1a",
+      "categoria": "hogar",
+      "valor": 205766,
+      "fecha": "2023-10-19",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "5b28f0dc-2914-4499-81f7-c477a161915a",
+      "categoria": "comida",
+      "valor": 912991,
+      "fecha": "2023-09-10",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "48ad848b-643a-4418-9899-5143624d776b",
+      "categoria": "hogar",
+      "valor": 999535,
+      "fecha": "2023-08-04",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "25eb1b2f-6dd9-430a-a776-4171705086d2",
+      "categoria": "comida",
+      "valor": 181434,
+      "fecha": "2023-11-07",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "76781721-6ce7-4ee9-bcf5-d7093c91ce01",
+      "categoria": "regalos",
+      "valor": 937476,
+      "fecha": "2023-07-10",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "f3313e30-21b9-4f5f-baa3-1eaf8a126e70",
+      "categoria": "entretenimiento",
+      "valor": 981331,
+      "fecha": "2023-01-08",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "0252c3b3-0acd-4bf5-b124-3cbe2d853fb4",
+      "categoria": "hogar",
+      "valor": 977963,
+      "fecha": "2023-04-12",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "e8b41cc8-c1a7-4858-b226-eb05e2503912",
+      "categoria": "comida",
+      "valor": 329696,
+      "fecha": "2023-11-26",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "3864098d-4167-4e5d-8620-b6ff4fe2fd6b",
+      "categoria": "transporte",
+      "valor": 499648,
+      "fecha": "2023-04-20",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "25f6cacd-ba72-48b1-bc42-16beda224048",
+      "categoria": "entretenimiento",
+      "valor": 985613,
+      "fecha": "2023-06-01",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "a9da00f9-275e-454f-abdb-20a06af37ed0",
+      "categoria": "transporte",
+      "valor": 384241,
+      "fecha": "2023-08-04",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "b60736c1-f723-497c-84b7-08ba013602a4",
+      "categoria": "comida",
+      "valor": 232261,
+      "fecha": "2023-05-28",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "73969d8d-95b3-43b8-b24b-3f91bf171b49",
+      "categoria": "hogar",
+      "valor": 989113,
+      "fecha": "2023-03-17",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "218df004-066b-4999-830b-d44496a1f2e4",
+      "categoria": "comida",
+      "valor": 628951,
+      "fecha": "2023-09-26",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "acc14140-67eb-47d0-999b-ea1d68e267c7",
+      "categoria": "transporte",
+      "valor": 670410,
+      "fecha": "2023-04-23",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "833c66d6-3211-4a3c-869b-fad85837d9bf",
+      "categoria": "transporte",
+      "valor": 154584,
+      "fecha": "2023-10-25",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "27498ae8-0d28-4174-940d-679ff1740e61",
+      "categoria": "hogar",
+      "valor": 940070,
+      "fecha": "2023-05-21",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "e0c2f28c-b141-4aba-a246-cd6130f58919",
+      "categoria": "otro",
+      "valor": 79926,
+      "fecha": "2023-01-11",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "403c5d14-1933-43e0-935f-ef0a5210bca2",
+      "categoria": "regalos",
+      "valor": 627101,
+      "fecha": "2023-03-27",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "a581d6c1-4673-4449-9fbc-09d73f77ae93",
+      "categoria": "otro",
+      "valor": 268669,
+      "fecha": "2023-04-10",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "694a8cac-4776-4122-909e-6979c033f318",
+      "categoria": "otro",
+      "valor": 343392,
+      "fecha": "2023-09-11",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "e0f45abd-91e5-444a-9642-b0fdc634de3b",
+      "categoria": "otro",
+      "valor": 323033,
+      "fecha": "2023-10-09",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "e21dd074-e42d-4cd0-825e-d88e03a571b4",
+      "categoria": "transporte",
+      "valor": 169487,
+      "fecha": "2023-11-08",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "847beec2-43b8-439f-8db7-3b5460db67be",
+      "categoria": "otro",
+      "valor": 22840,
+      "fecha": "2023-05-11",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "373202a6-61cb-4ce9-9019-7062fda4d460",
+      "categoria": "otro",
+      "valor": 571897,
+      "fecha": "2023-05-23",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "06447812-0eb4-45f7-aa20-2d82f348f08c",
+      "categoria": "otro",
+      "valor": 408828,
+      "fecha": "2023-06-03",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "dfd62332-80c5-4f66-ab88-775fa8df1326",
+      "categoria": "transporte",
+      "valor": 426137,
+      "fecha": "2023-02-07",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "a2c5e1b4-99ee-447c-a9cf-c39db23c7a30",
+      "categoria": "comida",
+      "valor": 769134,
+      "fecha": "2023-06-26",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "cafa0938-1dba-49df-a7e0-49fdbca9157c",
+      "categoria": "comida",
+      "valor": 410864,
+      "fecha": "2023-07-27",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "b8e57bee-84b7-4ab8-b8bd-93961701ffb8",
+      "categoria": "hogar",
+      "valor": 413191,
+      "fecha": "2023-04-17",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "de1e0570-11a5-43b0-935d-922a48547c46",
+      "categoria": "otro",
+      "valor": 744383,
+      "fecha": "2023-02-26",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "57398498-fa0d-47bd-9124-03552122a7df",
+      "categoria": "comida",
+      "valor": 708044,
+      "fecha": "2023-07-05",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "a9926fa5-31ac-43b2-ad0c-ce039c10a3d7",
+      "categoria": "comida",
+      "valor": 40765,
+      "fecha": "2023-03-24",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "59689952-9afa-4e50-929e-8bab3273f996",
+      "categoria": "entretenimiento",
+      "valor": 272192,
+      "fecha": "2023-02-21",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "7480a8cb-96b7-4a88-b6b8-e880e2bfd5d1",
+      "categoria": "transporte",
+      "valor": 632744,
+      "fecha": "2023-06-01",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "c3a24165-8b21-4c68-95a3-a478a29ca796",
+      "categoria": "comida",
+      "valor": 91543,
+      "fecha": "2023-03-23",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "81c87f02-2c92-45a3-a931-3d6fed9022b1",
+      "categoria": "comida",
+      "valor": 416147,
+      "fecha": "2023-03-31",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "8d4cac82-41a4-47b1-90e6-cb86f669f13d",
+      "categoria": "otro",
+      "valor": 404225,
+      "fecha": "2023-07-02",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "4d34dbbb-5162-4127-913c-47f058bc642d",
+      "categoria": "regalos",
+      "valor": 516948,
+      "fecha": "2023-04-21",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "1077d540-8945-44ea-9a39-fcea10a50140",
+      "categoria": "comida",
+      "valor": 914756,
+      "fecha": "2023-07-01",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "28785d3d-e92c-46e2-8ad2-ffa0c5452207",
+      "categoria": "transporte",
+      "valor": 762896,
+      "fecha": "2023-02-17",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "923758db-cdaa-4faf-82cd-68026202325c",
+      "categoria": "comida",
+      "valor": 917377,
+      "fecha": "2023-10-10",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "954c4222-cadc-41ab-8041-2e1a69ce2ac0",
+      "categoria": "transporte",
+      "valor": 521859,
+      "fecha": "2023-11-17",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "ba73e14e-596a-4403-a3ea-f07dffd4078b",
+      "categoria": "transporte",
+      "valor": 980227,
+      "fecha": "2023-08-07",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "51022730-bf5f-4c33-a26a-38d4c2590a6a",
+      "categoria": "hogar",
+      "valor": 909220,
+      "fecha": "2023-10-26",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "d955c62f-67d5-47f5-ad29-767cf1b21691",
+      "categoria": "entretenimiento",
+      "valor": 390010,
+      "fecha": "2023-06-02",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "55687627-a764-45a5-889a-83fd6bf88f58",
+      "categoria": "transporte",
+      "valor": 861924,
+      "fecha": "2023-06-07",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "f8fb7fee-c094-45b4-a2b1-5c7bf3de7942",
+      "categoria": "regalos",
+      "valor": 419179,
+      "fecha": "2023-06-16",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "66774826-714e-4a9c-a167-de1cffc29d4f",
+      "categoria": "hogar",
+      "valor": 889775,
+      "fecha": "2023-06-07",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "e3326ee7-353e-43f4-bb48-6af3e2c16ab5",
+      "categoria": "regalos",
+      "valor": 915837,
+      "fecha": "2023-10-25",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "04caa256-cb06-4fda-8546-b5bcfb0479e5",
+      "categoria": "transporte",
+      "valor": 860275,
+      "fecha": "2023-01-27",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "4e60b346-b35a-44bb-810e-be99019a5a62",
+      "categoria": "transporte",
+      "valor": 151410,
+      "fecha": "2023-11-26",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "f1b280d3-52d8-4081-99f8-6cbd8719da3b",
+      "categoria": "comida",
+      "valor": 791020,
+      "fecha": "2023-07-21",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "26e02d26-5c88-4bbe-9c40-b31d30db6395",
+      "categoria": "transporte",
+      "valor": 821066,
+      "fecha": "2023-01-19",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "8a9d376e-0157-47a0-b44c-8e79f8f4efa4",
+      "categoria": "comida",
+      "valor": 627096,
+      "fecha": "2023-04-26",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "94895def-1031-4650-b059-6c78b1bc8836",
+      "categoria": "otro",
+      "valor": 688461,
+      "fecha": "2023-02-19",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "0e9ae079-aeea-45b5-8ca7-0f8d30e6f79f",
+      "categoria": "otro",
+      "valor": 782736,
+      "fecha": "2023-02-11",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "8f4d90b6-c392-4c44-9b8b-41e634c96627",
+      "categoria": "otro",
+      "valor": 281531,
+      "fecha": "2023-02-02",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "7e2071bc-3fed-458d-999c-b4efad88333b",
+      "categoria": "transporte",
+      "valor": 986438,
+      "fecha": "2023-04-18",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "a40a7c97-0325-4d99-8ac6-cc8d06fbb289",
+      "categoria": "transporte",
+      "valor": 375641,
+      "fecha": "2023-01-08",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "88650231-fb40-4baa-8cce-201ae77915dd",
+      "categoria": "otro",
+      "valor": 751784,
+      "fecha": "2023-04-07",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "de819c47-f2ae-4016-b8fb-ed912f20b080",
+      "categoria": "otro",
+      "valor": 40412,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "cb3f0d85-8ff3-478a-813f-55f2f97d4019",
+      "categoria": "transporte",
+      "valor": 636190,
+      "fecha": "2023-07-10",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "a3016658-ce13-42bf-9ca1-1c198120c691",
+      "categoria": "entretenimiento",
+      "valor": 550631,
+      "fecha": "2023-09-28",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "4ba05fe4-c541-4e42-b193-e8b0e2742969",
+      "categoria": "entretenimiento",
+      "valor": 785048,
+      "fecha": "2023-04-04",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "62746c3c-2276-41ba-bc06-eea14747ec93",
+      "categoria": "comida",
+      "valor": 161535,
+      "fecha": "2023-05-28",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "ba60c7ff-e289-4657-a28c-7e8ce608406f",
+      "categoria": "otro",
+      "valor": 373478,
+      "fecha": "2023-03-25",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "bf9d653b-70e0-434e-8072-eb00bdb9c18e",
+      "categoria": "hogar",
+      "valor": 819876,
+      "fecha": "2023-09-02",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "3b4cd658-6275-456c-ab59-00402ce91a04",
+      "categoria": "entretenimiento",
+      "valor": 377648,
+      "fecha": "2023-11-01",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "a317147f-6de6-46aa-88f0-33d4e37d2290",
+      "categoria": "comida",
+      "valor": 75805,
+      "fecha": "2023-02-13",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "e33a97d7-c67e-4570-b3cd-22b699360b0b",
+      "categoria": "regalos",
+      "valor": 542290,
+      "fecha": "2023-11-22",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "672cbbae-ba90-4f57-8bc2-f54bbfea13f9",
+      "categoria": "otro",
+      "valor": 191797,
+      "fecha": "2023-04-23",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "741f0695-36c8-4252-b1b3-b38e3ef0ab45",
+      "categoria": "transporte",
+      "valor": 227214,
+      "fecha": "2023-04-19",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "9901665f-1591-4de5-8ac6-005c8964cf5e",
+      "categoria": "comida",
+      "valor": 869362,
+      "fecha": "2023-02-21",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "4f7c8d0b-b4fe-41d4-9e1d-bb0dc459c625",
+      "categoria": "otro",
+      "valor": 371426,
+      "fecha": "2023-08-11",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "c4305d73-1dd1-4eab-918d-e1540828aff1",
+      "categoria": "otro",
+      "valor": 205888,
+      "fecha": "2023-04-04",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "06364557-474e-4311-af3b-7ef55131b48c",
+      "categoria": "regalos",
+      "valor": 52577,
+      "fecha": "2023-06-05",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "8b4eae32-cc81-4432-ab23-f1af7514af9d",
+      "categoria": "comida",
+      "valor": 358316,
+      "fecha": "2023-05-18",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "4f465ede-2158-486d-93f6-b1dc56991a12",
+      "categoria": "otro",
+      "valor": 209450,
+      "fecha": "2023-01-12",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "180032f4-24fa-4492-9c38-4b2a7b817e4c",
+      "categoria": "regalos",
+      "valor": 760837,
+      "fecha": "2023-09-29",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "51bd7031-a7ea-40fa-a819-79abfb160bea",
+      "categoria": "otro",
+      "valor": 612310,
+      "fecha": "2023-07-20",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "097ddfc3-b3d9-47f4-92cd-1dd4513a24d3",
+      "categoria": "hogar",
+      "valor": 919917,
+      "fecha": "2023-06-17",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "89887d29-471f-4865-bc2f-60e0dfc24db4",
+      "categoria": "comida",
+      "valor": 698443,
+      "fecha": "2023-10-31",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "42f70b99-5a39-4e24-b853-f3bbe7f56a5e",
+      "categoria": "regalos",
+      "valor": 134626,
+      "fecha": "2023-02-03",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "13768187-65f0-4db0-a1c6-7070b3bbacf4",
+      "categoria": "regalos",
+      "valor": 212410,
+      "fecha": "2023-06-13",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "97e21ac7-b80f-47c0-a51f-b4a6016b6855",
+      "categoria": "otro",
+      "valor": 539444,
+      "fecha": "2023-05-31",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "0a65e452-0fc2-482b-b38b-55eb9ebe56b1",
+      "categoria": "transporte",
+      "valor": 656254,
+      "fecha": "2023-11-20",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "6d7040a0-0ee9-474e-ab5e-787c0edcea8e",
+      "categoria": "transporte",
+      "valor": 863264,
+      "fecha": "2023-03-25",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "23cca654-ada2-4a3e-81d0-325d6ba4632c",
+      "categoria": "comida",
+      "valor": 875920,
+      "fecha": "2023-07-24",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "af2f9655-4e52-46e9-bbab-f5390934b829",
+      "categoria": "transporte",
+      "valor": 74116,
+      "fecha": "2023-09-16",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "6ccd21fc-3ad8-4349-8752-0a2fd0047bf3",
+      "categoria": "otro",
+      "valor": 564538,
+      "fecha": "2023-05-22",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "ba280210-9790-45b8-80fe-801c90753a2c",
+      "categoria": "otro",
+      "valor": 786508,
+      "fecha": "2023-09-30",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "f82cd8fd-07d0-4cd5-98b4-fa2042f45900",
+      "categoria": "otro",
+      "valor": 824527,
+      "fecha": "2023-01-24",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "25033bd4-15b4-4d6d-acb2-49a095bb6b63",
+      "categoria": "regalos",
+      "valor": 956610,
+      "fecha": "2023-10-28",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "c19f3779-c0e9-4f20-994e-0e0cc00ff234",
+      "categoria": "otro",
+      "valor": 164698,
+      "fecha": "2023-10-24",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "3752996b-02d9-492f-8f0f-a5568aca5013",
+      "categoria": "regalos",
+      "valor": 832824,
+      "fecha": "2023-10-23",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "2608f93d-d28e-4743-8e1a-388dfd7ab00a",
+      "categoria": "comida",
+      "valor": 384160,
+      "fecha": "2023-03-06",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "bc241a4a-c824-47d3-8209-cb0f85cd767e",
+      "categoria": "comida",
+      "valor": 146555,
+      "fecha": "2023-05-15",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "1737e6e7-3ecd-404a-b0f4-a4fe5fafd49c",
+      "categoria": "comida",
+      "valor": 671986,
+      "fecha": "2023-11-20",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "4330d3f7-169a-40ec-b08e-7ba65ba97fca",
+      "categoria": "otro",
+      "valor": 899024,
+      "fecha": "2023-09-19",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "6c5d1972-cd37-4945-98fa-4514ee106ea3",
+      "categoria": "otro",
+      "valor": 244979,
+      "fecha": "2023-01-22",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "45d940c9-bb4a-4b11-82ec-83ed3a259f18",
+      "categoria": "entretenimiento",
+      "valor": 456817,
+      "fecha": "2023-07-13",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "1c1b8f6b-bf86-4ccd-9c8d-f103b33d64c5",
+      "categoria": "comida",
+      "valor": 784788,
+      "fecha": "2023-02-20",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "ef79e638-05d5-487f-b9c6-9a70866e77a4",
+      "categoria": "otro",
+      "valor": 739697,
+      "fecha": "2023-06-28",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "c59a81c6-57a7-4855-a92f-584d6c4e1a72",
+      "categoria": "transporte",
+      "valor": 369576,
+      "fecha": "2023-12-02",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "c61445fd-4363-476d-83aa-7fb9add844a3",
+      "categoria": "otro",
+      "valor": 344560,
+      "fecha": "2023-01-19",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "425a0517-6a76-4753-8037-15f19e503a54",
+      "categoria": "transporte",
+      "valor": 16047,
+      "fecha": "2023-02-04",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "c49121a0-3a9b-45b9-a219-209c2f58691b",
+      "categoria": "regalos",
+      "valor": 933781,
+      "fecha": "2023-07-10",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "3b0679b3-4ac3-4f5b-a2f5-a5c1817c477e",
+      "categoria": "hogar",
+      "valor": 247061,
+      "fecha": "2023-10-19",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "a92142ec-5b54-428b-9123-8165affa7820",
+      "categoria": "transporte",
+      "valor": 242312,
+      "fecha": "2023-05-11",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "574e6251-6aac-46c4-ac2b-69c125a1a0d1",
+      "categoria": "comida",
+      "valor": 823074,
+      "fecha": "2023-07-13",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "d86972bd-0f66-4136-ac0c-6d9e4161c665",
+      "categoria": "transporte",
+      "valor": 140554,
+      "fecha": "2023-08-23",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "a99264eb-7618-49e5-af87-b5a7a7ac69a1",
+      "categoria": "transporte",
+      "valor": 575349,
+      "fecha": "2023-01-07",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "74b68dd2-24e4-4f9a-818c-77dfc73bb408",
+      "categoria": "comida",
+      "valor": 967642,
+      "fecha": "2023-06-06",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "b4bccdb2-d365-4a0d-8120-04a5d093b466",
+      "categoria": "transporte",
+      "valor": 621313,
+      "fecha": "2023-11-02",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "4147554d-5ac4-4627-86f8-646684236897",
+      "categoria": "transporte",
+      "valor": 829436,
+      "fecha": "2023-07-12",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "870c1296-5afb-40e7-9f3f-cc3db3ef42b6",
+      "categoria": "otro",
+      "valor": 209996,
+      "fecha": "2023-01-07",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "2146528e-19eb-48c9-95c1-d4af2794ca55",
+      "categoria": "transporte",
+      "valor": 49025,
+      "fecha": "2023-11-23",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "36706997-f5c5-462f-b60e-025232e35253",
+      "categoria": "otro",
+      "valor": 551059,
+      "fecha": "2023-02-04",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "ce79c085-431c-4d1d-954f-2bd461f957b5",
+      "categoria": "transporte",
+      "valor": 772481,
+      "fecha": "2023-07-24",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "f9edfe8e-24bc-4415-8a1e-8c234d28acfc",
+      "categoria": "transporte",
+      "valor": 895681,
+      "fecha": "2023-03-23",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "eea981be-29f4-4dc4-8504-94d684a5de09",
+      "categoria": "hogar",
+      "valor": 943393,
+      "fecha": "2023-07-31",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "7a6f462b-232f-4055-9a1c-22461763fb18",
+      "categoria": "entretenimiento",
+      "valor": 179988,
+      "fecha": "2023-08-28",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "ec988c72-2886-40b2-9bff-5e73252fe473",
+      "categoria": "transporte",
+      "valor": 169321,
+      "fecha": "2023-10-19",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "d0aad0db-67fc-4f97-98d2-9caf4fc0b404",
+      "categoria": "regalos",
+      "valor": 514483,
+      "fecha": "2023-05-10",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "ffaa233b-d0ad-4c6e-8bcb-180f1bb7c645",
+      "categoria": "otro",
+      "valor": 421194,
+      "fecha": "2023-01-16",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "ed5bf53c-cf1b-4c7a-b911-4f7acfb2eb81",
+      "categoria": "otro",
+      "valor": 176837,
+      "fecha": "2023-01-16",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "a003cf91-fd0f-4466-9254-26d977dbfc1a",
+      "categoria": "regalos",
+      "valor": 259900,
+      "fecha": "2023-06-25",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "513afa4e-63ad-4620-b1bc-cdf09e888887",
+      "categoria": "otro",
+      "valor": 395750,
+      "fecha": "2023-02-15",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "5f9effbc-db10-47f3-b94a-7a9947ac50cf",
+      "categoria": "otro",
+      "valor": 285383,
+      "fecha": "2023-09-26",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "a1d9a889-3d91-4b70-8acb-125ba58b2702",
+      "categoria": "hogar",
+      "valor": 86626,
+      "fecha": "2023-09-12",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "53a01b84-3e85-4153-b013-a9b43d5525b5",
+      "categoria": "hogar",
+      "valor": 951592,
+      "fecha": "2023-08-12",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "8e96f7ae-e0cf-4d37-8916-eadab5f76574",
+      "categoria": "otro",
+      "valor": 339850,
+      "fecha": "2023-03-06",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "f9cc75b6-f0b1-4703-aae9-207dca37aee6",
+      "categoria": "comida",
+      "valor": 764745,
+      "fecha": "2023-06-09",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "543ec7b2-b7b2-414e-89ce-27d1302dcd65",
+      "categoria": "comida",
+      "valor": 191724,
+      "fecha": "2023-03-13",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "ca2cfb0f-33ee-4e62-a7aa-e34bec461d11",
+      "categoria": "comida",
+      "valor": 629135,
+      "fecha": "2023-07-17",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "544aac12-460e-4434-b609-ec880942c139",
+      "categoria": "comida",
+      "valor": 393301,
+      "fecha": "2023-01-03",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "ed550bba-1dcf-48e2-8950-20fd124f2e32",
+      "categoria": "transporte",
+      "valor": 457869,
+      "fecha": "2023-10-13",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "c4a54608-37c7-46ef-8ed9-84a3d8df8eba",
+      "categoria": "hogar",
+      "valor": 498387,
+      "fecha": "2023-11-08",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "173270c3-2864-4bbd-a0b4-d72fe2bf6c6f",
+      "categoria": "entretenimiento",
+      "valor": 932358,
+      "fecha": "2023-06-15",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "1a50aab5-e760-493b-afe3-1b270cc46edd",
+      "categoria": "otro",
+      "valor": 898080,
+      "fecha": "2023-10-12",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "23b02915-974f-44b9-8a15-a790bb665c9b",
+      "categoria": "comida",
+      "valor": 241238,
+      "fecha": "2023-11-18",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "3f770a5f-4d42-44da-909b-0297247797d7",
+      "categoria": "hogar",
+      "valor": 487100,
+      "fecha": "2023-03-04",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "2e21f813-d028-4b06-853b-0801334848d4",
+      "categoria": "entretenimiento",
+      "valor": 475273,
+      "fecha": "2023-01-03",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "9d38e299-a5f6-41cc-853a-d9ff0da3bea1",
+      "categoria": "otro",
+      "valor": 879862,
+      "fecha": "2023-06-26",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "90b7c655-b8c2-46e8-ac31-ef5857533346",
+      "categoria": "entretenimiento",
+      "valor": 723340,
+      "fecha": "2023-06-01",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "4d7eac45-b9af-4bc4-81b5-27f1ab258146",
+      "categoria": "transporte",
+      "valor": 150465,
+      "fecha": "2023-03-13",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "2bdc411f-99ba-4dc1-ab0a-66c462ad7d64",
+      "categoria": "transporte",
+      "valor": 120296,
+      "fecha": "2023-07-06",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "87e6c2df-d9f8-4903-89ec-8c94235ee56f",
+      "categoria": "comida",
+      "valor": 557118,
+      "fecha": "2023-07-18",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "7a043bf6-8183-4985-bb47-4dc6e8d33e0f",
+      "categoria": "hogar",
+      "valor": 760391,
+      "fecha": "2023-02-10",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "9590da66-8341-46dc-aebc-5b64fef81d07",
+      "categoria": "regalos",
+      "valor": 910609,
+      "fecha": "2023-01-15",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "b8c96ac9-0884-4ffe-a6dc-e44fad40239d",
+      "categoria": "otro",
+      "valor": 838405,
+      "fecha": "2023-08-11",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "4810f45d-d94e-4a75-a411-036a58b31924",
+      "categoria": "hogar",
+      "valor": 768579,
+      "fecha": "2023-07-02",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "aefe22ee-6632-456d-b223-40e023f724ff",
+      "categoria": "comida",
+      "valor": 789904,
+      "fecha": "2023-08-16",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "e65ccb9c-83e4-4396-8e46-124ba5424966",
+      "categoria": "hogar",
+      "valor": 518204,
+      "fecha": "2023-04-12",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "c37afe98-7ce4-4ad1-8999-188cc09c2b97",
+      "categoria": "entretenimiento",
+      "valor": 132256,
+      "fecha": "2023-04-26",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "0860f20b-3c50-461a-a242-bb3f0f08d8bc",
+      "categoria": "comida",
+      "valor": 879537,
+      "fecha": "2023-01-03",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "d6d187b1-7564-43ae-91f5-20bb9237f3e6",
+      "categoria": "comida",
+      "valor": 424528,
+      "fecha": "2023-06-02",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "74cdd4af-39ea-4f1d-9da5-12cbcb8d857c",
+      "categoria": "transporte",
+      "valor": 320105,
+      "fecha": "2023-05-17",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "20cdbbe9-f04a-4ad8-bba8-d879e98fb51e",
+      "categoria": "comida",
+      "valor": 981778,
+      "fecha": "2023-10-22",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "d8b40761-374d-4c70-ad19-cb41e8e0b2c6",
+      "categoria": "otro",
+      "valor": 633101,
+      "fecha": "2023-01-20",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "c439484a-f34e-4f87-90bd-33a7515decd1",
+      "categoria": "otro",
+      "valor": 443580,
+      "fecha": "2023-10-26",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "7cdf0db6-548e-4a65-aa0d-ba6512ad58a2",
+      "categoria": "transporte",
+      "valor": 551801,
+      "fecha": "2023-09-07",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "78f35a93-2a90-4402-aa0f-d29a8f9635bd",
+      "categoria": "otro",
+      "valor": 986315,
+      "fecha": "2023-03-29",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "4a1e5567-38ee-408a-bded-5fd365e30a68",
+      "categoria": "transporte",
+      "valor": 432181,
+      "fecha": "2023-07-26",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "1a0b6bb6-4f5d-4510-8ccb-b88fd9ac2a96",
+      "categoria": "hogar",
+      "valor": 497444,
+      "fecha": "2023-08-10",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "7c59cb61-2d52-4dbc-ba84-8e9cd4c993ef",
+      "categoria": "regalos",
+      "valor": 422237,
+      "fecha": "2023-07-25",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "a9eea455-da84-4d49-9500-98f6fdb209a8",
+      "categoria": "comida",
+      "valor": 239360,
+      "fecha": "2023-07-05",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "0afc5a52-7252-4e68-8c4e-4ac28610a1a4",
+      "categoria": "comida",
+      "valor": 681654,
+      "fecha": "2023-03-30",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "6d765654-8036-45c8-9360-01d6274ca641",
+      "categoria": "otro",
+      "valor": 222122,
+      "fecha": "2023-08-30",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "5612bb73-4dbd-457d-93a7-c82a59eeade9",
+      "categoria": "transporte",
+      "valor": 905702,
+      "fecha": "2023-06-23",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "a0275041-9791-4301-89f3-c0f85ded41d0",
+      "categoria": "otro",
+      "valor": 35857,
+      "fecha": "2023-02-05",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "619f14a2-a977-4b2a-b64d-e55f62dc6b57",
+      "categoria": "comida",
+      "valor": 839352,
+      "fecha": "2023-07-20",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "0ec137d7-2184-4f8d-9040-82c49d4dec5a",
+      "categoria": "transporte",
+      "valor": 794726,
+      "fecha": "2023-01-05",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "82b21b3a-5f61-4143-9eed-c30087b31cc7",
+      "categoria": "transporte",
+      "valor": 564858,
+      "fecha": "2023-01-01",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "98cd0cd1-a522-4e6e-8f30-c4422be37a85",
+      "categoria": "transporte",
+      "valor": 520084,
+      "fecha": "2023-05-25",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "4dcf1625-c9a0-47d0-b73f-9f2433e66c1b",
+      "categoria": "hogar",
+      "valor": 915945,
+      "fecha": "2023-06-30",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "fafd4246-bab5-4601-a592-9f12c2a1049d",
+      "categoria": "hogar",
+      "valor": 177697,
+      "fecha": "2023-07-22",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "758436a5-45c8-4d3f-bf80-a5840ae93172",
+      "categoria": "otro",
+      "valor": 243419,
+      "fecha": "2023-11-20",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "90434437-9600-48a9-8ba8-058aceaab34e",
+      "categoria": "comida",
+      "valor": 874067,
+      "fecha": "2023-08-10",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "74f9a18e-7a6d-429c-8c4a-68dbd81118f4",
+      "categoria": "transporte",
+      "valor": 715221,
+      "fecha": "2023-07-06",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "762fc9b2-43c7-44b3-a157-c438ce3a3307",
+      "categoria": "regalos",
+      "valor": 625635,
+      "fecha": "2023-07-05",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "11d55cca-af9e-4364-81f0-a081ea7ad476",
+      "categoria": "otro",
+      "valor": 636645,
+      "fecha": "2023-01-19",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "5a0e5b46-704f-4c44-941a-cb6d01b9b801",
+      "categoria": "entretenimiento",
+      "valor": 822847,
+      "fecha": "2023-08-13",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "55f42276-44ce-437d-a37f-2163c2a3f461",
+      "categoria": "hogar",
+      "valor": 954542,
+      "fecha": "2023-01-23",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "83cc0e2f-baf8-4f07-b0fd-ead68dba8b75",
+      "categoria": "hogar",
+      "valor": 497591,
+      "fecha": "2023-10-04",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "487180cd-c410-48fd-a7f8-fad4902707d4",
+      "categoria": "entretenimiento",
+      "valor": 524111,
+      "fecha": "2023-11-11",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "4a3a61e5-5ac8-4706-a1e5-bb3936cfcadf",
+      "categoria": "otro",
+      "valor": 619738,
+      "fecha": "2023-11-10",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "4ec5ba36-6202-4e13-8075-04f7bcfb7a95",
+      "categoria": "otro",
+      "valor": 493591,
+      "fecha": "2023-02-20",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "d54b1d5c-157c-4f40-a7e8-f6d64db8eeee",
+      "categoria": "comida",
+      "valor": 510733,
+      "fecha": "2023-07-20",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "7ebd6135-6075-4d84-844a-eff4a7434910",
+      "categoria": "regalos",
+      "valor": 869666,
+      "fecha": "2023-04-03",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "6842ca60-6a36-4d30-afe5-4ea9c4a2f659",
+      "categoria": "otro",
+      "valor": 177962,
+      "fecha": "2023-05-31",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "7cf4ff6a-3e75-47ea-bc24-39f602e554eb",
+      "categoria": "comida",
+      "valor": 287703,
+      "fecha": "2023-06-22",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "6a056ae8-f73d-41cc-ab0d-c026f8c1ee5c",
+      "categoria": "comida",
+      "valor": 663477,
+      "fecha": "2023-07-24",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "c9f1d16a-7f8a-4a77-908a-e4eb00902435",
+      "categoria": "transporte",
+      "valor": 229093,
+      "fecha": "2023-02-01",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "072156a9-013a-416a-9ab7-05c6f11812e0",
+      "categoria": "transporte",
+      "valor": 773937,
+      "fecha": "2023-05-06",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "a56e5cbc-6f33-4563-aee2-89243198dbea",
+      "categoria": "regalos",
+      "valor": 782519,
+      "fecha": "2023-08-18",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "b056c4c3-8255-46da-aa9f-b6f06c0eb736",
+      "categoria": "transporte",
+      "valor": 988455,
+      "fecha": "2023-07-30",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "3b156fd9-b11e-4121-a926-3bf467178c24",
+      "categoria": "otro",
+      "valor": 699668,
+      "fecha": "2023-04-10",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "625f907a-54d3-440e-a7cd-18a811835dff",
+      "categoria": "comida",
+      "valor": 529427,
+      "fecha": "2023-11-01",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "f9e7ad0b-b95c-4745-b62f-95650b011f9a",
+      "categoria": "regalos",
+      "valor": 593768,
+      "fecha": "2023-09-21",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "f9386166-e438-4f9e-9bab-13b5d4dbe8ea",
+      "categoria": "comida",
+      "valor": 806765,
+      "fecha": "2023-07-15",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "2495d592-6082-4c1f-8f5e-132e6ec3ba05",
+      "categoria": "hogar",
+      "valor": 984103,
+      "fecha": "2023-07-10",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "8ef46053-dabe-4299-9054-08bf51dcc14b",
+      "categoria": "hogar",
+      "valor": 952534,
+      "fecha": "2023-07-20",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "70825d3d-e793-4e51-b037-078d093abd68",
+      "categoria": "comida",
+      "valor": 419648,
+      "fecha": "2023-05-08",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "15ebb1b1-1c4f-4f39-8bf8-f4bbc2265709",
+      "categoria": "otro",
+      "valor": 536114,
+      "fecha": "2023-11-16",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "42264ef5-97f5-4baa-9392-5e6a61b50eb8",
+      "categoria": "transporte",
+      "valor": 243577,
+      "fecha": "2023-09-25",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "3fe463d1-6608-4101-93e3-abb19f32e386",
+      "categoria": "transporte",
+      "valor": 942777,
+      "fecha": "2023-02-13",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "6a771a0f-a2cc-4ffa-af14-b0e1bc59bd7b",
+      "categoria": "regalos",
+      "valor": 618872,
+      "fecha": "2023-02-04",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "3c9e2bc9-9002-44e0-bb46-b10a078e2fbf",
+      "categoria": "entretenimiento",
+      "valor": 344562,
+      "fecha": "2023-03-28",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "34975cf4-3c6d-4cb8-85d8-4f684152f90f",
+      "categoria": "otro",
+      "valor": 798766,
+      "fecha": "2023-07-13",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "51a96e8c-8d35-4384-96ef-d29cf5afbf47",
+      "categoria": "entretenimiento",
+      "valor": 402432,
+      "fecha": "2023-01-24",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "662cdd5e-f92b-4335-bc39-afa61776deb7",
+      "categoria": "otro",
+      "valor": 243157,
+      "fecha": "2023-01-16",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "5a55429d-0d90-4376-ae95-535843bf1f8a",
+      "categoria": "transporte",
+      "valor": 849467,
+      "fecha": "2023-05-11",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "dcad2312-4b95-4c4b-ba7c-7b9c30dae07c",
+      "categoria": "entretenimiento",
+      "valor": 524756,
+      "fecha": "2023-06-30",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "d3fdbe46-4162-43f8-a0f4-241938e040aa",
+      "categoria": "otro",
+      "valor": 976129,
+      "fecha": "2023-06-24",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "4336126a-1952-44d4-88ce-0b989bbea201",
+      "categoria": "entretenimiento",
+      "valor": 493535,
+      "fecha": "2023-12-04",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "7c6f4447-88f8-4611-bad9-47c8cffc4aa3",
+      "categoria": "otro",
+      "valor": 207088,
+      "fecha": "2023-11-28",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "305547dc-e4c6-4b7a-94a3-d306ab38f35d",
+      "categoria": "comida",
+      "valor": 866928,
+      "fecha": "2023-10-01",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "12c85784-6fdb-41e3-9bb5-54b07b03bd93",
+      "categoria": "hogar",
+      "valor": 447992,
+      "fecha": "2023-03-25",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "ab40c95a-81e1-473c-9390-bbfeb5e40af8",
+      "categoria": "transporte",
+      "valor": 11679,
+      "fecha": "2023-07-04",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "59f2ff8b-f648-48f7-81bc-8694b78bb2a9",
+      "categoria": "transporte",
+      "valor": 568554,
+      "fecha": "2023-08-19",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "e9d326ee-a07c-4f44-a756-7dd1aab37870",
+      "categoria": "transporte",
+      "valor": 828152,
+      "fecha": "2023-10-30",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "e5584557-55e6-4009-82ad-ebd9a0ffc53e",
+      "categoria": "transporte",
+      "valor": 735186,
+      "fecha": "2023-08-17",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "f9f52378-28c1-4d54-85ec-5215f1bd1b00",
+      "categoria": "entretenimiento",
+      "valor": 870618,
+      "fecha": "2023-11-07",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "6896d201-d1b1-4481-a9fb-ac90a2d508c1",
+      "categoria": "otro",
+      "valor": 148332,
+      "fecha": "2023-02-01",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "585ada7c-e6a5-4e53-bfc2-9ad92113aea6",
+      "categoria": "hogar",
+      "valor": 470227,
+      "fecha": "2023-08-31",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "d0f7b3bf-9e76-4380-afd1-84e42a93ac01",
+      "categoria": "comida",
+      "valor": 523855,
+      "fecha": "2023-05-07",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "6488b69d-a6e5-4ee1-a310-259b7d5aec66",
+      "categoria": "otro",
+      "valor": 491842,
+      "fecha": "2023-05-30",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "01dcec75-dc04-4f77-b917-5bc57ecac430",
+      "categoria": "otro",
+      "valor": 465743,
+      "fecha": "2023-07-28",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "7fe11a6b-56b7-4a04-9a87-b6ca87a20618",
+      "categoria": "otro",
+      "valor": 656639,
+      "fecha": "2023-11-11",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "ca0c6c3c-d61a-4cfc-9ca5-dc6f40049c1a",
+      "categoria": "regalos",
+      "valor": 708878,
+      "fecha": "2023-03-01",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "f5aa6fdb-7218-4fa0-b059-277fd3174486",
+      "categoria": "entretenimiento",
+      "valor": 712468,
+      "fecha": "2023-04-17",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "da70cc38-5d1a-4b28-b405-2e807dc8d148",
+      "categoria": "hogar",
+      "valor": 502138,
+      "fecha": "2023-11-26",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "bd3b9812-a08d-4e71-bb92-dba978f4c977",
+      "categoria": "comida",
+      "valor": 752791,
+      "fecha": "2023-06-13",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "a63af73d-dbbf-4c3f-8663-790d7a3fda42",
+      "categoria": "comida",
+      "valor": 324267,
+      "fecha": "2023-01-03",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "095177b0-46a6-4455-a088-b24dd2a913a5",
+      "categoria": "transporte",
+      "valor": 497318,
+      "fecha": "2023-09-02",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "3293a582-bc12-4e2d-b29d-0679031e4bbf",
+      "categoria": "comida",
+      "valor": 482196,
+      "fecha": "2023-07-12",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "02c60fc2-e521-4ff1-bdc8-d3d4a00e539c",
+      "categoria": "otro",
+      "valor": 504010,
+      "fecha": "2023-08-10",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "ab7e22b0-dd3b-4c1b-aa13-9178dc0fd082",
+      "categoria": "comida",
+      "valor": 278572,
+      "fecha": "2023-04-29",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "74f85396-5beb-4373-a771-b285c4d64eea",
+      "categoria": "entretenimiento",
+      "valor": 12814,
+      "fecha": "2023-06-29",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "60f9e724-693c-4d8d-aa11-56bf486ba6b0",
+      "categoria": "comida",
+      "valor": 45608,
+      "fecha": "2023-09-19",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "45c7949f-0fff-4702-9722-9f66129b97da",
+      "categoria": "hogar",
+      "valor": 652703,
+      "fecha": "2023-05-16",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "75c4f369-7af7-46e8-8500-5a55292755af",
+      "categoria": "otro",
+      "valor": 391570,
+      "fecha": "2023-10-14",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "fa7e920e-505e-4a47-9538-3ddc29892815",
+      "categoria": "regalos",
+      "valor": 498196,
+      "fecha": "2023-12-01",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "9efcfa9a-714e-4b76-a724-0e71533139d1",
+      "categoria": "hogar",
+      "valor": 683254,
+      "fecha": "2023-01-06",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "077e53b2-f7ad-4d66-9fc5-968bf542bfdb",
+      "categoria": "comida",
+      "valor": 828757,
+      "fecha": "2023-11-23",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "40f45001-ba41-464b-813b-e64b8ca25991",
+      "categoria": "transporte",
+      "valor": 607440,
+      "fecha": "2023-08-23",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "56734f6b-9eb4-4c31-8bf4-40abbe3b60bc",
+      "categoria": "hogar",
+      "valor": 140766,
+      "fecha": "2023-07-03",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "228696df-c3b7-42d8-89cf-2723baa85a8c",
+      "categoria": "transporte",
+      "valor": 128620,
+      "fecha": "2023-10-14",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "4151f477-f9f5-450d-9547-aa2549d01774",
+      "categoria": "regalos",
+      "valor": 704902,
+      "fecha": "2023-11-08",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "d4e9da44-da4d-4578-a11c-3858fc5b0254",
+      "categoria": "otro",
+      "valor": 927947,
+      "fecha": "2023-07-07",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "defa65c8-0203-4b08-a783-f36a8821ff7f",
+      "categoria": "comida",
+      "valor": 845430,
+      "fecha": "2023-11-22",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "2905333f-ee70-4eeb-a19f-d7329a752275",
+      "categoria": "hogar",
+      "valor": 834511,
+      "fecha": "2023-05-12",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "2cd6c2a7-a341-4b94-838f-96cb306f68a6",
+      "categoria": "regalos",
+      "valor": 782393,
+      "fecha": "2023-11-06",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "7967fa5c-07a4-4b6e-a670-c488c5e7e7f0",
+      "categoria": "hogar",
+      "valor": 382660,
+      "fecha": "2023-01-03",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "807a9808-8853-4362-bd47-22f7acb6f636",
+      "categoria": "regalos",
+      "valor": 499989,
+      "fecha": "2023-04-05",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "17c50cc1-a918-4e1e-bc40-367f9e3e3e27",
+      "categoria": "hogar",
+      "valor": 283416,
+      "fecha": "2023-08-14",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "51fe9de9-ec5e-476d-bde9-0287b74a2339",
+      "categoria": "transporte",
+      "valor": 370802,
+      "fecha": "2023-05-30",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "5972e622-fa94-4c8b-8fa3-e170117052c2",
+      "categoria": "entretenimiento",
+      "valor": 720881,
+      "fecha": "2023-10-22",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "5e3113aa-6986-4ab4-8bb3-8bc76239b774",
+      "categoria": "comida",
+      "valor": 127261,
+      "fecha": "2023-08-03",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "607e87d0-e323-4d81-96a0-cab77d18425a",
+      "categoria": "comida",
+      "valor": 396459,
+      "fecha": "2023-11-28",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "655364b4-0943-44c7-8cfa-115f71742cbd",
+      "categoria": "transporte",
+      "valor": 305098,
+      "fecha": "2023-07-17",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "7820bd0e-7224-4949-9478-2ebbc37a2641",
+      "categoria": "comida",
+      "valor": 470118,
+      "fecha": "2023-05-31",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "967f3f56-3895-4cf0-aade-a669b67e0352",
+      "categoria": "transporte",
+      "valor": 194048,
+      "fecha": "2023-02-22",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "a4a9fe90-e83b-49fe-bf1b-ca8d25a7318f",
+      "categoria": "transporte",
+      "valor": 34490,
+      "fecha": "2023-11-25",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "465e5734-bfc4-4083-bd77-bff8dbd9b45d",
+      "categoria": "transporte",
+      "valor": 441066,
+      "fecha": "2023-12-01",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "c00ebb7c-8adf-44bd-acc9-1e12ee91ab64",
+      "categoria": "comida",
+      "valor": 177571,
+      "fecha": "2023-10-05",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "e5b6a85a-264a-43ba-a0f7-7ac911eeb60a",
+      "categoria": "comida",
+      "valor": 784907,
+      "fecha": "2023-03-02",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "d1e95651-9772-421b-a1b7-2d477b95d077",
+      "categoria": "otro",
+      "valor": 51335,
+      "fecha": "2023-07-09",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "15e29b72-b79a-4668-8927-c66a99409aab",
+      "categoria": "otro",
+      "valor": 831928,
+      "fecha": "2023-04-30",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "91e2a5ef-3198-45de-b8a2-9057b2aca57b",
+      "categoria": "transporte",
+      "valor": 906737,
+      "fecha": "2023-12-05",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "ccfe1307-e797-4f4c-b302-fe9ca056f041",
+      "categoria": "transporte",
+      "valor": 120512,
+      "fecha": "2023-09-01",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "9f167d2e-a48a-484c-8f21-f18690c50837",
+      "categoria": "comida",
+      "valor": 479352,
+      "fecha": "2023-10-26",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "0eaa6e69-7a17-46c4-b505-ebaf1c13fd57",
+      "categoria": "comida",
+      "valor": 269801,
+      "fecha": "2023-02-16",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "9c8a443d-b0f6-4b02-b2e1-35d70a3718d7",
+      "categoria": "entretenimiento",
+      "valor": 241274,
+      "fecha": "2023-05-21",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "00df2bf6-087a-42b8-af7b-91dfdd371ddd",
+      "categoria": "otro",
+      "valor": 612580,
+      "fecha": "2023-07-04",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "794c69b1-29bb-4f0e-8f42-6ebc349339b0",
+      "categoria": "otro",
+      "valor": 36663,
+      "fecha": "2023-10-29",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "08594f44-d838-479e-87c8-e52d88b5b457",
+      "categoria": "transporte",
+      "valor": 370902,
+      "fecha": "2023-07-08",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "1dd08613-011f-42b1-97b5-73826d9d1899",
+      "categoria": "transporte",
+      "valor": 995057,
+      "fecha": "2023-08-26",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "040203aa-cde7-4520-ab69-4df23b306c9c",
+      "categoria": "comida",
+      "valor": 553555,
+      "fecha": "2023-11-13",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "5f19778d-55e1-4627-ad88-ca9a5ae9e906",
+      "categoria": "regalos",
+      "valor": 758185,
+      "fecha": "2023-10-28",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "43ce3bf7-dc9f-45de-af89-ae27fc8c473e",
+      "categoria": "otro",
+      "valor": 400190,
+      "fecha": "2023-03-03",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "dbb7456b-b2a2-4ebb-b9b6-77c6b609ddfd",
+      "categoria": "transporte",
+      "valor": 700598,
+      "fecha": "2023-11-20",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "33c51149-ced5-4e71-baff-163bc6b30ac2",
+      "categoria": "otro",
+      "valor": 653585,
+      "fecha": "2023-01-26",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "01168270-c8fb-4afa-893a-71592c109c9b",
+      "categoria": "otro",
+      "valor": 145290,
+      "fecha": "2023-06-07",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "708c2f85-7349-421e-ae22-5d3f448f5d35",
+      "categoria": "transporte",
+      "valor": 637103,
+      "fecha": "2023-03-06",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "7499be87-e159-4f6f-943b-8f63bfe98646",
+      "categoria": "comida",
+      "valor": 413402,
+      "fecha": "2023-04-03",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "2b62211d-24cf-4b34-935b-c6ea6d47eed8",
+      "categoria": "hogar",
+      "valor": 10116,
+      "fecha": "2023-11-10",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "9f73eb32-268f-429c-98c5-1f8c3f637d76",
+      "categoria": "otro",
+      "valor": 43576,
+      "fecha": "2023-05-30",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "43a4e925-b208-4d51-a222-41085ee26175",
+      "categoria": "entretenimiento",
+      "valor": 888450,
+      "fecha": "2023-02-19",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "2a44e30c-02b4-42ff-a095-e690158754eb",
+      "categoria": "transporte",
+      "valor": 290728,
+      "fecha": "2023-03-09",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "b529cee1-f4ca-4806-94f8-28208e990c67",
+      "categoria": "otro",
+      "valor": 718050,
+      "fecha": "2023-03-31",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "a65c0465-9b34-4b7c-a84a-2b8bb648bc8d",
+      "categoria": "transporte",
+      "valor": 896944,
+      "fecha": "2023-12-04",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "73e69d5d-658c-4dfe-bd33-6b55dae8c3be",
+      "categoria": "otro",
+      "valor": 917906,
+      "fecha": "2023-03-25",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "c163df61-ffa5-4595-98b3-dcee36b28709",
+      "categoria": "hogar",
+      "valor": 989666,
+      "fecha": "2023-04-16",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "5a45fdd6-26df-49a9-9ec3-f259fade7792",
+      "categoria": "otro",
+      "valor": 735296,
+      "fecha": "2023-06-09",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "5eb6ae33-5c34-4b35-89c0-6788cfceb084",
+      "categoria": "comida",
+      "valor": 753520,
+      "fecha": "2023-01-24",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "b1835f7f-876f-427e-aac6-06aba37dbf46",
+      "categoria": "transporte",
+      "valor": 825130,
+      "fecha": "2023-05-06",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "a4cd4738-fcf0-4ba3-b0bb-35eb4f8d20e6",
+      "categoria": "entretenimiento",
+      "valor": 625795,
+      "fecha": "2023-11-13",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "af639337-0984-46ab-ab27-cd26d62b1f0f",
+      "categoria": "hogar",
+      "valor": 659298,
+      "fecha": "2023-03-29",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "7ff28344-3afb-4f7e-822c-1ad4e0e230a0",
+      "categoria": "regalos",
+      "valor": 221717,
+      "fecha": "2023-11-06",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "ac6418e6-6426-475f-9803-6178e620f75c",
+      "categoria": "transporte",
+      "valor": 862002,
+      "fecha": "2023-08-14",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "029b70ca-0da9-48a6-ae48-d9541b99b0ed",
+      "categoria": "otro",
+      "valor": 986280,
+      "fecha": "2023-08-31",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "4ee34985-0e77-440b-aba8-dab00c4260f7",
+      "categoria": "entretenimiento",
+      "valor": 765547,
+      "fecha": "2023-09-21",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "84a2358d-4ef0-45cb-8cf6-a9ef466248c2",
+      "categoria": "otro",
+      "valor": 836463,
+      "fecha": "2023-07-29",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "4e1bbf4e-198d-4620-842e-adbeabe4330a",
+      "categoria": "otro",
+      "valor": 272422,
+      "fecha": "2023-03-11",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "7ff66727-c0e8-4c78-a427-546298e9cc8e",
+      "categoria": "transporte",
+      "valor": 169390,
+      "fecha": "2023-02-21",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "a7c01182-4d47-4a01-b01e-317e03c3c8fc",
+      "categoria": "transporte",
+      "valor": 164798,
+      "fecha": "2023-07-05",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 6
+    },
+    {
+      "id": "6716760d-4c6a-4d31-8df8-8278e6f7e80f",
+      "categoria": "otro",
+      "valor": 828115,
+      "fecha": "2023-11-01",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "a332c0cf-16a2-43cb-83bf-ae5a5a7c94f2",
+      "categoria": "comida",
+      "valor": 935187,
+      "fecha": "2023-09-22",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "9ea5a422-1735-4c9f-bf32-0121772a5e2c",
+      "categoria": "hogar",
+      "valor": 373784,
+      "fecha": "2023-03-22",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "e89aee33-8927-428e-a0d2-bc8e1f0fe2ef",
+      "categoria": "otro",
+      "valor": 964575,
+      "fecha": "2023-06-10",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "6ddac0c5-f9db-4759-b1b1-a986ac528d9c",
+      "categoria": "entretenimiento",
+      "valor": 943685,
+      "fecha": "2023-02-27",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "28438c9f-82f5-4150-8adb-caedf37c4dc1",
+      "categoria": "comida",
+      "valor": 106643,
+      "fecha": "2023-10-21",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "329165ef-7dbe-4119-a174-31a0e2ab8672",
+      "categoria": "hogar",
+      "valor": 407911,
+      "fecha": "2023-03-19",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "101fdef8-3bc4-41c6-8998-6bcf5a7f4d2b",
+      "categoria": "comida",
+      "valor": 787863,
+      "fecha": "2023-11-01",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "b00e83e3-fa14-4b99-8d4d-7fc3e64f79a6",
+      "categoria": "entretenimiento",
+      "valor": 278760,
+      "fecha": "2023-01-09",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "b147ae06-e7ee-41ed-b5a5-1546daa02d63",
+      "categoria": "comida",
+      "valor": 763095,
+      "fecha": "2023-01-24",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "071a6882-27e3-47b5-96ed-4f364d90f3da",
+      "categoria": "otro",
+      "valor": 584515,
+      "fecha": "2023-11-26",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "9fc973e9-d8ad-4d81-a3a2-66e67b14b845",
+      "categoria": "transporte",
+      "valor": 974866,
+      "fecha": "2023-01-15",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "3d5aa1d2-6bf1-4587-81bf-1cb3b1f3a86b",
+      "categoria": "comida",
+      "valor": 628309,
+      "fecha": "2023-01-11",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "2dd9254e-0f6d-4ac0-af20-0bd7a452ffe7",
+      "categoria": "comida",
+      "valor": 70668,
+      "fecha": "2023-01-04",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "5ea019dc-6737-4348-997c-679a76525164",
+      "categoria": "otro",
+      "valor": 183855,
+      "fecha": "2023-06-24",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "7f35d6c7-229c-4a11-962e-979ae2057400",
+      "categoria": "comida",
+      "valor": 89254,
+      "fecha": "2023-11-24",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "c2868828-7c83-4403-af44-a0017cd60b72",
+      "categoria": "comida",
+      "valor": 524689,
+      "fecha": "2023-02-17",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "24bdf1ca-bd8e-4bde-8e8b-7a7cbadba0e9",
+      "categoria": "otro",
+      "valor": 423702,
+      "fecha": "2023-10-09",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "920b69bd-0727-4461-8211-3482d0498022",
+      "categoria": "entretenimiento",
+      "valor": 660650,
+      "fecha": "2023-08-08",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "8ff3294b-e720-4393-ab23-b61024da82c8",
+      "categoria": "otro",
+      "valor": 103317,
+      "fecha": "2023-01-21",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "59f25756-e199-48ca-bfa7-2918d53b3eba",
+      "categoria": "comida",
+      "valor": 955904,
+      "fecha": "2023-03-29",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "a6a30784-6e9d-4c4e-86e2-925e8746caf0",
+      "categoria": "comida",
+      "valor": 457436,
+      "fecha": "2023-05-12",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "05a6ee7d-543d-404e-991f-6bc520711c65",
+      "categoria": "transporte",
+      "valor": 355588,
+      "fecha": "2023-11-18",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "d91263c7-5d90-4b53-994a-cf149173d05d",
+      "categoria": "comida",
+      "valor": 368061,
+      "fecha": "2023-04-12",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "0515c261-56db-47d4-a77b-3f4d44a3f644",
+      "categoria": "hogar",
+      "valor": 68678,
+      "fecha": "2023-09-10",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "c52d1132-6c0b-4926-b8d4-f64b29da7819",
+      "categoria": "otro",
+      "valor": 793627,
+      "fecha": "2023-10-07",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "c4736b08-fe5f-4b07-b0c1-52a69ced06e9",
+      "categoria": "comida",
+      "valor": 555666,
+      "fecha": "2023-04-08",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "852f985f-3f26-4fb6-9824-d7ba5c08966b",
+      "categoria": "hogar",
+      "valor": 200411,
+      "fecha": "2023-11-29",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "a3feed7f-0c17-4aad-8727-67c58353c868",
+      "categoria": "otro",
+      "valor": 65249,
+      "fecha": "2023-06-06",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "977d532e-a54f-4b2f-8126-3b2519ec17ed",
+      "categoria": "otro",
+      "valor": 364552,
+      "fecha": "2023-01-11",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "be1087ce-9cf3-4d69-a752-c86fe786e980",
+      "categoria": "comida",
+      "valor": 78200,
+      "fecha": "2023-10-27",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "b3b6e729-495c-4ca6-ad31-85a5df538e47",
+      "categoria": "transporte",
+      "valor": 207473,
+      "fecha": "2023-06-28",
+      "cuentaDestino": 5,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "d1f25e5d-89bb-4086-ad07-86860f0f3ee3",
+      "categoria": "regalos",
+      "valor": 245484,
+      "fecha": "2023-06-09",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "cbf7fbb9-a3e1-4b9d-acb6-d5f2be9d5d73",
+      "categoria": "comida",
+      "valor": 603392,
+      "fecha": "2023-08-12",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "e6d26101-96ec-46ab-9b3c-797b0d94befd",
+      "categoria": "regalos",
+      "valor": 91038,
+      "fecha": "2023-09-20",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "d5ecaef3-226e-4bbc-8d90-f3100c2a43e6",
+      "categoria": "regalos",
+      "valor": 693273,
+      "fecha": "2023-03-16",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "167d3759-3971-4be5-b3b2-e984ef5f1a48",
+      "categoria": "otro",
+      "valor": 416549,
+      "fecha": "2023-10-29",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "4a54853d-0c05-4730-8eda-371ff042bb5c",
+      "categoria": "transporte",
+      "valor": 763654,
+      "fecha": "2023-02-18",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "134554a3-1fd7-4e36-832d-7575bdf84079",
+      "categoria": "transporte",
+      "valor": 843396,
+      "fecha": "2023-04-08",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "b71f5458-0ac8-4814-8f29-bd983ecdc602",
+      "categoria": "otro",
+      "valor": 473754,
+      "fecha": "2023-11-12",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "c9efd050-2301-4fce-b370-f822997d38b4",
+      "categoria": "otro",
+      "valor": 807012,
+      "fecha": "2023-06-29",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "42c29b03-efb4-46f0-b9fe-8c8287f7086b",
+      "categoria": "otro",
+      "valor": 220668,
+      "fecha": "2023-01-21",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "0b6b8f92-348c-4436-a03d-7ed6ae5e98b5",
+      "categoria": "comida",
+      "valor": 287773,
+      "fecha": "2023-11-24",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "4155857b-1007-40bc-85fa-1fe95ed8afdf",
+      "categoria": "comida",
+      "valor": 367530,
+      "fecha": "2023-05-17",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "99af3875-fc89-423e-a4a6-128028339652",
+      "categoria": "comida",
+      "valor": 753062,
+      "fecha": "2023-01-27",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "dfdd5803-8854-4baa-b66e-b7343ef1f87f",
+      "categoria": "otro",
+      "valor": 880699,
+      "fecha": "2023-01-09",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "94e4316e-7cd8-4740-81d4-6b5a51d17231",
+      "categoria": "regalos",
+      "valor": 563366,
+      "fecha": "2023-08-27",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "2238f437-27de-40b9-ad79-c8f16fb4f527",
+      "categoria": "hogar",
+      "valor": 788572,
+      "fecha": "2023-02-23",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "f657bd81-0c88-49bd-b292-25472d9b2b38",
+      "categoria": "otro",
+      "valor": 408239,
+      "fecha": "2023-05-03",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "eac86a4c-fe74-4eae-95eb-7ecb59eaee8f",
+      "categoria": "comida",
+      "valor": 154302,
+      "fecha": "2023-04-28",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "e3911bfc-8855-4a59-88d9-f31fd7534607",
+      "categoria": "otro",
+      "valor": 535901,
+      "fecha": "2023-06-07",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "73a49f1f-be6d-4bd2-a805-ad3a1415480f",
+      "categoria": "entretenimiento",
+      "valor": 620406,
+      "fecha": "2023-06-15",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "41ee8826-ffd6-4a41-b238-cd407907e90b",
+      "categoria": "regalos",
+      "valor": 617580,
+      "fecha": "2023-05-20",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "26ee562c-30f7-49da-ad2c-2d1eec33c194",
+      "categoria": "regalos",
+      "valor": 539574,
+      "fecha": "2023-06-05",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "8eb1924a-88bb-4b8f-baea-1d696bdaca36",
+      "categoria": "transporte",
+      "valor": 30545,
+      "fecha": "2023-03-10",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "47aaaace-f5d1-4cc5-aab2-fdebbd8f978d",
+      "categoria": "transporte",
+      "valor": 856063,
+      "fecha": "2023-05-28",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "b14383e4-40b3-4296-a261-262d19495e39",
+      "categoria": "hogar",
+      "valor": 571116,
+      "fecha": "2023-05-08",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 18
+    },
+    {
+      "id": "bc082a38-2efd-465c-b472-fc7a5862399a",
+      "categoria": "hogar",
+      "valor": 166119,
+      "fecha": "2023-03-04",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "233a3395-9745-4b91-8ee3-27c2e206f583",
+      "categoria": "comida",
+      "valor": 490071,
+      "fecha": "2023-01-28",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "cee4e2da-6333-4d51-852e-495b0aae5701",
+      "categoria": "hogar",
+      "valor": 485992,
+      "fecha": "2023-11-14",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "8a1d2372-3445-4f6b-b593-50dd646a820c",
+      "categoria": "otro",
+      "valor": 369344,
+      "fecha": "2023-05-17",
+      "cuentaDestino": 16,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "05783d8d-cdef-4831-bc54-f0f017b4c0d2",
+      "categoria": "otro",
+      "valor": 25798,
+      "fecha": "2023-07-26",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "9b83b6ec-05a8-43b2-8927-eb6b0ec58e5e",
+      "categoria": "comida",
+      "valor": 890059,
+      "fecha": "2023-02-22",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "1585b701-1a02-4b9e-85f4-a539a22c125d",
+      "categoria": "otro",
+      "valor": 650563,
+      "fecha": "2023-10-11",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "3a1b932c-53f0-47bf-ab67-3caf485d8732",
+      "categoria": "regalos",
+      "valor": 745304,
+      "fecha": "2023-02-27",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 9
+    },
+    {
+      "id": "e7375d56-1c82-4b65-b39f-c7f3e7e260f1",
+      "categoria": "regalos",
+      "valor": 271493,
+      "fecha": "2023-01-05",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "221d654b-a48e-4f05-8ef4-e0c3233511d4",
+      "categoria": "transporte",
+      "valor": 768744,
+      "fecha": "2023-09-22",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "b76757b0-f7f6-427e-b506-978cd67de3d5",
+      "categoria": "comida",
+      "valor": 957797,
+      "fecha": "2023-05-16",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "579c554b-ae81-42e1-b382-8e28f57b4310",
+      "categoria": "hogar",
+      "valor": 267242,
+      "fecha": "2023-02-10",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "16995e7a-38eb-44cc-b516-72cef092790d",
+      "categoria": "transporte",
+      "valor": 838712,
+      "fecha": "2023-10-03",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "180564a6-0d78-444d-b5e6-dff6f59b3169",
+      "categoria": "comida",
+      "valor": 797406,
+      "fecha": "2023-02-11",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "a972edee-b394-46b4-85e2-f74aee2d9217",
+      "categoria": "otro",
+      "valor": 280515,
+      "fecha": "2023-10-21",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "be9fba73-b674-45d5-9161-39f380f534d9",
+      "categoria": "comida",
+      "valor": 481812,
+      "fecha": "2023-08-18",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "bd3b9bac-f6ae-4284-94fa-2bf68b86b803",
+      "categoria": "transporte",
+      "valor": 723639,
+      "fecha": "2023-08-29",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "0411a147-b01a-4e76-80d3-6c5bdee34571",
+      "categoria": "comida",
+      "valor": 691226,
+      "fecha": "2023-01-31",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "d88c70b4-f3fc-4590-94c0-7d1c1fe2ec84",
+      "categoria": "transporte",
+      "valor": 986586,
+      "fecha": "2023-09-10",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "8a6b5a25-495d-4b4e-8490-84f331aff3bf",
+      "categoria": "otro",
+      "valor": 136761,
+      "fecha": "2023-09-02",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "1b89b5c1-fc2a-464a-8779-f56768340a0a",
+      "categoria": "entretenimiento",
+      "valor": 583788,
+      "fecha": "2023-10-02",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "543f119a-73b0-46e0-b3a9-f363730ba142",
+      "categoria": "otro",
+      "valor": 984875,
+      "fecha": "2023-11-02",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "b197a668-d8e4-40b0-b8da-1567ec28759f",
+      "categoria": "otro",
+      "valor": 382917,
+      "fecha": "2023-09-16",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "bc661acc-a007-4114-a171-2e79f9e32767",
+      "categoria": "regalos",
+      "valor": 947955,
+      "fecha": "2023-01-25",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 5
+    },
+    {
+      "id": "9d6f8bf7-f443-4c60-851b-b964ba525c2a",
+      "categoria": "comida",
+      "valor": 214160,
+      "fecha": "2023-10-06",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "c07da5cf-e453-4c63-bc40-e24c9d1c0426",
+      "categoria": "hogar",
+      "valor": 681744,
+      "fecha": "2023-09-17",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "74a959b5-c4df-4eb7-8701-407b37c7d928",
+      "categoria": "otro",
+      "valor": 732468,
+      "fecha": "2023-07-24",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "8a1b08f5-5d24-44e9-b70d-2f9b878a17bb",
+      "categoria": "entretenimiento",
+      "valor": 823608,
+      "fecha": "2023-07-18",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "745865f7-745e-4d71-a97f-3a206c748c48",
+      "categoria": "comida",
+      "valor": 39800,
+      "fecha": "2023-03-12",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "875ec25f-e65b-4170-927b-02dcd2439ca6",
+      "categoria": "otro",
+      "valor": 676419,
+      "fecha": "2023-06-20",
+      "cuentaDestino": 4,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "32dd3fb8-a04d-45f8-8512-83fef3a4dbad",
+      "categoria": "otro",
+      "valor": 293774,
+      "fecha": "2023-06-27",
+      "cuentaDestino": 18,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "ef20801a-5c59-4288-99f0-81ef793e405f",
+      "categoria": "hogar",
+      "valor": 863375,
+      "fecha": "2023-03-22",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "7e873aa7-c35b-4e4f-8a44-9bfa3b24ad0d",
+      "categoria": "otro",
+      "valor": 194141,
+      "fecha": "2023-04-28",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "7258fd64-c3d7-4d03-a75d-680ff86ea354",
+      "categoria": "transporte",
+      "valor": 745064,
+      "fecha": "2023-01-31",
+      "cuentaDestino": 19,
+      "cuentaOrigen": 10
+    },
+    {
+      "id": "76210ab6-063b-45d2-9c61-5b5af8527ea7",
+      "categoria": "otro",
+      "valor": 804186,
+      "fecha": "2023-01-05",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 20
+    },
+    {
+      "id": "2b269ff3-8152-4913-b012-43b800ca2d67",
+      "categoria": "otro",
+      "valor": 853905,
+      "fecha": "2023-08-27",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "78df66fd-4946-4f08-b05b-5b487ef5754e",
+      "categoria": "entretenimiento",
+      "valor": 698581,
+      "fecha": "2023-09-17",
+      "cuentaDestino": 11,
+      "cuentaOrigen": 19
+    },
+    {
+      "id": "1239d704-07b9-4b27-bbc5-8fffc8e490b0",
+      "categoria": "otro",
+      "valor": 681865,
+      "fecha": "2023-05-31",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": "d81c789a-4211-41f9-91e0-1f1758ea67c3",
+      "categoria": "transporte",
+      "valor": 189650,
+      "fecha": "2023-06-11",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 14
+    },
+    {
+      "id": "2779d9c2-e067-48db-b420-9fc6c38252fa",
+      "categoria": "comida",
+      "valor": 840615,
+      "fecha": "2023-06-07",
+      "cuentaDestino": 1,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "85b0778e-68fe-4e61-82bc-0019dd9d7e20",
+      "categoria": "hogar",
+      "valor": 584149,
+      "fecha": "2023-06-16",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "4dcf9c5a-0b84-4a6e-b5ed-ffb561869a34",
+      "categoria": "comida",
+      "valor": 652089,
+      "fecha": "2023-01-08",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "f4638f38-269c-4902-97f7-573f993bc535",
+      "categoria": "transporte",
+      "valor": 475817,
+      "fecha": "2023-11-11",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 2
+    },
+    {
+      "id": "645645d2-1e33-4260-be8e-7e98b19e3b19",
+      "categoria": "otro",
+      "valor": 893777,
+      "fecha": "2023-05-15",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": "7e9f4ec2-ea55-4c4f-ac8a-8bed7e1a0ef9",
+      "categoria": "otro",
+      "valor": 709635,
+      "fecha": "2023-10-27",
+      "cuentaDestino": 10,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "d0888481-4c06-4dcf-8175-c2b8a00099fc",
+      "categoria": "hogar",
+      "valor": 732644,
+      "fecha": "2023-03-10",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 11
+    },
+    {
+      "id": "996eb29b-94a7-43af-bc74-5a34b5cb3181",
+      "categoria": "transporte",
+      "valor": 423602,
+      "fecha": "2023-01-08",
+      "cuentaDestino": 12,
+      "cuentaOrigen": 4
+    },
+    {
+      "id": "01e66dc7-4662-4a98-b91f-3d789e0949f8",
+      "categoria": "comida",
+      "valor": 878775,
+      "fecha": "2023-02-24",
+      "cuentaDestino": 17,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "2a4c537f-7afe-470c-b92e-c077b1dc1051",
+      "categoria": "regalos",
+      "valor": 99528,
+      "fecha": "2023-09-03",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "c06922b8-dbcb-4c98-afba-452bb9cf6c90",
+      "categoria": "regalos",
+      "valor": 544584,
+      "fecha": "2023-09-27",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "336ecb55-d209-40c3-b446-2bc45ac47071",
+      "categoria": "transporte",
+      "valor": 626599,
+      "fecha": "2023-06-11",
+      "cuentaDestino": 6,
+      "cuentaOrigen": 12
+    },
+    {
+      "id": "68c43689-b9ba-4791-81af-2c328ffae526",
+      "categoria": "transporte",
+      "valor": 156737,
+      "fecha": "2023-06-06",
+      "cuentaDestino": 8,
+      "cuentaOrigen": 16
+    },
+    {
+      "id": "d2057414-4e61-4907-a362-c8be446e39e8",
+      "categoria": "comida",
+      "valor": 433559,
+      "fecha": "2023-06-03",
+      "cuentaDestino": 2,
+      "cuentaOrigen": 15
+    },
+    {
+      "id": "a07a8ea1-184e-431c-8536-11041b6be76c",
+      "categoria": "otro",
+      "valor": 545778,
+      "fecha": "2023-06-23",
+      "cuentaDestino": 15,
+      "cuentaOrigen": 13
+    },
+    {
+      "id": "25ca5726-9aea-4826-9181-38fd9f6a7489",
+      "categoria": "transporte",
+      "valor": 144201,
+      "fecha": "2023-05-31",
+      "cuentaDestino": 13,
+      "cuentaOrigen": 8
+    },
+    {
+      "id": "570175c3-2d2f-4cb2-90dd-9fadeb617e0f",
+      "categoria": "transporte",
+      "valor": 108140,
+      "fecha": "2023-02-15",
+      "cuentaDestino": 20,
+      "cuentaOrigen": 17
+    },
+    {
+      "id": "1133c68a-a719-423e-9b20-55db2251a470",
+      "categoria": "comida",
+      "valor": 683511,
+      "fecha": "2023-10-30",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 1
+    },
+    {
+      "id": "ad43be26-eba2-48b5-92a1-83c90038ecbd",
+      "categoria": "comida",
+      "valor": 510209,
+      "fecha": "2023-01-27",
+      "cuentaDestino": 14,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": 15091,
+      "categoria": "regalos",
+      "valor": 5000000,
+      "fecha": "2023-12-08",
+      "cuentaDestino": 7,
+      "cuentaOrigen": 3
+    },
+    {
+      "id": 15101,
+      "categoria": "hogar",
+      "valor": 10000,
+      "fecha": "2023-12-08",
+      "cuentaDestino": 1,
+      "cuentaOrigen": "cc2cc029-409a-4149-93df-5339dc7e7238"
     }
   ],
   "cuentas": [
@@ -8083,7 +12099,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 54000000
+          "deposito": 53990000
         },
         {
           "id": 1,
@@ -8155,7 +12171,8 @@
         932,
         969,
         970,
-        10071
+        10071,
+        15101
       ],
       "idUsuario": 1
     },
@@ -8252,7 +12269,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 25230000
+          "deposito": 18230000
         },
         {
           "id": 1,
@@ -8260,6 +12277,13 @@
           "meta": 9055000,
           "imagen": "educacionImg",
           "deposito": 2302500
+        },
+        {
+          "id": 2,
+          "nombre": "Inversiones",
+          "meta": 20000000,
+          "deposito": 2000000,
+          "imagen": "beneficiosImg"
         }
       ],
       "gastos": [
@@ -8303,7 +12327,8 @@
         907,
         918,
         928,
-        964
+        964,
+        15091
       ],
       "idUsuario": 3
     },
@@ -8316,7 +12341,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 51926000
+          "deposito": 31926000
         },
         {
           "id": 1,
@@ -8382,7 +12407,8 @@
         974,
         978,
         991,
-        10031
+        10031,
+        10091
       ],
       "idUsuario": 4
     },
@@ -8545,14 +12571,14 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 27000000
+          "deposito": 29200400
         },
         {
           "id": 1,
           "nombre": "Inversiones",
           "meta": 2781000,
           "imagen": "saludImg",
-          "deposito": 1220400
+          "deposito": 1328400
         },
         {
           "id": 2,
@@ -8562,18 +12588,18 @@
           "deposito": 7582400
         },
         {
-          "id": 3,
-          "nombre": "Ahorro Viajes",
-          "meta": 6163000,
-          "imagen": "carroImg",
-          "deposito": 6150400
-        },
-        {
           "id": 4,
           "nombre": "Deudas",
           "meta": 2024000,
           "imagen": "casaImg",
           "deposito": 1840500
+        },
+        {
+          "id": 5,
+          "nombre": "Viajes",
+          "meta": 5000000,
+          "deposito": 450000,
+          "imagen": "carroImg"
         }
       ],
       "gastos": [
@@ -8613,7 +12639,8 @@
         10031,
         10041,
         10051,
-        10061
+        10061,
+        15091
       ],
       "idUsuario": 7
     },
@@ -11710,6 +15737,45 @@
       ],
       "gastos": [],
       "idUsuario": "98cd2137-7428-41b9-99e9-254f2ba50a23"
+    },
+    {
+      "id": "cc2cc029-409a-4149-93df-5339dc7e7238",
+      "numeroCuenta": 8467859430,
+      "bolsillos": [
+        {
+          "id": 0,
+          "nombre": "Libre",
+          "meta": 0,
+          "imagen": "",
+          "deposito": 20000
+        },
+        {
+          "id": 1,
+          "nombre": "Carro nuevo",
+          "meta": 50000,
+          "imagen": "carroImg",
+          "deposito": 20000
+        }
+      ],
+      "gastos": [
+        15101
+      ],
+      "idUsuario": "cc2cc029-409a-4149-93df-5339dc7e7238"
+    },
+    {
+      "id": "12bfc585-7592-4e69-9d31-41b75cee6fe4",
+      "numeroCuenta": 9834561539,
+      "bolsillos": [
+        {
+          "id": 0,
+          "nombre": "Libre",
+          "meta": 0,
+          "imagen": "",
+          "deposito": 55000000
+        }
+      ],
+      "gastos": [],
+      "idUsuario": "12bfc585-7592-4e69-9d31-41b75cee6fe4"
     }
   ],
   "usuarios": [
@@ -12219,6 +16285,20 @@
       "correo": "juanpabe@gmail.com",
       "contrasena": "1234",
       "idCuenta": "98cd2137-7428-41b9-99e9-254f2ba50a23"
+    },
+    {
+      "id": "cc2cc029-409a-4149-93df-5339dc7e7238",
+      "nombre": "Andres Valencia",
+      "correo": "anfevasa@gmail.com",
+      "contrasena": "12345",
+      "idCuenta": "cc2cc029-409a-4149-93df-5339dc7e7238"
+    },
+    {
+      "id": "12bfc585-7592-4e69-9d31-41b75cee6fe4",
+      "nombre": "Yugen cio",
+      "correo": "yu@g.en",
+      "contrasena": "12345",
+      "idCuenta": "12bfc585-7592-4e69-9d31-41b75cee6fe4"
     }
   ],
   "tarjeta": []

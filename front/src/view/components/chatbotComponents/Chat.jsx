@@ -7,25 +7,6 @@ import axios from "axios";
 
 
 const Chat = ({showChat,sesionOpenAI, setSesionOpenAI}) => {
-  let mensajes = [
-    {
-      quien: "chatbot",
-      text: "Hola, mi nombre es MesIAs, tu asistente financiero personalizado, soy una inteligencia artificial capacitada para responder todas tus preguntas, así que cuéntame, ¿cómo puedo ayudarte?"
-    },
-    {
-      quien:"user",
-      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus assumenda quae nihil ipsam sapiente voluptate eligendi atque? Corporis, sit impedit hic doloremque dolores, porro ab eveniet fuga aliquid temporibus non."
-    },
-    {
-      quien: "chatbot",
-      text: "Claro, porro ab eveniet fuga aliquid temporibus non."
-    },
-    {
-      quien: "user",
-      text: "Gracias."
-    }
-  ]
-
   const [mensajesIA,setMensajesIA]=useState(null)
   const [prompt, setPrompt] = useState("")
   
