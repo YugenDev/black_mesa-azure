@@ -16340,31 +16340,58 @@
   ],
   "tarjeta": [
     {
-      "idUsuario": 50,
-      "cupoTarjeta": 86062800,
-      "nombreUsuario": "Binky Chessell",
-      "numeroTarjeta": 9768248181,
-      "cvv": 401,
-      "fechaVencimiento": "08/29",
+      "idUsuario": 7,
+      "cupoTarjeta": 48506040,
+      "nombreUsuario": "Dare Gouldthorpe",
+      "numeroTarjeta": 7973959427495416,
+      "cvv": 551,
+      "fechaVencimiento": "05/27",
       "id": 1
     },
     {
       "idUsuario": 7,
-      "cupoTarjeta": 48482040,
+      "cupoTarjeta": 48506040,
       "nombreUsuario": "Dare Gouldthorpe",
-      "numeroTarjeta": 4871501073,
-      "cvv": 520,
-      "fechaVencimiento": "11/29",
+      "numeroTarjeta": 7855833758783218,
+      "cvv": 717,
+      "fechaVencimiento": "11/26",
       "id": 2
     },
     {
-      "idUsuario": 4,
-      "cupoTarjeta": 50495040,
-      "nombreUsuario": "Gratia Wainman",
-      "numeroTarjeta": 2787358712243894,
-      "cvv": 557,
-      "fechaVencimiento": "12/28",
+      "idUsuario": 7,
+      "cupoTarjeta": 48506040,
+      "nombreUsuario": "Dare Gouldthorpe",
+      "numeroTarjeta": 5293139987447712,
+      "cvv": 274,
+      "fechaVencimiento": "01/27",
       "id": 3
+    },
+    {
+      "idUsuario": 5,
+      "cupoTarjeta": 34620000,
+      "nombreUsuario": "Krysta Demangeot",
+      "numeroTarjeta": 2414186921343514,
+      "cvv": 436,
+      "fechaVencimiento": "01/28",
+      "id": 4
+    },
+    {
+      "idUsuario": 5,
+      "cupoTarjeta": 34620000,
+      "nombreUsuario": "Krysta Demangeot",
+      "numeroTarjeta": 8697722751356121,
+      "cvv": 268,
+      "fechaVencimiento": "12/27",
+      "id": 5
+    },
+    {
+      "idUsuario": 1,
+      "cupoTarjeta": 69123000,
+      "nombreUsuario": "Nikolaos Leeburne",
+      "numeroTarjeta": 9787583574293832,
+      "cvv": 327,
+      "fechaVencimiento": "05/30",
+      "id": 6
     }
   ]
 }

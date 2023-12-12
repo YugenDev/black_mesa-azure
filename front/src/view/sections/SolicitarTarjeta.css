@@ -9,7 +9,8 @@
 
 .flip-card {
   width: 35vw;
-  height: 45vh;
+  aspect-ratio: 1.586;
+  /* height: 45vh; */
   perspective: 1000px;
 }
 
