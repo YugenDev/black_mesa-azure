@@ -1,0 +1,18 @@
+.mistarjetas{
+    background-color: white;
+    width: 80%;
+    margin: 5% 10%;
+    height: 80vh;
+    padding: 2vh;
+    display: flex;
+}
+
+.tarjeta{
+    border: 1px solid green;
+    width: 50%;
+}
+
+.informacion{
+    border: 1px solid red;
+    width: 50%;
+}

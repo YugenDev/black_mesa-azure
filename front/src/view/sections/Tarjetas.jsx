@@ -4,7 +4,8 @@ import bot3 from "../../assets/images/bot3.png";
 import SolicitarTarjeta from "./SolicitarTarjeta";
 import Modal from "../sections/Modal"
 import {useState} from "react"
-const Tarjetas = ({setCurrentUser, currentUser}) => {
+import Mistarjetas from "./Mistarjetas";
+const Tarjetas = ({setCurrentUser, currentUser, confirmarTarjeta}) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -27,6 +28,9 @@ const Tarjetas = ({setCurrentUser, currentUser}) => {
         />
         <span onClick={openModal}>Solicitar nueva tarjeta ahora</span>
       </div>
+
+      
+
       {(
         <Modal isOpen={modalOpen} onClose={closeModal}>
           <SolicitarTarjeta setCurrentUser={setCurrentUser} currentUser={currentUser} >
