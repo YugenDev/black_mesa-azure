@@ -18,7 +18,7 @@ const generarNumeroTarjetaAleatorio = () => {
   };
 const generarCvv=()=>{
     const longitudCuenta = 3;
-    const numerosPermitidos = "0123456789";
+    const numerosPermitidos = "123456789";
     let numeroCvv = "";
     for (let i = 0; i < longitudCuenta; i++) {
         const indice = Math.floor(Math.random() * numerosPermitidos.length);
@@ -37,7 +37,7 @@ function generarFecha() {
   }
 
 
-const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTarjeta }) => {
+const SolicitarTarjeta = ({ currentUser, setActualizar,onClose }) => {
     const [cuentaActual, setCuentaActual] = useState(null);
     
     const nuevoNumeroTarjeta = generarNumeroTarjetaAleatorio();
@@ -58,7 +58,7 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
     const cupoDeTarjeta = cuentaActual?.bolsillos.reduce((sum, i) => sum + i.deposito, 0) * 1.2;
 
     const handleConfirmarClick = async () => {
-        const confirmacion = window.confirm("ta seguro?")
+        const confirmacion = window.confirm("¿Desea confirmar la adquisición de su tarjeta BMB premium?\nEsta se le enviará en físico a su hogar en los próximos 2 años hábiles.")
         if (confirmacion) {
             const response = await axios.post("http://localhost:3000/tarjeta", {
                 idUsuario: currentUser.id,
@@ -68,7 +68,9 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
                 cvv:nuevoCvv,
                 fechaVencimiento:nuevaFecha,
             }, handleConfirmarClick);
-            alert("Tarjeta creada con éxito")
+            setActualizar(prev=>prev+1);
+            alert("Tarjeta creada con éxito");
+            onClose();
         }
     }
 

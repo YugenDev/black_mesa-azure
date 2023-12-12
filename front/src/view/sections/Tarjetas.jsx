@@ -5,7 +5,7 @@ import SolicitarTarjeta from "./SolicitarTarjeta";
 import Modal from "../sections/Modal"
 import {useState} from "react"
 import Mistarjetas from "./Mistarjetas";
-const Tarjetas = ({setCurrentUser, currentUser, confirmarTarjeta}) => {
+const Tarjetas = ({currentUser, setActualizar}) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -33,9 +33,7 @@ const Tarjetas = ({setCurrentUser, currentUser, confirmarTarjeta}) => {
 
       {(
         <Modal isOpen={modalOpen} onClose={closeModal}>
-          <SolicitarTarjeta setCurrentUser={setCurrentUser} currentUser={currentUser} >
-
-          </SolicitarTarjeta>
+          <SolicitarTarjeta currentUser={currentUser} setActualizar={setActualizar} onClose={closeModal}/>
         </Modal>
       )}
 

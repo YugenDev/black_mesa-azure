@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Mistarjetas.css"
 
 const Mistarjetas = () => {
+  useEffect(()=>{
+
+  },[])
+
+
   return (
     <div className='mistarjetas'>
         <div className='tarjeta'>

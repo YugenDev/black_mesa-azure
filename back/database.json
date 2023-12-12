@@ -16356,6 +16356,15 @@
       "cvv": 520,
       "fechaVencimiento": "11/29",
       "id": 2
+    },
+    {
+      "idUsuario": 4,
+      "cupoTarjeta": 50495040,
+      "nombreUsuario": "Gratia Wainman",
+      "numeroTarjeta": 2787358712243894,
+      "cvv": 557,
+      "fechaVencimiento": "12/28",
+      "id": 3
     }
   ]
 }

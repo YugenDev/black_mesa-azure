@@ -7,7 +7,6 @@ import Tarjetas from "./sections/Tarjetas";
 import Estadisticas from "./sections/Estadisticas";
 import Mistarjetas from "./sections/Mistarjetas";
 
-
 function VistaUsuario({
   currentUser,
   setActualizar,
@@ -16,20 +15,9 @@ function VistaUsuario({
   sesionOpenAI,
   mensajes,
   setMensajes,
-
-})
-{
-
-const[mostrarMisTarjetas, setMostrarMisTarjetas]=useState(false)
-
-const handleConfirmarClick = () => {
-  setMostrarMisTarjetas(true);
-};
-
-
+}) {
   return (
     <main>
-      
       <Chatbot
         sesionOpenAI={sesionOpenAI}
         setSesionOpenAI={setSesionOpenAI}
@@ -45,13 +33,9 @@ const handleConfirmarClick = () => {
         setActualizar={setActualizar}
       />
       <Transferir currentUser={currentUser} setActualizar={setActualizar} />
-      <Tarjetas currentUser={currentUser}  confirmarTarjeta={handleConfirmarClick}/>
-      {mostrarMisTarjetas&&(<Mistarjetas/>)}
-      <Mistarjetas/>
-      <Estadisticas 
-        actualizar={actualizar}
-        currentUser={currentUser}
-      />      
+      <Tarjetas currentUser={currentUser} setActualizar={setActualizar} />
+      <Mistarjetas currentUser={currentUser} actualizar={actualizar} />
+      <Estadisticas actualizar={actualizar} currentUser={currentUser} />
     </main>
   );
 }
