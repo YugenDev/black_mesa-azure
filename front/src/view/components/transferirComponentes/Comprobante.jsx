@@ -42,7 +42,7 @@ function Comprobante({
       </div>
       <div className="dato-comprobante">
         <h4>Costo de la transferencia</h4>
-        <p>0,00</p>
+        <p>$ 0</p>
       </div>
       <div className="dato-comprobante">
         <h4>Cuenta de origen</h4>

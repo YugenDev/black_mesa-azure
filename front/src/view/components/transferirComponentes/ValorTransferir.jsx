@@ -1,8 +1,19 @@
 import { useEffect, useState } from "react";
 import "./ValorTransferir.css";
+import axios from "axios";
 
 
-function ValorTransferir({setValorTransferencia,setStep,setOptionSelected}) {
+function ValorTransferir({setValorTransferencia,setStep,setOptionSelected,currentUser}) {
+  
+  const [cuentaActual, setCuentaActual] = useState(null);
+  useEffect(()=>{
+    const traerCuenta = async () => {
+    let response = await axios.get(`http://localhost:3000/cuentas?idUsuario=${currentUser.id}`)
+    setCuentaActual(response?.data[0])
+  }
+    traerCuenta()
+  },[])
+
   const [valor, setValor] = useState(0);
   const [isCorrect, setIsCorrect] = useState(false);
 
@@ -17,7 +28,7 @@ function ValorTransferir({setValorTransferencia,setStep,setOptionSelected}) {
   }
 
   useEffect(() => {
-    valor >= 1000 ? setIsCorrect(true) : setIsCorrect(false); setValorTransferencia(null);
+    valor >= 1000 && valor<cuentaActual.bolsillos[0].deposito ? setIsCorrect(true) : setIsCorrect(false); setValorTransferencia(null);
   }, [valor]);
 
   return (

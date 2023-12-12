@@ -29,6 +29,7 @@ function Transferir({ currentUser,setActualizar }) {
     ),
     Valor: (
       <ValorTransferir
+        currentUser={currentUser}
         setValorTransferencia={setValorTransferencia}
         setStep={setStep}
         setOptionSelected={setOptionSelected}

@@ -45,14 +45,13 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .cerrar-crear{
     width: 10%;
     height: 35px;
     border: 2px solid transparent;
-    /* border-image: linear-gradient( 142deg, rgb(103, 77, 41) 0%, rgba(255, 215, 0, 1) 50%, rgb(187, 181, 104) 100% ); */
-    /* border-image-slice: 1; */
     background-color: transparent;
     color: white;
     font-size: 1.2rem;

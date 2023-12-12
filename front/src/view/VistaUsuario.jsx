@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import "./VistaUsuario.css";
 import ConsultarSaldo from "./sections/ConsultarSaldo";
 import Transferir from "./sections/Transferir";
 import Chatbot from "./sections/Chatbot";
-import "./VistaUsuario.css";
 import Tarjetas from "./sections/Tarjetas";
+import Estadisticas from "./sections/Estadisticas";
+import Mistarjetas from "./sections/Mistarjetas";
 
 function VistaUsuario({
   currentUser,
@@ -31,7 +33,9 @@ function VistaUsuario({
         setActualizar={setActualizar}
       />
       <Transferir currentUser={currentUser} setActualizar={setActualizar} />
-      <Tarjetas />
+      <Tarjetas currentUser={currentUser} setActualizar={setActualizar} />
+      <Mistarjetas currentUser={currentUser} actualizar={actualizar} />
+      <Estadisticas actualizar={actualizar} currentUser={currentUser} />
     </main>
   );
 }

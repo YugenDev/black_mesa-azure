@@ -1,0 +1,198 @@
+.MisTarjetas-Container{
+    width: 80%;
+    margin: 5% 10%;
+    padding: 2vh;
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+}   
+
+.mistarjetas{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 2vh;
+    gap: 2vh;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+
+.flip-card {
+    width: 35vw;
+    height: 45vh;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    border-radius: 20px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    border-radius: 20px;
+    background-image: url(../../assets/images/bg-tarjeta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .contenedor-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+  
+  .contenedor-front h2{
+    text-align: center;
+    margin-top: 3%;
+  }
+  
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    background-image: url(../../assets/images/bg-tarjeta-back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .chip {
+    height: 20%;
+    width: 15%;
+  }
+  
+  .contenedor-fecha-nombre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .visa {
+    width: 15%;
+    height: 100%;
+    margin-right: 4%;
+    filter: invert(1)
+  }
+  
+  .contenedor-preaprobado {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .contenedor-preaprobado h2{
+    font-size: 5vh;
+    /* Font-family: Lucida Sans, Helvetica, Arial, sans-serif; */
+    Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .contenedor-preaprobado h3{
+    font-size: 3.5vh;
+    /* Font-family: Verdana, Geneva, sans-serif; */
+    Font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .contenedor-preaprobado span{
+    color: gold;
+  }
+  
+  .contenedor-preaprobado button{
+    width: 15%;
+    height: 15%;
+    background: linear-gradient(142deg, rgb(103, 77, 41) 0%, rgba(255,215,0,1) 50%, rgb(187, 181, 104) 100%);
+    outline: none;
+    color: black;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /*estilos de la parte trasera de la tarjeta*/
+  .contenedor-back {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #black{
+    background-color: black;
+    height: 15%;
+    margin-top: 7%;
+    color: black;
+  }
+  
+  .contenedor-codigo-parrafo {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .contenedor-cvv{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .espacio-codigo{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+  }
+  
+  .cvv{
+    border: 1px solid white;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cvv p{
+    font-size: 25px;
+  }
+  
+  #parrafo{
+    text-align: center;
+  }
+  
+  .numero-cuenta{
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    word-spacing: 0.5rem;
+  }
+  
+  .contenedor-front h2:first-child{
+    font-family: 'EB Garamond', serif;
+  }

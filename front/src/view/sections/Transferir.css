@@ -61,6 +61,7 @@
     align-items: center;
     height: 7.9vh;
     background-color: rgb(170, 170, 170);
+    font-size: 0.75rem;
 }
 .flecha span{
     width: 0;

@@ -1,0 +1,7 @@
+.InOutCategorias-container{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 24%;
+
+}

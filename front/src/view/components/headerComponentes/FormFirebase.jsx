@@ -5,6 +5,8 @@ import "./FormFireBase.css";
 import usuarioImg from "../../../assets/images/user.png";
 import keyImg from "../../../assets/images/door-key.png";
 import bot2 from "../../../assets/images/bot2.png";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
   const auth = useAuth();
@@ -16,10 +18,50 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
   const [password, setPassword] = useState("");
   const [showLogin, setShowLogin] = useState(true);
 
+  const alertaContrasena=()=>{
+    toast.error('Contraseña incorrecta!', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
+
+  const alertaUsuario=()=>{
+    toast.error('Usuario no encontrado', {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
+  
+  const alertaBienvenido=()=>{
+    toast.success('Bienvenido de nuevo!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+  }
+
   const handleRegister = (e) => {
     e.preventDefault();
     auth.register(emailRegister, passwordRegister);
   };
+  
   const handleLogin = async (e) => {
     e.preventDefault();
 
@@ -30,20 +72,24 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
       setCurrentUser(response.data[0]);
       setIsLogged(true);
       onClose();
+      alertaBienvenido()
     }
     else if(response.data[0] && response.data[0].contrasena){
       if(response.data[0].contrasena===password){
+        
         setCurrentUser(response.data[0]);
         setIsLogged(true);
         onClose();
+        alertaBienvenido()
       }else{
-        alert("contraseña incorrecta")
+        alertaContrasena()
       }
     }else{
-      alert("usuario no encontrado")
+      alertaUsuario()
     }
     // auth.login(email, password) // habilitar esto después
   };
+
   const handleGoogle = async (e) => {
     e.preventDefault();
 
@@ -150,6 +196,7 @@ function FormFirebase({ setIsLogged, onClose, setCurrentUser }) {
           <span onClick={handleSwitchForm}>Ya tengo cuenta</span>
         </div>
       )}
+      <ToastContainer />
     </div>
   );
 }

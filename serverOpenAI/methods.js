@@ -9,7 +9,7 @@ const assistantId = process.env.ASSITANT_ID
 
 exports.crearNuevoHilo =  async ()=>{
     const thread = await openai.beta.threads.create();
-    console.log(thread);
+    console.log(thread, "nuevo hilo");
     return thread
 }
 

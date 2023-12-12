@@ -105,7 +105,7 @@ function Confirmacion({
       </div>
       <div className="dato">
         <h4>Costo del envío</h4>
-        <p>0,00</p>
+        <p>$ 0</p>
       </div>
       <div className="dato">
         <h4>Gasto</h4>
