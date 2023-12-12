@@ -4,11 +4,45 @@ import chip from "./../../assets/images/chip.png";
 import visa from "./../../assets/images/visa.png";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Mistarjetas from "./Mistarjetas";
+
+const generarNumeroTarjetaAleatorio = () => {
+    const longitudCuenta = 16;
+    const numerosPermitidos = "123456789";
+    let numeroCuenta = "";
+    for (let i = 0; i < longitudCuenta; i++) {
+      const indice = Math.floor(Math.random() * numerosPermitidos.length);
+      numeroCuenta += numerosPermitidos.charAt(indice);
+    }
+  
+    return Number(numeroCuenta);
+  };
+const generarCvv=()=>{
+    const longitudCuenta = 3;
+    const numerosPermitidos = "0123456789";
+    let numeroCvv = "";
+    for (let i = 0; i < longitudCuenta; i++) {
+        const indice = Math.floor(Math.random() * numerosPermitidos.length);
+        numeroCvv += numerosPermitidos.charAt(indice);
+      }
+      return Number(numeroCvv)
+}
+function generarFecha() {
+    const mes = Math.floor(Math.random() * 12) + 1; 
+    const año = Math.floor(Math.random() * 5) + 26; 
+  
+    const mesFormateado = mes < 10 ? `0${mes}` : mes;
+    const añoFormateado = año < 10 ? `0${año}` : año;
+  
+    return `${mesFormateado}/${añoFormateado}`;
+  }
 
 
 const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTarjeta }) => {
     const [cuentaActual, setCuentaActual] = useState(null);
+    
+    const nuevoNumeroTarjeta = generarNumeroTarjetaAleatorio();
+    const nuevoCvv = generarCvv();
+    const nuevaFecha = generarFecha();
 
 
     useEffect(() => {
@@ -22,38 +56,6 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
     }, []);
 
     const cupoDeTarjeta = cuentaActual?.bolsillos.reduce((sum, i) => sum + i.deposito, 0) * 1.2;
-    const generarNumeroTarjetaAleatorio = () => {
-        const longitudCuenta = 10;
-        const numerosPermitidos = "0123456789";
-        let numeroCuenta = "";
-        for (let i = 0; i < longitudCuenta; i++) {
-          const indice = Math.floor(Math.random() * numerosPermitidos.length);
-          numeroCuenta += numerosPermitidos.charAt(indice);
-        }
-      
-        return Number(numeroCuenta);
-      };
-
-    const generarCvv=()=>{
-        const longitudCuenta = 3;
-        const numerosPermitidos = "0123456789";
-        let numeroCvv = "";
-        for (let i = 0; i < longitudCuenta; i++) {
-            const indice = Math.floor(Math.random() * numerosPermitidos.length);
-            numeroCvv += numerosPermitidos.charAt(indice);
-          }
-          return Number(numeroCvv)
-    }
-
-    function generarFecha() {
-        const mes = Math.floor(Math.random() * 12) + 1; 
-        const año = Math.floor(Math.random() * 5) + 26; 
-      
-        const mesFormateado = mes < 10 ? `0${mes}` : mes;
-        const añoFormateado = año < 10 ? `0${año}` : año;
-      
-        return `${mesFormateado}/${añoFormateado}`;
-      }
 
     const handleConfirmarClick = async () => {
         const confirmacion = window.confirm("ta seguro?")
@@ -62,12 +64,11 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
                 idUsuario: currentUser.id,
                 cupoTarjeta: cupoDeTarjeta,
                 nombreUsuario: currentUser.nombre,
-                numeroTarjeta:generarNumeroTarjetaAleatorio(),
-                cvv:generarCvv(),
-                fechaVencimiento:generarFecha(),
+                numeroTarjeta:nuevoNumeroTarjeta,
+                cvv:nuevoCvv,
+                fechaVencimiento:nuevaFecha,
             }, handleConfirmarClick);
-            console.log("esta vaina funciona")
-            alert("tarjeta creada con exito")
+            alert("Tarjeta creada con éxito")
         }
     }
 
@@ -79,11 +80,11 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
                         <div className="contenedor-front">
                             <h2>BLACK MESA PREMIUM CARD</h2>
                             <img src={chip} alt="chip" className="chip" />
-                            <p className="numero-cuenta">{`${cuentaActual?.numeroCuenta}`}</p>
+                            <p className="numero-cuenta">{nuevoNumeroTarjeta.toString().replace(/\B(?=(\d{4})+(?!\d))/g, ' ')}</p>
                             <div className="contenedor-fecha-nombre">
                                 <div>
                                     <p>
-                                        <span>12/24</span>
+                                        <span>{nuevaFecha}</span>
                                     </p>
                                     <h2 id="nombre-usuario">{currentUser?.nombre}</h2>
                                 </div>
@@ -98,15 +99,9 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
                                 <div className="contenedor-cvv">
                                     <div className="espacio-codigo">numb</div>
                                     <div className="cvv">
-                                        <p>623</p>
+                                        <p>{nuevoCvv}</p>
                                     </div>
                                 </div>
-                                <p id="parrafo">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                    Architecto repudiandae nesciunt officia exercitationem amet
-                                    labore quidem! Ex harum non repellendus ipsum voluptatibus sit
-                                    amet consectetur
-                                </p>
                             </article>
                         </div>
                     </div>
@@ -120,7 +115,7 @@ const SolicitarTarjeta = ({ currentUser, setCurrentUser, actualizar, confirmarTa
                     <span>${cupoDeTarjeta.toLocaleString('es-CO')}</span> , haz click en confirmar para solicitar tu
                     tarjeta ahora mismo
                 </h3>
-                <button onClick={handleConfirmarClick}>confirmar</button>
+                <button onClick={handleConfirmarClick}>Confirmar</button>
             </div>
         </section>
     );
