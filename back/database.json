@@ -12087,6 +12087,30 @@
       "fecha": "2023-12-08",
       "cuentaDestino": 1,
       "cuentaOrigen": "cc2cc029-409a-4149-93df-5339dc7e7238"
+    },
+    {
+      "id": 15111,
+      "categoria": "hogar",
+      "valor": 5000,
+      "fecha": "2023-12-11",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": 15121,
+      "categoria": "otro",
+      "valor": 80000,
+      "fecha": "2023-12-11",
+      "cuentaDestino": 3,
+      "cuentaOrigen": 7
+    },
+    {
+      "id": 15131,
+      "categoria": "entretenimiento",
+      "valor": 100000,
+      "fecha": "2023-12-11",
+      "cuentaDestino": 9,
+      "cuentaOrigen": 7
     }
   ],
   "cuentas": [
@@ -12269,7 +12293,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 18230000
+          "deposito": 18145000
         },
         {
           "id": 1,
@@ -12328,7 +12352,9 @@
         918,
         928,
         964,
-        15091
+        15091,
+        15111,
+        15121
       ],
       "idUsuario": 3
     },
@@ -12571,14 +12597,14 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 29200400
+          "deposito": 28995400
         },
         {
           "id": 1,
           "nombre": "Inversiones",
           "meta": 2781000,
           "imagen": "saludImg",
-          "deposito": 1328400
+          "deposito": 1348400
         },
         {
           "id": 2,
@@ -12640,7 +12666,10 @@
         10041,
         10051,
         10061,
-        15091
+        15091,
+        15111,
+        15121,
+        15131
       ],
       "idUsuario": 7
     },
@@ -12725,7 +12754,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 39648000
+          "deposito": 39548000
         },
         {
           "id": 1,
@@ -12779,7 +12808,8 @@
         887,
         963,
         972,
-        10081
+        10081,
+        15131
       ],
       "idUsuario": 9
     },
