@@ -35,7 +35,7 @@
 
 .flip-card-front {
   border-radius: 20px;
-  background-image: url(../../assets/images/bg-tarjeta.jpg);
+  /* background-image: url(../../assets/images/bg-tarjeta.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@
   color: white;
   transform: rotateY(180deg);
   border-radius: 20px;
-  background-image: url(../../assets/images/bg-tarjeta-back.jpg);
+  /* background-image: url(../../assets/images/bg-tarjeta-back.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

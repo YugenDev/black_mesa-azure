@@ -12597,7 +12597,7 @@
           "nombre": "Libre",
           "meta": 0,
           "imagen": "",
-          "deposito": 28995400
+          "deposito": 26900400
         },
         {
           "id": 1,
@@ -12626,6 +12626,13 @@
           "meta": 5000000,
           "deposito": 450000,
           "imagen": "carroImg"
+        },
+        {
+          "id": 6,
+          "nombre": "computador",
+          "meta": 8400000,
+          "deposito": 2300000,
+          "imagen": "tecnologiaImg"
         }
       ],
       "gastos": [
@@ -16331,5 +16338,24 @@
       "idCuenta": "12bfc585-7592-4e69-9d31-41b75cee6fe4"
     }
   ],
-  "tarjeta": []
+  "tarjeta": [
+    {
+      "idUsuario": 50,
+      "cupoTarjeta": 86062800,
+      "nombreUsuario": "Binky Chessell",
+      "numeroTarjeta": 9768248181,
+      "cvv": 401,
+      "fechaVencimiento": "08/29",
+      "id": 1
+    },
+    {
+      "idUsuario": 7,
+      "cupoTarjeta": 48482040,
+      "nombreUsuario": "Dare Gouldthorpe",
+      "numeroTarjeta": 4871501073,
+      "cvv": 520,
+      "fechaVencimiento": "11/29",
+      "id": 2
+    }
+  ]
 }
