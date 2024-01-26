@@ -19,12 +19,12 @@ jobs:
     displayName: 'Install Node.js'
 
   - script: |
-      cd backend
+      cd back
       npm install
     displayName: 'Install backend dependencies'
 
   - script: |
-      cd frontend
+      cd front
       npm install
       npm run build
     displayName: 'Build frontend'
