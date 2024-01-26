@@ -4,23 +4,45 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
 jobs:
 - job: Build
-  displayName: 'Build and Test'
+  displayName: 'Build and Publish'
   steps:
-    - script: |
-        npm install
-        npm test
-      displayName: 'Install and Test'
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '14.x'
+    displayName: 'Install Node.js'
+
+  - script: |
+      cd backend
+      npm install
+    displayName: 'Install backend dependencies'
+
+  - script: |
+      cd frontend
+      npm install
+      npm run build
+    displayName: 'Build frontend'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathtoPublish: 'frontend/build'
+      artifactName: 'drop'
+    displayName: 'Publish frontend artifacts'
 
 - job: Deploy
   displayName: 'Deploy to Azure App Service'
-  dependsOn: Build
   steps:
-    - task: AzureRmWebAppDeployment@4
-      inputs:
-        ConnectionType: 'AzureRM'
-        azureSubscription: '19998330-e962-4c87-a45c-d1aabe69be78'
-        appType: 'webAppLinux'
-        WebAppName: 'testeito'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: 'Azure subscription 1'
+      appName: 'testeito'
+      package: $(Pipeline.Workspace)/drop
+      deploymentMethod: 'zipDeploy'
+      appType: 'webApp'
+    displayName: 'Azure App Service Deploy'
