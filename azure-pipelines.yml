@@ -22,5 +22,5 @@ jobs:
         ConnectionType: 'AzureRM'
         azureSubscription: 'Azure subscription 1'
         appType: 'webAppLinux'
-        WebAppName: 'testiando'
+        WebAppName: 'testeito'
         packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
