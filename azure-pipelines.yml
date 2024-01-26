@@ -16,7 +16,6 @@ jobs:
 - job: Deploy
   displayName: 'Deploy to Azure App Service'
   dependsOn: Build
-  environment: 'Microsoft.Web-WebApp-Portal-e5eddf7d-abd5 '
   steps:
     - task: AzureRmWebAppDeployment@4
       inputs:
