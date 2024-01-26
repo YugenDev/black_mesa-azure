@@ -20,7 +20,7 @@ jobs:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'Azure subscription 1'
+        azureSubscription: '19998330-e962-4c87-a45c-d1aabe69be78'
         appType: 'webAppLinux'
         WebAppName: 'testeito'
         packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
