@@ -1,0 +1,26 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: Build
+  displayName: 'Build and Test'
+  steps:
+    - script: |
+        npm install
+        npm test
+      displayName: 'Install and Test'
+
+- job: Deploy
+  displayName: 'Deploy to Azure App Service'
+  dependsOn: Build
+  steps:
+    - task: AzureRmWebAppDeployment@4
+      inputs:
+        ConnectionType: 'AzureRM'
+        azureSubscription: 'Azure subscription 1'
+        appType: 'webAppLinux'
+        WebAppName: 'testiando'
+        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
